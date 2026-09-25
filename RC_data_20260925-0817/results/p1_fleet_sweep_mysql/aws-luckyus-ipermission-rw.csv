@@ -1,0 +1,9 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_menu,risk_level,"风险等级 ""A1"":1,""A2"":2,""A3"":3,""B1"":4,""B2"":5,""B3"":6,""C1"":7,""C2"":8,""C3"":9,""D1"":10,""D2"":11,""D3"":12"
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_request_post_role_relation,role_risk_level,角色风险等级 A:1 B:2 C:3 D:4
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_request_role,risk_level,风险等级 A:1 B:2 C:3 D:4
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_request_role_account_relation,role_risk_level,角色风险等级 A:1 B:2 C:3 D:4
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_request_role_func_del,role_risk_level,风险等级 A:1 B:2 C:3 D:4
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_request_role_func_relation,role_risk_level,角色风险等级 A:1 B:2 C:3 D:4
+aws-luckyus-ipermission-rw,column,luckyus_ipermission,t_permission_role,risk_level,风险等级 A:1 B:2 C:3 D:4
+aws-luckyus-ipermission-rw,table,luckyus_ipermission,t_permission_conflict_rule,,权限项互斥规则表

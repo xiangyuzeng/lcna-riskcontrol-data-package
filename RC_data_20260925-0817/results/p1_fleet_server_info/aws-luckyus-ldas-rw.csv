@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-ldas-rw,8.4.9,0,0,8,"[""luckyus_ldas_nacos"", ""luckyus_ldas_cmdb"", ""luckyus_dbmsdbsearch"", ""luckyus_ozono"", ""luckyus_apigatewayadmin"", ""luckyus_ikafadmin"", ""backup_tables"", ""luckyus_iluckyaigatewayadmin""]"

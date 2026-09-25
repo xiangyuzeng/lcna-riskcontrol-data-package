@@ -1,0 +1,10 @@
+shard,scene_id,result,n
+0000,LKUS_captcha,PASS,1
+0000,LKUS_grant_new_user_coupon,PASS,6
+0000,LKUS_login,PASS,11
+0000,LKUS_payment,PASS,90
+0000,LKUS_physical_order_cancel,PASS,2
+0000,LKUS_physical_order_create,PASS,89
+0000,LKUS_push,PASS,34
+0000,LKUS_push,REJECT,36
+0000,LKUS_register,PASS,6

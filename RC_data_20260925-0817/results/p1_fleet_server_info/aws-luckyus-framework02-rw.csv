@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-framework02-rw,8.4.9,0,0,8,"[""luckyus_ilkm"", ""luckyus_chronusconsole"", ""luckyus_onepiececonsole"", ""luckyus_ihmonitorconsole"", ""luckyus_datalink"", ""luckyus_src"", ""luckyus_target"", ""backup_tables""]"

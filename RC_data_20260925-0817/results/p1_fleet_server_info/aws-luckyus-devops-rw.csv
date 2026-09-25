@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-devops-rw,8.4.9,0,0,8,"[""luckyus_auth"", ""luckyus_authservice"", ""luckyus_uam"", ""luckyus_izeus"", ""luckyus_umbgrafana"", ""luckyus_iluckyptsweb"", ""luckyus_ilopamanager"", ""backup_tables""]"

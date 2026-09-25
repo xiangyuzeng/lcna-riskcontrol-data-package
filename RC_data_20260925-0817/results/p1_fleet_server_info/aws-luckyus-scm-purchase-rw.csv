@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-scm-purchase-rw,8.4.9,0,0,2,"[""luckyus_scm_purchase"", ""backup_tables""]"

@@ -1,0 +1,2 @@
+feature_id,rule,rows_evaluated,engine_eq_recompute_share,engine_within1_share,strategy_hits,hits_rule_holds_on_recompute,violations_hit_but_rule_false_on_recompute,nonhits_rule_true_on_recompute,engine_rule_true
+feature_UOJYBEifd5Jn,value > 30,3154,0.9268,0.9864,277,277,0,1056,1328

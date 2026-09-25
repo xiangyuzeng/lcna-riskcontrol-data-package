@@ -1,0 +1,6 @@
+id,select_type,table,partitions,type,possible_keys,key,key_len,ref,rows,filtered,Extra
+1,PRIMARY,<derived2>,,ALL,,,,,86,100.0,Using filesort
+2,DERIVED,t_access_log_0000,,range,idx_create_time_sharding_key,idx_create_time_sharding_key,5,,215,10.0,Using index condition; Using where
+2,DERIVED,j,,ALL,,,,,2,100.0,Table function: json_table; Using temporary
+4,UNION,t_access_log_0000,,range,idx_create_time_sharding_key,idx_create_time_sharding_key,5,,215,10.0,Using index condition; Using where
+4,UNION,j,,ALL,,,,,2,100.0,Table function: json_table; Using temporary

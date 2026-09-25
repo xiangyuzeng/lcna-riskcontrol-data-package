@@ -1,0 +1,34 @@
+TABLE_SCHEMA,table_group,n_tables,est_rows,size_mb,min_mb,max_mb,min_create_time,max_update_time,engine,create_options,table_comment
+luckyus_iriskcontrolservice,t_access_log_NNNN,64,4273218.0,41744.8,534.9,730.0,2025-05-29T08:43:13,2026-09-25T11:52:07,InnoDB,row_format=DYNAMIC,风控访问日志
+luckyus_iriskcontrolservice,t_alarm_recipient,1,2.0,0.0,0.0,0.0,2025-05-29T05:33:57,,InnoDB,row_format=DYNAMIC,告警收件人表
+luckyus_iriskcontrolservice,t_alarm_type,1,0.0,0.0,0.0,0.0,2025-05-29T05:33:58,,InnoDB,row_format=DYNAMIC,告警类型表
+luckyus_iriskcontrolservice,t_alarm_type_recipient,1,0.0,0.0,0.0,0.0,2025-05-29T05:33:59,,InnoDB,row_format=DYNAMIC,告警类型收件人表
+luckyus_iriskcontrolservice,t_blacklist,1,1292.0,0.5,0.5,0.5,2025-05-29T08:46:37,2026-08-27T08:13:09,InnoDB,row_format=DYNAMIC,黑名单表
+luckyus_iriskcontrolservice,t_gateway_count,1,0.0,0.0,0.0,0.0,2025-05-29T08:46:38,,InnoDB,row_format=DYNAMIC,网关调用计数表
+luckyus_iriskcontrolservice,t_gateway_validate_log_NNNN,64,0.0,2.0,0.0,0.0,2025-05-29T08:44:50,,InnoDB,row_format=DYNAMIC,网关校验日志表
+luckyus_iriskcontrolservice,t_operation_log,1,150.0,2.6,2.6,2.6,2026-09-02T09:37:57,2026-09-24T07:26:12,InnoDB,,策略引擎操作日志表
+luckyus_iriskcontrolservice,t_oplog,1,26496.0,3.5,3.5,3.5,2025-05-29T05:36:01,2026-08-27T08:13:09,InnoDB,row_format=DYNAMIC,操作日志
+luckyus_iriskcontrolservice,t_order_to_pay,1,0.0,0.1,0.1,0.1,2025-05-29T08:46:39,,InnoDB,row_format=DYNAMIC,订单支付记录表
+luckyus_iriskcontrolservice,t_quota,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:03,,InnoDB,row_format=DYNAMIC,实时指标表
+luckyus_iriskcontrolservice,t_rms_engine_access,1,6.0,0.0,0.0,0.0,2025-05-29T05:36:04,2026-09-02T09:38:08,InnoDB,,策略引擎接入方表
+luckyus_iriskcontrolservice,t_rms_engine_block_metric,1,6.0,0.1,0.1,0.1,2025-12-18T02:17:23,,InnoDB,,熔断指标表
+luckyus_iriskcontrolservice,t_rms_engine_block_strategy,1,24.0,0.1,0.1,0.1,2025-12-18T02:17:24,2026-07-29T01:50:45,InnoDB,,熔断策略表
+luckyus_iriskcontrolservice,t_rms_engine_list_feature,1,28.0,0.0,0.0,0.0,2026-09-02T09:37:12,2026-09-02T09:37:12,InnoDB,,策略引擎名单特征表
+luckyus_iriskcontrolservice,t_rms_engine_para,1,603.0,0.2,0.2,0.2,2025-05-29T08:46:42,2026-09-21T08:41:37,InnoDB,,策略引擎参数表
+luckyus_iriskcontrolservice,t_rms_engine_repair_para,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:08,,InnoDB,,策略引擎补全参数表
+luckyus_iriskcontrolservice,t_rms_engine_resultcode,1,14.0,0.0,0.0,0.0,2025-05-29T05:36:11,2026-09-09T03:30:27,InnoDB,,返回码表
+luckyus_iriskcontrolservice,t_rms_engine_rule,1,154.0,0.1,0.1,0.1,2026-09-02T09:37:09,2026-09-22T15:31:37,InnoDB,,规则表
+luckyus_iriskcontrolservice,t_rms_engine_scene,1,22.0,0.0,0.0,0.0,2026-09-02T09:37:13,2026-09-16T01:33:13,InnoDB,,策略引擎场景表
+luckyus_iriskcontrolservice,t_rms_engine_strategy,1,169.0,0.1,0.1,0.1,2026-09-02T09:37:08,2026-09-23T14:43:34,InnoDB,,策略表
+luckyus_iriskcontrolservice,t_rms_engine_strategy_relation,1,571.0,0.2,0.2,0.2,2025-05-29T08:46:46,2026-09-23T14:43:34,InnoDB,,策略规则映射表
+luckyus_iriskcontrolservice,t_rms_engine_templist,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:31,,InnoDB,,Temporary list for strategy engine
+luckyus_iriskcontrolservice,t_rms_engine_templist_strategy,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:33,,InnoDB,,Temporary list write strategy
+luckyus_iriskcontrolservice,t_rms_engine_third_feature,1,50.0,0.1,0.1,0.1,2026-09-02T09:37:11,2026-09-24T07:26:12,InnoDB,,策略引擎第三方特征表
+luckyus_iriskcontrolservice,t_rms_engine_tool,1,3.0,0.0,0.0,0.0,2026-09-02T09:37:06,2026-09-02T09:37:06,InnoDB,,策略引擎工具表
+luckyus_iriskcontrolservice,t_rms_engine_traffic_mapping,1,0.0,0.0,0.0,0.0,2026-09-02T09:37:58,,InnoDB,,策略引擎流量映射关系表
+luckyus_iriskcontrolservice,t_rms_strategyengine_middle_quota,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:41,,InnoDB,,策略引擎准实时监控指标
+luckyus_iriskcontrolservice,t_rule,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:42,,InnoDB,row_format=DYNAMIC,规则表
+luckyus_iriskcontrolservice,t_rule_count,1,7900095.0,642.7,642.7,642.7,2025-05-29T08:46:49,2026-08-18T08:40:00,InnoDB,row_format=DYNAMIC,规则调用计数表
+luckyus_iriskcontrolservice,t_scene,1,31.0,0.0,0.0,0.0,2025-05-29T05:36:46,2026-07-28T08:15:29,InnoDB,row_format=DYNAMIC,场景表
+luckyus_iriskcontrolservice,t_scene_rule,1,0.0,0.0,0.0,0.0,2025-05-29T05:36:47,,InnoDB,row_format=DYNAMIC,场景规则表
+luckyus_iriskcontrolservice,t_whitelist,1,164.0,0.1,0.1,0.1,2025-05-29T08:46:50,2026-09-22T23:00:00,InnoDB,row_format=DYNAMIC,白名单表

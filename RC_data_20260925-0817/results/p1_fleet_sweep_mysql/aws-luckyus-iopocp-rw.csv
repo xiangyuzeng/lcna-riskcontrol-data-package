@@ -1,0 +1,3 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-iopocp-rw,table,luckyus_iopocp,t_metrics_config,,指标配置表
+aws-luckyus-iopocp-rw,table,luckyus_iopocp,t_metrics_log,,指标值记录表

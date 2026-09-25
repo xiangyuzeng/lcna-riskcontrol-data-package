@@ -1,0 +1,42 @@
+test,toolkit,reference,equal
+tk01 2026-09-18 SMS distinct phones,2513,2513,True
+tk01 2026-09-18 SMS PASS +1 distinct phones,1035,1035,True
+tk01 2026-09-19 SMS distinct phones,2775,2775,True
+tk01 2026-09-19 SMS PASS +1 distinct phones,973,973,True
+tk01 2026-09-20 SMS distinct phones,1985,1985,True
+tk01 2026-09-20 SMS PASS +1 distinct phones,651,651,True
+tk01 2026-09-21 SMS distinct phones,2525,2525,True
+tk01 2026-09-21 SMS PASS +1 distinct phones,980,980,True
+tk01 2026-09-22 SMS distinct phones,2719,2719,True
+tk01 2026-09-22 SMS PASS +1 distinct phones,999,999,True
+tk01 2026-09-23 SMS distinct phones,2643,2643,True
+tk01 2026-09-23 SMS PASS +1 distinct phones,1060,1060,True
+tk01 2026-09-24 SMS distinct phones,1845,1845,True
+tk01 2026-09-24 SMS PASS +1 distinct phones,962,962,True
+tk01 2026-09-17 requests (all push rows),5576,5576,True
+tk01 2026-09-18 requests (all push rows),5092,5092,True
+tk01 2026-09-19 requests (all push rows),5391,5391,True
+tk01 2026-09-20 requests (all push rows),3551,3551,True
+tk01 2026-09-21 requests (all push rows),4738,4738,True
+tk01 2026-09-22 requests (all push rows),5144,5144,True
+tk01 2026-09-23 requests (all push rows),4691,4691,True
+tk01 2026-09-24 requests (all push rows),3225,3225,True
+tk02 strategy_MGj5bfGOijOi pre-online PV 7d,13202,13202,True
+tk02 2026-09-18 distinct phones,851,851,True
+tk02 2026-09-19 distinct phones,989,989,True
+tk02 2026-09-20 distinct phones,733,733,True
+tk02 2026-09-21 distinct phones,753,753,True
+tk02 2026-09-22 distinct phones,839,839,True
+tk02 2026-09-23 distinct phones,880,880,True
+tk02 2026-09-24 distinct phones,466,466,True
+tk03 strategy_MGj5bfGOijOi extra recall PV 7d,4517,4517,True
+tk04 non-+1 SMS PASS rows 7d,8795,8795,True
+"tk05 V3 bucket cells (cc group x cid x bucket, SMS, 7d)",31807,31807,True
+tk06 strategy_REnWrA7CfCdE hits on 2026-09-24 (extract) vs p2_hits_7d,277,277,True
+tk06 violations (hit but rule false on recomputed counter),0,0,True
+tk07 09-24 SMS PASS,1718,1718,True
+tk07 09-24 SMS REJECT,1478,1478,True
+tk07 09-24 SMS REVIEW,15,15,True
+tk07 09-24 non-+1 SMS PASS,582,582,True
+tk07 09-24 online hits by strategy (cells equal to p2_hits_7d),26,26,True
+tk07 09-24 pre-online hits by strategy (cells equal to p2_hits_7d),20,20,True

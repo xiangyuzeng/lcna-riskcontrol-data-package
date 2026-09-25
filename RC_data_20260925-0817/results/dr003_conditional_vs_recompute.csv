@@ -1,0 +1,7 @@
+feature_id,code,period,rows,engine_eq_recompute_unfiltered,engine_eq_recompute_filtered,engine_within1_unfiltered,engine_within1_filtered,rows_where_filter_changes_count,median_engine,median_unfiltered,median_filtered,calibration_convention
+feature_n91JeGM6gD6i,SUCCESS,whole window,16151,0.3563,0.9454,0.4346,0.9854,10236,15.0,22.0,15.0,"population=requests evaluating the feature; left_closed=True, include_current=True"
+feature_n91JeGM6gD6i,COUNTER_FEATURE_CONDITION_MISS,whole window,15109,0.0003,0.9909,0.0357,0.9998,15109,2.0,34.0,2.0,"population=requests evaluating the feature; left_closed=True, include_current=True"
+feature_dqBHKec09Wwa,SUCCESS,< 2026-09-24 07:22:42 UTC,5723,0.0315,0.8847,0.0557,0.9373,5532,9.0,27.0,9.0,"population=requests evaluating the feature; left_closed=True, include_current=True"
+feature_dqBHKec09Wwa,COUNTER_FEATURE_CONDITION_MISS,< 2026-09-24 07:22:42 UTC,22787,0.0001,0.9923,0.0262,0.9995,22787,2.0,26.0,2.0,"population=requests evaluating the feature; left_closed=True, include_current=True"
+feature_e1Kmz7JqzsWc,SUCCESS,whole window,380,0.1026,0.9921,0.1526,0.9921,341,3.0,10.0,3.0,"population=requests evaluating the feature; left_closed=True, include_current=True"
+feature_e1Kmz7JqzsWc,COUNTER_FEATURE_CONDITION_MISS,whole window,2370,0.0034,0.9827,0.0574,0.9949,2361,2.0,15.0,2.0,"population=requests evaluating the feature; left_closed=True, include_current=True"

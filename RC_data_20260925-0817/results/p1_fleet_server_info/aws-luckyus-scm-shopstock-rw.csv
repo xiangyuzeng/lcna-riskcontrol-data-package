@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-scm-shopstock-rw,8.4.10,0,0,2,"[""luckyus_scm_shopstock"", ""backup_tables""]"

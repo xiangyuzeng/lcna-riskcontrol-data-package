@@ -1,0 +1,3 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-opempefficiency-rw,column,luckyus_opempefficiency,t_rule_config,rule_id,规则id
+aws-luckyus-opempefficiency-rw,table,luckyus_opempefficiency,t_rule_config,,租户排班参数配置

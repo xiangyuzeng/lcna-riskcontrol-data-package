@@ -1,0 +1,17 @@
+module,src,json_key,n
+场景管理,before_data,rows,2
+场景管理,before_data,total,2
+策略管理,before_data,rows,20
+策略管理,before_data,total,20
+场景管理,after_data,rows,2
+场景管理,after_data,total,2
+策略管理,after_data,rows,20
+策略管理,after_data,total,20
+场景管理,request_params,url,2
+场景管理,request_params,method,2
+场景管理,request_params,urlParams,2
+场景管理,request_params,bodyParams,2
+策略管理,request_params,url,20
+策略管理,request_params,method,20
+策略管理,request_params,urlParams,20
+策略管理,request_params,bodyParams,20

@@ -1,0 +1,15 @@
+shard,scene_id,json_key,n_rows,n_elements
+0011,LKUS_payment,execPriority,82,82
+0011,LKUS_payment,resultName,82,82
+0011,LKUS_payment,status,82,82
+0011,LKUS_payment,strategyId,82,82
+0011,LKUS_payment,strategyName,82,82
+0011,LKUS_payment,strategyType,82,82
+0011,LKUS_payment,vaild,82,82
+0011,LKUS_push,execPriority,56,112
+0011,LKUS_push,resultName,56,112
+0011,LKUS_push,status,56,112
+0011,LKUS_push,strategyId,56,112
+0011,LKUS_push,strategyName,56,112
+0011,LKUS_push,strategyType,56,112
+0011,LKUS_push,vaild,56,112

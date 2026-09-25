@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-framework01-rw,8.4.9,0,0,14,"[""luckyus_bsportal"", ""luckyus_gaea"", ""luckyus_horae"", ""luckyus_isentineldashboard"", ""luckyus_kbx"", ""luckyus_lcp_apiserver"", ""luckyus_lcp_noahusercenter"", ""luckyus_nacos"", ""luckyus_sddl_platform"", ""luckyus_zkdoctor"", ""luckyus_koalaadmin"", ""luckyus_iluckyenvsystemweb"", ""backup_tables"", ""luckyus_gaea_new""]"

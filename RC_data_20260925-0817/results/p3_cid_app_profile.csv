@@ -1,0 +1,7 @@
+cid,cid_origin,app,requests,pass,reject,review,pass_share,token_absent_share,token_empty_share,token_present_share,v3_<0.3_share,v3_0.3-0.8_share,v3_>=0.8_share,v3_missing_share
+105,MEM_ANDROID_US,iusluckyclientandroid,22002.0,8345.0,13657.0,0.0,0.3793,0.0048,0.1523,0.8429,0.2042,0.0088,0.6297,0.1573
+106,MEM_IOS_US,iusluckyclientios,5793.0,5765.0,28.0,0.0,0.9952,0.019,0.019,0.962,0.0085,0.0563,0.8964,0.0388
+105,MEM_ANDROID_US,<absent>,2289.0,818.0,1471.0,0.0,0.3574,1.0,0.0,0.0,0.0,0.0,0.0,1.0
+108,MEM_H5_US,<absent>,1174.0,1001.0,111.0,62.0,0.8526,0.0537,0.0801,0.8663,0.0068,0.0307,0.8271,0.1354
+702,SELF_SERVICE_MACHINE_US,<absent>,518.0,518.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0
+106,MEM_IOS_US,<absent>,31.0,31.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0

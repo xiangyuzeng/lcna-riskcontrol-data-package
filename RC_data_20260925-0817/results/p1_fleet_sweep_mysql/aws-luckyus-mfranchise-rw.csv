@@ -1,0 +1,11 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-mfranchise-rw,column,luckyus_mfranchise,t_clearing_scene_rule_config,clearing_scene_id,清算配置id
+aws-luckyus-mfranchise-rw,column,luckyus_mfranchise,t_settle_scene_rule_config,scene_id,场景id
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_check_out_rule_config,,分账类型配置
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_clearing_scene_config,,清算配置
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_clearing_scene_rule_config,,清算规则配置
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_cs_period_bill_rule,,周期性账单生单规则表
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_cs_period_bill_rule_item,,生单规则明细表
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_settle_scene_config,,结算配置
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_settle_scene_rule_config,,配置结算规则
+aws-luckyus-mfranchise-rw,table,luckyus_mfranchise,t_withdraw_strategy_config,,提现策略表

@@ -1,0 +1,604 @@
+id,para_id,para_name,scene_id,access_id,para_type,operator,update_time,create_time,remarks,para_java_type
+1,uid,uid,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:00,2025-05-29T15:01:08,来源:参数自动收集,7
+2,realIp,realIp地址,LKUS_push,LKUS,0,zhiweitian(zhiwei),2026-07-28T06:45:15,2025-05-29T15:01:08,来源:参数自动收集,7
+3,uuidKey,uuidKey,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:00,2025-05-29T15:01:08,来源:参数自动收集,7
+4,countryCode,国际区号,LKUS_push,LKUS,0,zhiweitian(zhiwei),2026-07-28T06:44:52,2025-05-29T15:01:08,来源:参数自动收集,7
+5,realIpc,realIp地址C段,LKUS_push,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:01,2025-05-29T15:01:08,来源:参数自动收集,7
+6,userAgent,用户代理,LKUS_push,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:00,2025-05-29T15:01:08,来源:参数自动收集,7
+7,version,客户端版本号,LKUS_push,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:17,2025-05-29T15:01:08,来源:参数自动收集,7
+8,phoneNo,手机号,LKUS_push,LKUS,0,zhiweitian(zhiwei),2026-08-06T01:47:26,2025-05-29T15:01:08,来源:参数自动收集,7
+9,tenant,租户,LKUS_push,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:02,2025-05-29T15:01:08,来源:参数自动收集,7
+10,cid,客户端id,LKUS_push,LKUS,0,zhiweitian(zhiwei),2026-07-28T06:42:16,2025-05-29T15:01:08,来源:参数自动收集,7
+11,accessTime,accessTime,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:02,2025-05-29T15:01:08,来源:参数自动收集,3
+12,realIp,realIp地址,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+13,uid,uid,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+14,uuidKey,uuidKey,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+15,countryCode,国际区号,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+16,realIpc,realIp地址C段,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+17,userNo,用户编号,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+18,userAgent,用户代理,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+19,version,客户端版本号,LKUS_login,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:24,2025-05-29T15:02:13,来源:参数自动收集,7
+20,phoneNo,手机号,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+21,tenant,租户,LKUS_login,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,7
+22,cid,客户端id,LKUS_login,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:14,2025-05-29T15:02:13,来源:参数自动收集,7
+23,accessTime,accessTime,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2025-05-29T15:02:13,来源:参数自动收集,3
+24,realIp,realIp地址,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:03,来源:参数自动收集,7
+25,orderType,订单类型,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:03,来源:参数自动收集,1
+26,shopLatitude,门店纬度,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2025-06-11T11:22:30,2025-05-29T15:07:03,来源:参数自动收集,0
+27,latitude,纬度,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2025-06-11T11:22:37,2025-05-29T15:07:03,来源:参数自动收集,0
+28,userNo,用户编号,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:03,来源:参数自动收集,7
+29,userAgent,用户代理,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:03,来源:参数自动收集,7
+30,orderSpuCodes,订单商品spuCode列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:03,来源:参数自动收集,7
+31,orderSkuCodes,订单商品skuCode列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:03,来源:参数自动收集,7
+32,shopAddress,门店地址,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+33,shopLongitude,门店经度,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2025-06-11T11:17:11,2025-05-29T15:07:04,来源:参数自动收集,0
+34,version,客户端版本号,LKUS_physical_order_create,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:28,2025-05-29T15:07:04,来源:参数自动收集,7
+35,phoneNo,手机号,LKUS_physical_order_create,LKUS,0,zhiweitian(zhiwei),2026-08-06T01:47:34,2025-05-29T15:07:04,来源:参数自动收集,7
+36,uid,uid,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+37,productAmount,商品数量,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,1
+38,uuidKey,uuidKey,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+39,realIpc,realIp地址C段,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+40,shopCityName,门店所在城市名称,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+41,orderPrice,订单应付金额,LKUS_physical_order_create,LKUS,0,zhiweitian(zhiwei),2026-07-28T06:44:15,2025-05-29T15:07:04,来源:参数自动收集,5
+42,shopId,门店id,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,1
+43,tenant,租户,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+44,countryCode,国际区号,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,7
+45,cid,客户端id,LKUS_physical_order_create,LKUS,0,zhiweitian(zhiwei),2026-07-28T06:44:07,2025-05-29T15:07:04,来源:参数自动收集,7
+46,longitude,经度,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2025-06-11T11:20:25,2025-05-29T15:07:04,来源:参数自动收集,0
+47,accessTime,accessTime,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-05-29T15:07:04,来源:参数自动收集,3
+48,realIp,realIp地址,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+49,shopCity,门店所在城市,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+50,orderNo,订单编号,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+51,userNo,用户编号,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+52,cancelTypeEnumIndex,订单取消类型,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,1
+53,userAgent,用户代理,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+54,version,客户端版本号,LKUS_physical_order_cancel,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:34,2025-05-29T15:37:03,来源:参数自动收集,7
+55,phoneNo,手机号,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+56,totalOfMade,自制商品数量,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,1
+57,uid,uid,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+58,uuidKey,uuidKey,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+59,countryCode,国际区号,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:03,来源:参数自动收集,7
+60,realIpc,realIp地址C段,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:04,来源:参数自动收集,7
+61,shopId,门店id,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:04,来源:参数自动收集,1
+62,tenant,租户,LKUS_physical_order_cancel,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:22:11,2025-05-29T15:37:04,来源:参数自动收集,7
+63,cid,客户端id,LKUS_physical_order_cancel,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:20,2025-05-29T15:37:04,来源:参数自动收集,7
+64,accessTime,accessTime,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-05-29T15:37:04,来源:参数自动收集,3
+65,realIp,realIp地址,LKUS_register,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:53:14,2025-05-29T15:41:58,来源:参数自动收集,7
+66,uid,uid,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+67,uuidKey,uuidKey,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+68,countryCode,国际区号,LKUS_register,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+69,realIpc,realIp地址C段,LKUS_register,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+70,userAgent,用户代理,LKUS_register,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+71,version,客户端版本号,LKUS_register,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:39,2025-05-29T15:41:58,来源:参数自动收集,7
+72,phoneNo,手机号,LKUS_register,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+73,tenant,租户,LKUS_register,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,7
+74,cid,客户端id,LKUS_register,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:26,2025-05-29T15:41:58,来源:参数自动收集,7
+75,accessTime,accessTime,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2025-05-29T15:41:58,来源:参数自动收集,3
+76,couponTypes,优惠券券类型列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:21,来源:参数自动收集,7
+77,couponDenomination,优惠券券面额列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:06:23,2025-06-11T06:50:21,来源:参数自动收集,7
+78,couponNos,优惠券券编号列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:21,来源:参数自动收集,7
+79,couponTemplateIds,优惠券券模版id列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:21,来源:参数自动收集,7
+80,couponDiscountTypes,优惠券券优惠类型列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:22,来源:参数自动收集,7
+81,couponNames,优惠券券名称列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:22,来源:参数自动收集,7
+82,couponProposalNos,优惠券券方案编号列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:22,来源:参数自动收集,7
+83,couponDiscountSubTypes,优惠券券优惠子类型列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:22,来源:参数自动收集,7
+84,couponSources,优惠券券来源列表,LKUS_physical_order_create,LKUS,0,HONGPENGLIN(linhongpeng),2026-09-02T11:00:13,2025-06-11T06:50:22,来源:参数自动收集,7
+85,realIp,realIp,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+86,orderType,orderType,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+87,skuCodes,skuCodes,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+88,userNo,userNo,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+89,userAgent,userAgent,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+90,version,version,LKUS_virtual_order_create,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:44,2025-06-11T12:44:46,来源:参数自动收集,7
+91,spuCodes,spuCodes,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+92,phoneNo,phoneNo,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+93,uid,uid,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+94,productAmount,productAmount,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+95,uuidKey,uuidKey,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+96,countryCode,countryCode,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+97,realIpc,realIpc,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+98,digitalGoodProposalName,digitalGoodProposalName,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+99,orderPrice,orderPrice,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+100,tenant,tenant,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+101,cid,cid,LKUS_virtual_order_create,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:31,2025-06-11T12:44:46,来源:参数自动收集,7
+102,digitalGoodProposalNo,digitalGoodProposalNo,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+103,accessTime,accessTime,LKUS_virtual_order_create,LKUS,0,auto collect,2025-06-11T12:44:46,2025-06-11T12:44:46,来源:参数自动收集,0
+104,uid,uid,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+105,realIp,realIp,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+106,uuidKey,uuidKey,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+107,countryCode,countryCode,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+108,realIpc,realIpc,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+109,userAgent,userAgent,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+110,version,version,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+111,phoneNo,phoneNo,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+112,tenant,tenant,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+113,cid,cid,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,7
+114,accessTime,accessTime,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-06-12T02:44:06,来源:参数自动收集,3
+115,realIp,realIp,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+116,orderType,orderType,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,1
+117,shopLatitude,shopLatitude,IQA2_physical_order_create,IQA2,0,auto collect,2025-06-12T02:47:00,2025-06-12T02:47:00,来源:参数自动收集,0
+118,latitude,latitude,IQA2_physical_order_create,IQA2,0,auto collect,2025-06-12T02:47:00,2025-06-12T02:47:00,来源:参数自动收集,0
+119,userNo,userNo,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+120,userAgent,userAgent,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+121,shopAddress,shopAddress,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+122,shopLongitude,shopLongitude,IQA2_physical_order_create,IQA2,0,auto collect,2025-06-12T02:47:00,2025-06-12T02:47:00,来源:参数自动收集,0
+123,version,version,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+124,phoneNo,phoneNo,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+125,uid,uid,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+126,productAmount,productAmount,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,1
+127,uuidKey,uuidKey,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+128,countryCode,countryCode,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+129,realIpc,realIpc,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+130,shopCityName,shopCityName,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+131,packageOrderSpuCodes,packageOrderSpuCodes,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+132,orderPrice,orderPrice,IQA2_physical_order_create,IQA2,0,auto collect,2025-06-12T02:47:00,2025-06-12T02:47:00,来源:参数自动收集,0
+133,shopId,shopId,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,1
+134,packageOrderSkuCodes,packageOrderSkuCodes,IQA2_physical_order_create,IQA2,0,auto collect,2025-06-12T02:47:00,2025-06-12T02:47:00,来源:参数自动收集,0
+135,tenant,tenant,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+136,cid,cid,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,7
+137,longitude,longitude,IQA2_physical_order_create,IQA2,0,auto collect,2025-06-12T02:47:00,2025-06-12T02:47:00,来源:参数自动收集,0
+138,accessTime,accessTime,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:47:00,来源:参数自动收集,3
+139,orderSpuCodes,orderSpuCodes,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:53:27,来源:参数自动收集,7
+140,couponTypes,couponTypes,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+141,couponDenomination,couponDenomination,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+142,couponNos,couponNos,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+143,orderSkuCodes,orderSkuCodes,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-12T02:53:27,来源:参数自动收集,7
+144,couponSources,couponSources,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+145,couponTemplateIds,couponTemplateIds,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+146,couponDiscountTypes,couponDiscountTypes,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+147,shumeiDevId,shumeiDevId,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-21T07:24:10,2025-06-12T02:53:27,来源:参数自动收集,7
+148,couponNames,couponNames,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+149,couponProposalNos,couponProposalNos,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:22:01,2025-06-12T02:53:27,来源:参数自动收集,7
+150,tongdunBlackBox,tongdunBlackBox,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-21T07:24:10,2025-06-12T02:53:27,来源:参数自动收集,7
+151,couponDiscountSubTypes,couponDiscountSubTypes,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-08T08:56:29,2025-06-12T02:53:27,来源:参数自动收集,7
+152,realIp,realIp,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+153,uid,uid,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+154,uuidKey,uuidKey,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+155,countryCode,countryCode,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+156,realIpc,realIpc,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+157,userNo,userNo,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+158,userAgent,userAgent,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+159,version,version,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+160,phoneNo,phoneNo,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+161,tenant,tenant,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+162,cid,cid,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,7
+163,accessTime,accessTime,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-06-12T05:37:37,来源:参数自动收集,3
+164,realIp,realIp,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+165,uid,uid,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+166,uuidKey,uuidKey,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+167,countryCode,countryCode,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+168,realIpc,realIpc,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+169,userAgent,userAgent,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+170,version,version,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+171,phoneNo,phoneNo,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+172,tenant,tenant,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+173,cid,cid,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,7
+174,accessTime,accessTime,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-12T05:55:45,来源:参数自动收集,3
+175,realIp,realIp,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+176,userNo,userNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2025-06-12T06:14:19,来源:参数自动收集,7
+177,userAgent,userAgent,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+178,version,version,LKUS_grant_new_user_coupon,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:48,2025-06-12T06:14:19,来源:参数自动收集,7
+179,phoneNo,phoneNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2025-06-12T06:14:19,来源:参数自动收集,7
+180,extend,extend,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+181,uid,uid,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2025-06-12T06:14:19,来源:参数自动收集,7
+182,uuidKey,uuidKey,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+183,countryCode,countryCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2025-06-12T06:14:19,来源:参数自动收集,7
+184,realIpc,realIpc,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+185,sceneId,sceneId,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+186,tenant,tenant,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,7
+187,cid,cid,LKUS_grant_new_user_coupon,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:36,2025-06-12T06:14:19,来源:参数自动收集,7
+188,accessTime,accessTime,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-06-12T06:14:19,来源:参数自动收集,3
+189,userNo,userNo,LKUS_push,LKUS,0,auto collect,2026-09-02T12:10:45,2025-06-12T08:25:04,来源:参数自动收集,7
+190,shumeiDevId,shumeiDevId,IQA2_login,IQA2,0,auto collect,2025-06-12T08:52:08,2025-06-12T08:52:08,来源:参数自动收集,0
+191,tongdunBlackBox,tongdunBlackBox,IQA2_login,IQA2,0,auto collect,2025-06-12T08:52:08,2025-06-12T08:52:08,来源:参数自动收集,0
+192,orderType,orderType,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2025-06-13T06:18:54,来源:参数自动收集,1
+193,realIp,realIp,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+194,orderNo,orderNo,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+195,userNo,userNo,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+196,userAgent,userAgent,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+197,version,version,LKUS_payment,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:53,2025-06-13T06:18:54,来源:参数自动收集,7
+198,phoneNo,phoneNo,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+199,uid,uid,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+200,uuidKey,uuidKey,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+201,payMoney,payMoney,LKUS_payment,LKUS,0,zhiweitian(zhiwei),2026-07-28T10:21:59,2025-06-13T06:18:54,来源:参数自动收集,5
+202,payType,payType,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,1
+203,countryCode,countryCode,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+204,realIpc,realIpc,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+205,shopId,shopId,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,1
+206,tenant,tenant,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,7
+207,cid,cid,LKUS_payment,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:41,2025-06-13T06:18:54,来源:参数自动收集,7
+208,accessTime,accessTime,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-06-13T06:18:54,来源:参数自动收集,3
+209,realIp,realIp,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+210,orderType,orderType,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,1
+211,orderNo,orderNo,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+212,userNo,userNo,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+213,userAgent,userAgent,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+214,phoneNo,phoneNo,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+215,uid,uid,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+216,uuidKey,uuidKey,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+217,payMoney,payMoney,IQA2_payment,IQA2,0,auto collect,2025-06-13T06:49:55,2025-06-13T06:49:55,来源:参数自动收集,0
+218,payType,payType,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,1
+219,countryCode,countryCode,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+220,shumeiDevId,shumeiDevId,IQA2_payment,IQA2,0,auto collect,2025-06-13T06:49:55,2025-06-13T06:49:55,来源:参数自动收集,0
+221,realIpc,realIpc,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+222,shopId,shopId,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,1
+223,tenant,tenant,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+224,cid,cid,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,7
+225,accessTime,accessTime,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T06:49:55,来源:参数自动收集,3
+226,realIp,realIp,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+227,orderType,orderType,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,1
+228,spuCodes,spuCodes,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+229,skuCodes,skuCodes,IQA2_virtual_order_create,IQA2,0,auto collect,2025-06-13T07:37:03,2025-06-13T07:37:03,来源:参数自动收集,0
+230,userNo,userNo,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,7
+231,userAgent,userAgent,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+232,version,version,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+233,phoneNo,phoneNo,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,7
+234,uid,uid,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,7
+235,productAmount,productAmount,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,1
+236,uuidKey,uuidKey,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+237,countryCode,countryCode,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,7
+238,realIpc,realIpc,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+239,digitalGoodProposalName,digitalGoodProposalName,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+240,orderPrice,orderPrice,IQA2_virtual_order_create,IQA2,0,auto collect,2025-06-13T07:37:03,2025-06-13T07:37:03,来源:参数自动收集,0
+241,tenant,tenant,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,7
+242,cid,cid,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,7
+243,digitalGoodProposalNo,digitalGoodProposalNo,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-06-13T07:37:03,来源:参数自动收集,7
+244,accessTime,accessTime,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-06-13T07:37:03,来源:参数自动收集,3
+245,version,version,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-13T07:37:03,来源:参数自动收集,7
+246,realIp,realIp,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+247,userNo,userNo,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+248,userAgent,userAgent,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+249,version,version,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+250,phoneNo,phoneNo,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+251,extend,extend,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+252,uid,uid,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+253,uuidKey,uuidKey,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+254,countryCode,countryCode,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+255,realIpc,realIpc,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+256,sceneId,sceneId,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+257,tenant,tenant,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+258,cid,cid,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,7
+259,accessTime,accessTime,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-06-17T07:47:12,来源:参数自动收集,3
+260,realIp,realIp,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+261,shopCity,shopCity,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+262,orderNo,orderNo,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+263,userNo,userNo,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+264,cancelTypeEnumIndex,cancelTypeEnumIndex,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,1
+265,userAgent,userAgent,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+266,version,version,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+267,phoneNo,phoneNo,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+268,totalOfMade,totalOfMade,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,1
+269,uid,uid,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+270,uuidKey,uuidKey,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+271,countryCode,countryCode,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+272,realIpc,realIpc,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+273,shopId,shopId,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,1
+274,tenant,tenant,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+275,cid,cid,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,7
+276,accessTime,accessTime,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-17T10:07:25,来源:参数自动收集,3
+277,packagingBagPrice,packagingBagPrice,LKUS_payment,LKUS,0,auto collect,2025-06-17T14:50:00,2025-06-17T14:50:00,来源:参数自动收集,0
+278,packagingBagNumber,packagingBagNumber,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:33:47,2025-06-17T14:50:00,来源:参数自动收集,1
+279,email,email,LKUS_push,LKUS,0,auto collect,2026-09-02T13:06:46,2025-06-17T15:06:47,来源:参数自动收集,7
+280,userNo,userNo,IQA2_push,IQA2,0,auto collect,2026-09-17T08:37:37,2025-06-17T15:44:34,来源:参数自动收集,7
+281,email,email,IQA2_push,IQA2,0,auto collect,2025-06-17T15:44:34,2025-06-17T15:44:34,来源:参数自动收集,0
+282,packagingBagPrice,packagingBagPrice,IQA2_payment,IQA2,0,auto collect,2025-06-26T12:33:48,2025-06-26T12:33:48,来源:参数自动收集,0
+283,packagingBagNumber,packagingBagNumber,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-26T12:33:48,来源:参数自动收集,1
+284,isGuest,isGuest,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2025-06-28T02:56:33,来源:参数自动收集,8
+285,isGuest,isGuest,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-06-28T03:11:58,来源:参数自动收集,8
+286,isGuest,isGuest,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-28T03:26:06,来源:参数自动收集,8
+287,isGuest,isGuest,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-06-28T03:32:07,来源:参数自动收集,8
+288,isGuest,isGuest,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-06-28T05:54:45,来源:参数自动收集,8
+289,isGuest,isGuest,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-06-28T06:15:43,来源:参数自动收集,8
+290,shumengDevId,shumengDevId,LKUS_push,LKUS,0,auto collect,2025-07-24T05:55:35,2025-07-24T05:55:35,来源:参数自动收集,0
+291,shumeiDevId,shumeiDevId,LKUS_push,LKUS,0,auto collect,2025-07-24T05:55:35,2025-07-24T05:55:35,来源:参数自动收集,0
+292,tongdunBlackBox,tongdunBlackBox,LKUS_push,LKUS,0,auto collect,2025-07-24T05:55:35,2025-07-24T05:55:35,来源:参数自动收集,0
+293,packageOrderSkuCodes,packageOrderSkuCodes,LKUS_physical_order_create,LKUS,0,auto collect,2025-07-28T11:22:51,2025-07-28T11:22:51,来源:参数自动收集,0
+294,packageOrderSpuCodes,packageOrderSpuCodes,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:20:32,2025-07-28T11:22:51,来源:参数自动收集,7
+295,coffeeStoreCouponSources,coffeeStoreCouponSources,IQA2_physical_order_create,IQA2,0,auto collect,2025-09-26T06:05:01,2025-09-26T06:05:01,来源:参数自动收集,0
+296,coffeeStoreCouponNames,coffeeStoreCouponNames,IQA2_physical_order_create,IQA2,0,auto collect,2025-09-26T06:05:01,2025-09-26T06:05:01,来源:参数自动收集,0
+297,coffeeStoreCouponDenomination,coffeeStoreCouponDenomination,IQA2_physical_order_create,IQA2,0,auto collect,2025-09-26T06:05:01,2025-09-26T06:05:01,来源:参数自动收集,0
+298,coffeeStoreCouponProposalNos,coffeeStoreCouponProposalNos,IQA2_physical_order_create,IQA2,0,auto collect,2025-09-26T06:05:01,2025-09-26T06:05:01,来源:参数自动收集,0
+299,coffeeStoreCouponNos,coffeeStoreCouponNos,IQA2_physical_order_create,IQA2,0,auto collect,2025-09-26T06:05:01,2025-09-26T06:05:01,来源:参数自动收集,0
+300,coffeeStoreCouponTemplateIds,coffeeStoreCouponTemplateIds,IQA2_physical_order_create,IQA2,0,auto collect,2025-09-26T06:05:01,2025-09-26T06:05:01,来源:参数自动收集,0
+301,phoneNoMd5,phoneNoMd5,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:02,2025-11-10T09:37:08,来源:参数自动收集,7
+302,phoneNoHead7,phoneNoHead7,LKUS_push,LKUS,0,auto collect,2026-09-02T10:02:59,2025-11-10T09:37:08,来源:参数自动收集,7
+303,phoneNoHead7,phoneNoHead7,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2025-11-10T09:37:29,来源:参数自动收集,7
+304,phoneNoMd5,phoneNoMd5,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2025-11-10T09:37:29,来源:参数自动收集,7
+305,phoneNoHead7,phoneNoHead7,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2025-11-10T09:37:38,来源:参数自动收集,7
+306,phoneNoMd5,phoneNoMd5,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2025-11-10T09:37:38,来源:参数自动收集,7
+307,phoneNoHead7,phoneNoHead7,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-11-10T09:37:39,来源:参数自动收集,7
+308,phoneNoMd5,phoneNoMd5,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2025-11-10T09:37:39,来源:参数自动收集,7
+309,phoneNoHead7,phoneNoHead7,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-11-10T10:27:57,来源:参数自动收集,7
+310,phoneNoMd5,phoneNoMd5,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-11-10T10:27:57,来源:参数自动收集,7
+311,phoneNoMd5,phoneNoMd5,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-11-10T10:27:59,来源:参数自动收集,7
+312,phoneNoHead7,phoneNoHead7,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2025-11-10T10:27:59,来源:参数自动收集,7
+313,phoneNoHead7,phoneNoHead7,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-11-10T10:28:14,来源:参数自动收集,7
+314,phoneNoMd5,phoneNoMd5,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-11-10T10:28:14,来源:参数自动收集,7
+315,phoneNoMd5,phoneNoMd5,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-11-11T09:33:56,来源:参数自动收集,7
+316,phoneNoHead7,phoneNoHead7,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-11-11T09:33:56,来源:参数自动收集,7
+317,phoneNoHead7,phoneNoHead7,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-11-11T09:35:17,来源:参数自动收集,7
+318,phoneNoMd5,phoneNoMd5,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-11-11T09:35:17,来源:参数自动收集,7
+319,phoneNoMd5,phoneNoMd5,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-12T08:04:19,来源:参数自动收集,7
+320,phoneNoHead7,phoneNoHead7,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-12T08:04:19,来源:参数自动收集,7
+321,phoneNoHead7,phoneNoHead7,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-12T08:04:20,来源:参数自动收集,7
+322,phoneNoMd5,phoneNoMd5,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-12T08:04:20,来源:参数自动收集,7
+323,phoneNoHead7,phoneNoHead7,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-11-14T10:35:14,来源:参数自动收集,7
+324,phoneNoMd5,phoneNoMd5,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-11-14T10:35:14,来源:参数自动收集,7
+325,phoneNoMd5,phoneNoMd5,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-11-20T07:36:58,来源:参数自动收集,7
+326,phoneNoHead7,phoneNoHead7,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2025-11-20T07:36:58,来源:参数自动收集,7
+327,phoneNoHead7,phoneNoHead7,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-11-20T07:36:58,来源:参数自动收集,7
+328,phoneNoMd5,phoneNoMd5,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2025-11-20T07:36:58,来源:参数自动收集,7
+329,taxAmount,taxAmount,IQA2_physical_order_create,IQA2,0,auto collect,2025-11-26T07:26:02,2025-11-26T07:26:02,来源:参数自动收集,0
+330,isTaxRequired,isTaxRequired,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-26T07:26:02,来源:参数自动收集,8
+331,isTaxRequired,isTaxRequired,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-26T07:26:04,来源:参数自动收集,8
+332,orderPrice,orderPrice,IQA2_payment,IQA2,0,auto collect,2025-11-26T07:26:04,2025-11-26T07:26:04,来源:参数自动收集,0
+333,taxAmount,taxAmount,IQA2_payment,IQA2,0,auto collect,2025-11-26T07:26:04,2025-11-26T07:26:04,来源:参数自动收集,0
+334,isTaxRequired,isTaxRequired,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2025-11-26T07:37:26,来源:参数自动收集,8
+335,phoneNoHead7,phoneNoHead7,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-11-26T07:37:26,来源:参数自动收集,7
+336,phoneNoMd5,phoneNoMd5,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2025-11-26T07:37:26,来源:参数自动收集,7
+337,taxAmount,taxAmount,IQA2_virtual_order_create,IQA2,0,auto collect,2025-11-26T07:37:26,2025-11-26T07:37:26,来源:参数自动收集,0
+338,isTaxRequired,isTaxRequired,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-11-26T08:05:29,来源:参数自动收集,8
+339,taxAmount,taxAmount,LKUS_physical_order_create,LKUS,0,auto collect,2025-11-26T08:05:29,2025-11-26T08:05:29,来源:参数自动收集,0
+340,app,app,LKUS_push,LKUS,0,auto collect,2026-09-02T10:31:19,2025-11-26T09:29:57,来源:参数自动收集,7
+341,app,app,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2025-11-26T09:31:20,来源:参数自动收集,7
+342,app,app,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2025-11-26T09:34:02,来源:参数自动收集,7
+343,app,app,IQA2_register,IQA2,0,auto collect,2026-09-21T08:41:37,2025-11-26T09:34:25,来源:参数自动收集,7
+344,app,app,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2025-11-26T09:34:25,来源:参数自动收集,7
+345,app,app,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-26T10:05:46,来源:参数自动收集,7
+346,app,app,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2025-11-26T10:05:47,来源:参数自动收集,7
+347,isTaxRequired,isTaxRequired,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2025-11-26T12:00:12,来源:参数自动收集,8
+348,orderPrice,orderPrice,LKUS_payment,LKUS,0,auto collect,2025-11-26T12:00:12,2025-11-26T12:00:12,来源:参数自动收集,0
+349,taxAmount,taxAmount,LKUS_payment,LKUS,0,auto collect,2025-11-26T12:00:12,2025-11-26T12:00:12,来源:参数自动收集,0
+350,app,app,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2025-11-26T12:04:39,来源:参数自动收集,7
+351,app,app,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2025-11-26T12:53:00,来源:参数自动收集,7
+352,app,app,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2025-11-27T12:42:31,来源:参数自动收集,7
+353,app,app,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2025-11-27T12:43:42,来源:参数自动收集,7
+354,app,app,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:56:49,2025-11-29T13:02:45,来源:参数自动收集,7
+355,app,app,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2025-11-29T13:17:19,来源:参数自动收集,7
+356,app,app,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-08T08:15:52,2025-12-09T08:32:49,来源:参数自动收集,7
+357,app,app,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T08:41:37,2025-12-17T02:11:18,来源:参数自动收集,7
+358,phoneNoHead7,phoneNoHead7,LKUS_virtual_order_create,LKUS,0,auto collect,2026-01-21T10:22:36,2026-01-21T10:22:36,来源:参数自动收集,0
+359,isTaxRequired,isTaxRequired,LKUS_virtual_order_create,LKUS,0,auto collect,2026-01-21T10:22:36,2026-01-21T10:22:36,来源:参数自动收集,0
+360,taxAmount,taxAmount,LKUS_virtual_order_create,LKUS,0,auto collect,2026-01-21T10:22:36,2026-01-21T10:22:36,来源:参数自动收集,0
+361,phoneNoMd5,phoneNoMd5,LKUS_virtual_order_create,LKUS,0,auto collect,2026-01-21T10:22:36,2026-01-21T10:22:36,来源:参数自动收集,0
+362,app,app,LKUS_virtual_order_create,LKUS,0,auto collect,2026-01-21T10:58:56,2026-01-21T10:58:56,来源:参数自动收集,0
+363,realIpProvince,realIpProvince,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-05-21T06:24:36,来源:参数自动收集,7
+364,realIpCity,realIpCity,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-05-21T06:24:36,来源:参数自动收集,7
+365,realIpCountry,realIpCountry,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-05-21T06:24:36,来源:参数自动收集,7
+366,realIpCity,realIpCity,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-05-21T06:24:49,来源:参数自动收集,7
+367,realIpProvince,realIpProvince,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-05-21T06:24:49,来源:参数自动收集,7
+368,realIpCountry,realIpCountry,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-05-21T06:24:49,来源:参数自动收集,7
+369,realIpProvince,realIpProvince,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:01,2026-05-21T06:24:52,来源:参数自动收集,7
+370,realIpCity,realIpCity,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:01,2026-05-21T06:24:52,来源:参数自动收集,7
+371,realIpCountry,realIpCountry,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:02,2026-05-21T06:24:52,来源:参数自动收集,7
+372,realIpCity,realIpCity,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2026-05-21T06:38:36,来源:参数自动收集,7
+373,realIpProvince,realIpProvince,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2026-05-21T06:38:36,来源:参数自动收集,7
+374,realIpCountry,realIpCountry,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2026-05-21T06:38:36,来源:参数自动收集,7
+375,realIpCity,realIpCity,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-05-21T06:42:15,来源:参数自动收集,7
+376,realIpProvince,realIpProvince,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-05-21T06:42:15,来源:参数自动收集,7
+377,realIpCountry,realIpCountry,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-05-21T06:42:15,来源:参数自动收集,7
+378,realIpProvince,realIpProvince,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-05-21T09:09:01,来源:参数自动收集,7
+379,realIpCountry,realIpCountry,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-05-21T09:09:01,来源:参数自动收集,7
+380,realIpCity,realIpCity,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-05-21T09:09:01,来源:参数自动收集,7
+381,realIpProvince,realIpProvince,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-05-21T11:00:05,来源:参数自动收集,7
+382,realIpCountry,realIpCountry,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-05-21T11:00:05,来源:参数自动收集,7
+383,realIpCity,realIpCity,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-05-21T11:00:05,来源:参数自动收集,7
+384,realIpProvince,realIpProvince,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2026-05-21T11:00:05,来源:参数自动收集,7
+385,realIpCountry,realIpCountry,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2026-05-21T11:00:05,来源:参数自动收集,7
+386,realIpCity,realIpCity,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2026-05-21T11:00:05,来源:参数自动收集,7
+387,realIpCity,realIpCity,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-05-21T11:03:09,来源:参数自动收集,7
+388,realIpProvince,realIpProvince,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-05-21T11:03:09,来源:参数自动收集,7
+389,realIpCountry,realIpCountry,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-05-21T11:03:09,来源:参数自动收集,7
+390,realIpProvince,realIpProvince,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-05-26T09:18:08,来源:参数自动收集,7
+391,realIpCity,realIpCity,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-05-26T09:18:08,来源:参数自动收集,7
+392,realIpCountry,realIpCountry,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-05-26T09:18:08,来源:参数自动收集,7
+393,shumengDevId,shumengDevId,IQA2_login,IQA2,0,auto collect,2026-05-26T09:18:34,2026-05-26T09:18:34,来源:参数自动收集,0
+394,realIpCity,realIpCity,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-05-26T09:18:34,来源:参数自动收集,7
+395,realIpProvince,realIpProvince,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-05-26T09:18:34,来源:参数自动收集,7
+396,realIpCountry,realIpCountry,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-05-26T09:18:34,来源:参数自动收集,7
+397,realIpCity,realIpCity,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-05-26T09:18:34,来源:参数自动收集,7
+398,shumengDevId,shumengDevId,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-05-26T09:18:34,2026-05-26T09:18:34,来源:参数自动收集,0
+399,realIpProvince,realIpProvince,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-05-26T09:18:34,来源:参数自动收集,7
+400,realIpCountry,realIpCountry,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-05-26T09:18:34,来源:参数自动收集,7
+401,shumengDevId,shumengDevId,LKUS_register,LKUS,0,auto collect,2026-05-26T09:52:42,2026-05-26T09:52:42,来源:参数自动收集,0
+402,shumengDevId,shumengDevId,LKUS_login,LKUS,0,auto collect,2026-05-26T09:52:43,2026-05-26T09:52:43,来源:参数自动收集,0
+403,shumengDevId,shumengDevId,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-05-26T09:52:43,2026-05-26T09:52:43,来源:参数自动收集,0
+404,shumengDevId,shumengDevId,IQA2_register,IQA2,0,auto collect,2026-05-26T10:04:39,2026-05-26T10:04:39,来源:参数自动收集,0
+405,realIpCity,realIpCity,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-05-26T10:04:39,来源:参数自动收集,7
+406,realIpProvince,realIpProvince,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-05-26T10:04:39,来源:参数自动收集,7
+407,realIpCountry,realIpCountry,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-05-26T10:04:39,来源:参数自动收集,7
+408,realIpCity,realIpCity,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-06-02T05:51:47,来源:参数自动收集,7
+409,realIpProvince,realIpProvince,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-06-02T05:51:47,来源:参数自动收集,7
+410,realIpCountry,realIpCountry,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-06-02T05:51:47,来源:参数自动收集,7
+411,realIpCountry,realIpCountry,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2026-07-06T09:53:52,来源:参数自动收集,7
+412,realIpProvince,realIpProvince,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2026-07-06T09:53:52,来源:参数自动收集,7
+413,realIpCity,realIpCity,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2026-07-06T09:53:52,来源:参数自动收集,7
+414,extend-invitationCode,extend-invitationCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T07:41:41,来源:参数自动收集,7
+415,extend-phoneNoEncryption,extend-phoneNoEncryption,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T07:41:41,来源:参数自动收集,7
+416,extend-type,extend-type,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T07:41:41,来源:参数自动收集,1
+417,extend-registerTime,extend-registerTime,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T07:41:41,来源:参数自动收集,7
+418,extend-origin,extend-origin,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T07:41:41,来源:参数自动收集,1
+419,extend-maskPhoneNo,extend-maskPhoneNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T07:41:41,来源:参数自动收集,7
+420,extend-isBindPhone,extend-isBindPhone,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T07:41:41,来源:参数自动收集,8
+421,extend-invitationCode,extend-invitationCode,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,7
+422,extend-maskPhoneNo,extend-maskPhoneNo,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,7
+423,extend-phoneNoEncryption,extend-phoneNoEncryption,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,7
+424,extend-type,extend-type,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,1
+425,extend-origin,extend-origin,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,1
+426,extend-registerTime,extend-registerTime,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,7
+427,extend-isBindPhone,extend-isBindPhone,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-07-28T07:52:44,来源:参数自动收集,8
+428,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_push,LKUS,0,HONGPENGLIN (linhongpeng),2026-07-28T08:37:58,2026-07-28T08:37:58,,8
+429,recaptchaV3Action,recaptchaV3Action,LKUS_push,LKUS,0,HONGPENGLIN (linhongpeng),2026-07-28T08:38:15,2026-07-28T08:38:15,,7
+430,recaptchaV3Token,recaptchaV3Token,LKUS_push,LKUS,0,HONGPENGLIN (linhongpeng),2026-07-28T08:38:48,2026-07-28T08:38:48,,7
+431,reviewRepeat,reviewRepeat,LKUS_push,LKUS,0,HONGPENGLIN (linhongpeng),2026-07-28T08:39:04,2026-07-28T08:39:04,,8
+432,captchaScene,captchaScene,LKUS_captcha,LKUS,0,HONGPENGLIN (linhongpeng),2026-07-28T08:40:30,2026-07-28T08:40:30,,8
+433,recaptchaV2Token,recaptchaV2Token,LKUS_captcha,LKUS,0,HONGPENGLIN (linhongpeng),2026-07-28T08:41:03,2026-07-28T08:41:03,,7
+434,recaptchaV3Action,recaptchaV3Action,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-07-28T09:51:44,来源:参数自动收集,7
+435,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-07-28T09:51:44,来源:参数自动收集,8
+436,recaptchaV3Token,recaptchaV3Token,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-07-28T09:51:44,来源:参数自动收集,7
+437,reviewRepeat,reviewRepeat,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-07-28T09:51:44,来源:参数自动收集,8
+438,recaptchaV3Action,recaptchaV3Action,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-07-28T10:03:56,来源:参数自动收集,7
+439,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-07-28T10:03:56,来源:参数自动收集,8
+440,recaptchaV3Token,recaptchaV3Token,LKUS_register,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:39,2026-07-28T10:03:56,来源:参数自动收集,7
+441,reviewRepeat,reviewRepeat,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-07-28T10:03:56,来源:参数自动收集,8
+442,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_login,LKUS,0,auto collect,2026-09-02T10:46:18,2026-07-28T10:03:56,来源:参数自动收集,8
+443,recaptchaV3Action,recaptchaV3Action,LKUS_login,LKUS,0,auto collect,2026-09-02T10:46:18,2026-07-28T10:03:56,来源:参数自动收集,7
+444,recaptchaV3Token,recaptchaV3Token,LKUS_login,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:44,2026-07-28T10:03:56,来源:参数自动收集,7
+445,reviewRepeat,reviewRepeat,LKUS_login,LKUS,0,auto collect,2026-09-02T10:46:18,2026-07-28T10:03:56,来源:参数自动收集,8
+446,recaptchaV3Token,recaptchaV3Token,LKUS_grant_new_user_coupon,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:48,2026-07-28T10:03:56,来源:参数自动收集,7
+447,reviewRepeat,reviewRepeat,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T10:03:56,来源:参数自动收集,8
+448,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T10:03:56,来源:参数自动收集,8
+449,recaptchaV3Action,recaptchaV3Action,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T10:03:56,来源:参数自动收集,7
+450,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-07-28T10:35:44,来源:参数自动收集,8
+451,recaptchaV3Action,recaptchaV3Action,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-07-28T10:35:44,来源:参数自动收集,7
+452,recaptchaV3Token,recaptchaV3Token,IQA2_login,IQA2,0,auto collect,2026-07-28T10:35:44,2026-07-28T10:35:44,来源:参数自动收集,0
+453,reviewRepeat,reviewRepeat,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-07-28T10:35:44,来源:参数自动收集,8
+454,extend-inviterCode,extend-inviterCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T11:04:19,来源:参数自动收集,7
+455,extend-invitationActivityNo,extend-invitationActivityNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T11:04:19,来源:参数自动收集,7
+456,extend-marketingCode,extend-marketingCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-07-28T11:04:20,来源:参数自动收集,7
+457,extend-inviterType,extend-inviterType,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T11:04:20,来源:参数自动收集,1
+458,extend-inviterUserNo,extend-inviterUserNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T11:04:20,来源:参数自动收集,7
+459,extend-inviterPhone,extend-inviterPhone,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:15,2026-07-28T11:04:20,来源:参数自动收集,7
+460,recaptchaV3Token,recaptchaV3Token,LKUS_physical_order_create,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:34,2026-07-28T11:21:54,来源:参数自动收集,7
+461,reviewRepeat,reviewRepeat,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-07-28T11:21:54,来源:参数自动收集,8
+462,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-07-28T11:21:54,来源:参数自动收集,8
+463,recaptchaV3Action,recaptchaV3Action,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-07-28T11:21:54,来源:参数自动收集,7
+464,recaptchaV3Token,recaptchaV3Token,LKUS_payment,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:30,2026-07-28T11:21:56,来源:参数自动收集,7
+465,reviewRepeat,reviewRepeat,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2026-07-28T11:21:56,来源:参数自动收集,8
+466,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2026-07-28T11:21:56,来源:参数自动收集,8
+467,recaptchaV3Action,recaptchaV3Action,LKUS_payment,LKUS,0,auto collect,2026-09-02T11:00:16,2026-07-28T11:21:56,来源:参数自动收集,7
+468,recaptchaV3Token,recaptchaV3Token,LKUS_physical_order_cancel,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:25,2026-07-28T12:03:39,来源:参数自动收集,7
+469,reviewRepeat,reviewRepeat,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-07-28T12:03:39,来源:参数自动收集,8
+470,recaptchaV3Enabled,recaptchaV3Enabled,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-07-28T12:03:39,来源:参数自动收集,8
+471,recaptchaV3Action,recaptchaV3Action,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-07-28T12:03:39,来源:参数自动收集,7
+472,isGuest,isGuest,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,8
+473,phoneNo,phoneNo,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+474,uid,uid,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+475,realIpProvince,realIpProvince,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+476,countryCode,countryCode,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+477,recaptchaV3Token,recaptchaV3Token,LKUS_captcha,LKUS,0,zhiweitian(zhiwei),2026-09-13T02:35:19,2026-07-28T12:27:43,来源:参数自动收集,7
+478,realIpCountry,realIpCountry,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+479,eventName,eventName,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+480,reviewRepeat,reviewRepeat,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,8
+481,tenant,tenant,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+482,realIp,realIp,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+483,phoneNoHead7,phoneNoHead7,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+484,recaptchaV3Action,recaptchaV3Action,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+485,verifyCodeTypeName,verifyCodeTypeName,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+486,userAgent,userAgent,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+487,version,version,LKUS_captcha,LKUS,0,zhiweitian(zhiwei),2026-07-29T02:07:57,2026-07-28T12:27:43,来源:参数自动收集,7
+488,verifyCodeType,verifyCodeType,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,1
+489,uuidKey,uuidKey,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+490,realIpCity,realIpCity,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+491,realIpc,realIpc,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+492,phoneNoMd5,phoneNoMd5,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,7
+493,cid,cid,LKUS_captcha,LKUS,0,zhiweitian(zhiwei),2026-08-13T05:52:46,2026-07-28T12:27:43,来源:参数自动收集,7
+494,accessTime,accessTime,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-07-28T12:27:43,来源:参数自动收集,3
+495,userNo,userNo,LKUS_captcha,LKUS,0,auto collect,2026-09-03T02:58:30,2026-07-28T12:30:00,来源:参数自动收集,7
+496,recaptchaV3Token,recaptchaV3Token,IQA2_physical_order_create,IQA2,0,auto collect,2026-07-28T13:20:27,2026-07-28T13:20:27,来源:参数自动收集,0
+497,reviewRepeat,reviewRepeat,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-07-28T13:20:27,来源:参数自动收集,8
+498,recaptchaV3Action,recaptchaV3Action,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-07-28T13:20:27,来源:参数自动收集,7
+499,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-07-28T13:20:27,来源:参数自动收集,8
+500,recaptchaV3Token,recaptchaV3Token,IQA2_payment,IQA2,0,auto collect,2026-07-28T13:20:31,2026-07-28T13:20:31,来源:参数自动收集,0
+501,reviewRepeat,reviewRepeat,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-07-28T13:20:31,来源:参数自动收集,8
+502,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-07-28T13:20:31,来源:参数自动收集,8
+503,recaptchaV3Action,recaptchaV3Action,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-07-28T13:20:31,来源:参数自动收集,7
+504,recaptchaV3Token,recaptchaV3Token,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-08-05T05:35:53,2026-08-05T05:35:53,来源:参数自动收集,0
+505,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-08-05T05:35:53,来源:参数自动收集,8
+506,reviewRepeat,reviewRepeat,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-08-05T05:35:53,来源:参数自动收集,8
+507,recaptchaV3Action,recaptchaV3Action,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-08-05T05:35:53,来源:参数自动收集,7
+508,recaptchaV3Action,recaptchaV3Action,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-06T03:10:40,来源:参数自动收集,7
+509,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-06T03:10:40,来源:参数自动收集,8
+510,recaptchaV3Token,recaptchaV3Token,IQA2_register,IQA2,0,auto collect,2026-08-06T03:10:40,2026-08-06T03:10:40,来源:参数自动收集,0
+511,reviewRepeat,reviewRepeat,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-06T03:10:40,来源:参数自动收集,8
+512,recaptchaV3Token,recaptchaV3Token,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-08-06T03:10:40,2026-08-06T03:10:40,来源:参数自动收集,0
+513,reviewRepeat,reviewRepeat,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-06T03:10:40,来源:参数自动收集,8
+514,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-06T03:10:40,来源:参数自动收集,8
+515,recaptchaV3Action,recaptchaV3Action,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-06T03:10:40,来源:参数自动收集,7
+516,email,email,LKUS_captcha,LKUS,0,auto collect,2026-08-06T06:07:14,2026-08-06T06:07:14,来源:参数自动收集,0
+517,shumengDevId,shumengDevId,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:29:04,2026-08-17T11:13:17,来源:参数自动收集,7
+518,shumeiDevId,shumeiDevId,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:29:04,2026-08-17T11:13:17,来源:参数自动收集,7
+519,tongdunBlackBox,tongdunBlackBox,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:29:04,2026-08-17T11:13:17,来源:参数自动收集,7
+520,fullPhoneNo,fullPhoneNo,LKUS_push,LKUS,0,auto collect,2026-09-02T10:03:00,2026-08-18T08:58:12,来源:参数自动收集,7
+521,thirdPartyUnionId,三方unionId,LKUS_register,LKUS,0,HONGPENGLIN (linhongpeng),2026-08-18T09:05:27,2026-08-18T09:05:27,,7
+522,fullPhoneNo,fullPhoneNo,LKUS_login,LKUS,0,auto collect,2026-09-02T10:36:34,2026-08-18T09:10:21,来源:参数自动收集,7
+523,fullPhoneNo,fullPhoneNo,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-02T11:00:13,2026-08-18T09:24:03,来源:参数自动收集,7
+524,fullPhoneNo,fullPhoneNo,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-03T06:20:34,2026-08-18T09:45:35,来源:参数自动收集,7
+525,thirdPartyUnionId,三方unionId,IQA2_register,IQA2,0,HONGPENGLIN (linhongpeng),2026-08-18T09:47:47,2026-08-18T09:47:47,,7
+526,fullPhoneNo,fullPhoneNo,LKUS_register,LKUS,0,auto collect,2026-09-02T10:03:12,2026-08-18T10:10:36,来源:参数自动收集,7
+527,fullPhoneNo,fullPhoneNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-02T10:53:14,2026-08-18T10:10:36,来源:参数自动收集,7
+528,fullPhoneNo,fullPhoneNo,LKUS_payment,LKUS,0,auto collect,2026-09-02T10:21:34,2026-08-18T11:00:39,来源:参数自动收集,7
+529,fullPhoneNo,fullPhoneNo,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-02T11:22:11,2026-08-18T11:14:34,来源:参数自动收集,7
+530,fullPhoneNo,fullPhoneNo,LKUS_captcha,LKUS,0,auto collect,2026-09-02T13:08:21,2026-08-18T12:44:37,来源:参数自动收集,7
+531,fullPhoneNo,fullPhoneNo,IQA2_push,IQA2,0,auto collect,2026-09-03T06:17:44,2026-08-24T07:00:16,来源:参数自动收集,7
+532,fullPhoneNo,fullPhoneNo,IQA2_login,IQA2,0,auto collect,2026-09-03T06:18:23,2026-08-24T07:00:30,来源:参数自动收集,7
+533,fullPhoneNo,fullPhoneNo,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2026-08-25T06:32:39,来源:参数自动收集,7
+534,recaptchaV3Token,recaptchaV3Token,IQA2_virtual_order_create,IQA2,0,auto collect,2026-08-25T06:32:39,2026-08-25T06:32:39,来源:参数自动收集,0
+535,reviewRepeat,reviewRepeat,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:46,2026-08-25T06:32:39,来源:参数自动收集,8
+536,recaptchaV3Enabled,recaptchaV3Enabled,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2026-08-25T06:32:39,来源:参数自动收集,8
+537,recaptchaV3Action,recaptchaV3Action,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-03T09:48:47,2026-08-25T06:32:39,来源:参数自动收集,7
+538,fullPhoneNo,fullPhoneNo,IQA2_payment,IQA2,0,auto collect,2026-09-03T06:20:34,2026-08-25T06:32:39,来源:参数自动收集,7
+539,shumengDevId,shumengDevId,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-21T07:24:10,2026-08-25T11:46:37,来源:参数自动收集,7
+540,fullPhoneNo,fullPhoneNo,IQA2_register,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-31T12:41:22,来源:参数自动收集,7
+541,fullPhoneNo,fullPhoneNo,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-10T07:44:47,2026-08-31T12:41:22,来源:参数自动收集,7
+542,fullPhoneNo,fullPhoneNo,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-03T06:28:57,2026-08-31T14:33:22,来源:参数自动收集,7
+911,email,email,LKUS_register,LKUS,0,auto collect,2026-09-08T03:21:50,2026-09-08T03:21:50,来源:参数自动收集,7
+912,email,email,LKUS_login,LKUS,0,auto collect,2026-09-08T03:21:50,2026-09-08T03:21:50,来源:参数自动收集,7
+973,phoneCountry,phoneCountry,LKUS_push,LKUS,0,auto collect,2026-09-15T06:48:30,2026-09-15T06:48:30,来源:参数自动收集,7
+974,phoneCountry,phoneCountry,LKUS_physical_order_create,LKUS,0,auto collect,2026-09-15T06:49:02,2026-09-15T06:49:02,来源:参数自动收集,7
+975,phoneCountry,phoneCountry,LKUS_register,LKUS,0,auto collect,2026-09-15T07:09:49,2026-09-15T07:09:49,来源:参数自动收集,7
+976,phoneCountry,phoneCountry,LKUS_login,LKUS,0,auto collect,2026-09-15T07:09:49,2026-09-15T07:09:49,来源:参数自动收集,7
+977,phoneCountry,phoneCountry,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-15T07:09:49,2026-09-15T07:09:49,来源:参数自动收集,7
+978,phoneCountry,phoneCountry,IQA2_physical_order_create,IQA2,0,auto collect,2026-09-15T07:25:36,2026-09-15T07:25:36,来源:参数自动收集,7
+979,phoneCountry,phoneCountry,IQA2_payment,IQA2,0,auto collect,2026-09-15T07:25:38,2026-09-15T07:25:38,来源:参数自动收集,7
+980,phoneCountry,phoneCountry,IQA2_push,IQA2,0,auto collect,2026-09-15T07:43:22,2026-09-15T07:43:22,来源:参数自动收集,7
+981,phoneCountry,phoneCountry,IQA2_login,IQA2,0,auto collect,2026-09-15T07:43:47,2026-09-15T07:43:47,来源:参数自动收集,7
+982,phoneCountry,phoneCountry,IQA2_physical_order_cancel,IQA2,0,auto collect,2026-09-15T07:50:53,2026-09-15T07:50:53,来源:参数自动收集,7
+983,phoneCountry,phoneCountry,LKUS_payment,LKUS,0,auto collect,2026-09-15T11:00:28,2026-09-15T11:00:28,来源:参数自动收集,7
+984,phoneCountry,phoneCountry,LKUS_physical_order_cancel,LKUS,0,auto collect,2026-09-15T11:12:43,2026-09-15T11:12:43,来源:参数自动收集,7
+985,phoneCountry,phoneCountry,LKUS_captcha,LKUS,0,auto collect,2026-09-15T12:14:58,2026-09-15T12:14:58,来源:参数自动收集,7
+986,phoneCountry,phoneCountry,IQA2_register,IQA2,0,auto collect,2026-09-16T09:19:29,2026-09-16T09:19:29,来源:参数自动收集,7
+987,phoneCountry,phoneCountry,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-16T09:19:30,2026-09-16T09:19:30,来源:参数自动收集,7
+988,app,app,LKUS_captcha,LKUS,0,auto collect,2026-09-16T11:38:45,2026-09-16T11:38:45,来源:参数自动收集,7
+990,phoneCountry,phoneCountry,IQA2_virtual_order_create,IQA2,0,auto collect,2026-09-17T10:31:56,2026-09-17T10:31:56,来源:参数自动收集,7
+991,templateNos,templateNos,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+992,couponTypes,couponTypes,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+993,origin,origin,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,1
+994,maskPhoneNo,maskPhoneNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+995,type,type,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,1
+996,couponDiscountTypes,couponDiscountTypes,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+997,isBindPhone,isBindPhone,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,8
+998,discounts,discounts,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+999,couponDiscountTypeNames,couponDiscountTypeNames,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1000,phoneNoEncryption,phoneNoEncryption,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1001,couponNames,couponNames,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1002,invitationCode,invitationCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1003,readmes,readmes,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1004,templateIds,templateIds,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1005,registerTime,registerTime,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,3
+1006,couponDenominations,couponDenominations,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1007,discountLabels,discountLabels,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1008,couponDiscountSubTypes,couponDiscountSubTypes,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T08:32:03,2026-09-18T08:32:03,来源:参数自动收集,7
+1009,invitationActivityNo,invitationActivityNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T11:48:43,2026-09-18T11:48:43,来源:参数自动收集,7
+1010,marketingCode,marketingCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T11:48:43,2026-09-18T11:48:43,来源:参数自动收集,7
+1011,inviterType,inviterType,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T11:48:43,2026-09-18T11:48:43,来源:参数自动收集,1
+1012,inviterCode,inviterCode,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T11:48:43,2026-09-18T11:48:43,来源:参数自动收集,7
+1013,inviterUserNo,inviterUserNo,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T11:48:43,2026-09-18T11:48:43,来源:参数自动收集,7
+1014,inviterPhone,inviterPhone,LKUS_grant_new_user_coupon,LKUS,0,auto collect,2026-09-18T11:48:43,2026-09-18T11:48:43,来源:参数自动收集,7
+1018,templateNos,templateNos,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1019,couponTypes,couponTypes,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1020,origin,origin,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,1
+1021,maskPhoneNo,maskPhoneNo,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1022,type,type,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,1
+1023,couponDiscountTypes,couponDiscountTypes,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1024,isBindPhone,isBindPhone,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,8
+1025,discounts,discounts,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1026,couponDiscountTypeNames,couponDiscountTypeNames,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1027,phoneNoEncryption,phoneNoEncryption,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1028,couponNames,couponNames,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1029,invitationCode,invitationCode,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1030,readmes,readmes,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1031,templateIds,templateIds,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1032,registerTime,registerTime,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,3
+1033,couponDenominations,couponDenominations,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1034,discountLabels,discountLabels,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7
+1035,couponDiscountSubTypes,couponDiscountSubTypes,IQA2_grant_new_user_coupon,IQA2,0,auto collect,2026-09-21T07:46:50,2026-09-21T07:46:50,来源:参数自动收集,7

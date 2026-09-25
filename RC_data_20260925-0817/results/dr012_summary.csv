@@ -1,0 +1,5 @@
+cid,app_state,rows,distinct_phones,distinct_uids,distinct_ip_c
+105,absent,2289,646,269,87
+105,present,22002,7455,2687,1270
+106,absent,31,30,29,28
+106,present,5793,5234,5078,1506

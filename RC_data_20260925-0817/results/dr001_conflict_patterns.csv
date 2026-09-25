@@ -1,0 +1,3 @@
+period,has_pass,has_reject,has_review,top_result,max_pass_prio,max_reject_prio,engine_result,final_result,n
+A: 08-25..09-07,0.0,1.0,1.0,REJECT,,10000.0,REJECT,REJECT,92
+C: 09-09..09-24,0.0,1.0,1.0,REJECT,,10000.0,REJECT,REJECT,283

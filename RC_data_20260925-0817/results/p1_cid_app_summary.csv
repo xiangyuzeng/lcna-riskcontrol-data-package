@@ -1,0 +1,7 @@
+cid,app,cid_origin,PASS,REJECT,REVIEW,total,pass_share
+105,iusluckyclientandroid,MEM_ANDROID_US,8348,13658,0,22006,0.3794
+106,iusluckyclientios,MEM_IOS_US,5786,28,0,5814,0.9952
+105,<absent>,MEM_ANDROID_US,818,1471,0,2289,0.3574
+108,<absent>,MEM_H5_US,1001,111,62,1174,0.8526
+702,<absent>,SELF_SERVICE_MACHINE_US,518,0,0,518,1.0
+106,<absent>,MEM_IOS_US,31,0,0,31,1.0

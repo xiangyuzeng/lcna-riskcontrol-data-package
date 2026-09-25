@@ -1,0 +1,2 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-iehr-rw,table,luckyus_iehr,t_ehr_overseas_report_blacklist,,出境员工汇报关系同步黑名单

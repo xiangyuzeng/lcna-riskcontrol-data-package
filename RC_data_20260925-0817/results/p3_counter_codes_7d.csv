@@ -1,0 +1,36 @@
+feature_id,feature_name,code,rows,share
+feature_53Ck9TgChpTW,IP近5分钟关联的手机号个数,SUCCESS,31235,1.0
+feature_6qwgYPGGuJZ4,IPC段近10分钟关联的手机号个数,SUCCESS,31235,1.0
+feature_7DbBgowc2mEl,IP近1分钟的访问次数,SUCCESS,31235,1.0
+feature_9EHsNcVBo6IN,IPC段近1天关联的国家区号个数,SUCCESS,31235,1.0
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,COUNTER_FEATURE_DIMENSION_EMPTY,21214,0.7875
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,SUCCESS,5726,0.2125
+feature_Fik6gvwY1tA6,手机号近1天的访问次数,SUCCESS,31807,1.0
+feature_Gwh0jqPAdVNL,uid近1天关联的手机号个数,SUCCESS,9890,1.0
+feature_IPwzfPamC8eW,同手机号30分钟关联的IP city个数,SUCCESS,31235,1.0
+feature_JaT2oyzVtD0q,手机号近1分钟的访问次数,SUCCESS,31235,1.0
+feature_KtSZtJ9w7f9r,IPC段近1分钟关联的手机号个数,SUCCESS,31235,1.0
+feature_OE4u7WlFb1BT,uid近1天关联的IP国家个数,SUCCESS,9890,1.0
+feature_SdA1CjZvNCMG,区号近1分钟的访问次数,SUCCESS,31235,1.0
+feature_TGPe0mjAPwR5,IP近60分钟关联的国家区号个数,SUCCESS,31235,1.0
+feature_UOJYBEifd5Jn,区号近60分钟的访问次数,SUCCESS,31235,1.0
+feature_VItdlLjtEYnQ,IPC段近1天关联的手机号个数,SUCCESS,31235,1.0
+feature_Wg4dZ6VJBuTb,IP近1分钟关联的手机号个数,SUCCESS,31235,1.0
+feature_WxHUxqIN0IuS,同IP近5分钟的访问次数,SUCCESS,31235,1.0
+feature_YkpmaKaJhcdG,区号近1天内的访问次数,SUCCESS,31235,1.0
+feature_Ym70ZsfxQKSc,一分钟请求量,SUCCESS,31235,1.0
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,COUNTER_FEATURE_DIMENSION_EMPTY,21210,0.7873
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,SUCCESS,5730,0.2127
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,COUNTER_FEATURE_CONDITION_MISS,22776,0.7292
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,SUCCESS,8459,0.2708
+feature_dtoJoDcUgCcr,同区号近60分钟对应手机号个数,SUCCESS,31235,1.0
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,COUNTER_FEATURE_CONDITION_MISS,2356,0.0754
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,COUNTER_FEATURE_PARAMS_ERROR,28499,0.9124
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,SUCCESS,380,0.0122
+feature_hspErCH8fSCE,手机号近30分钟的访问次数,SUCCESS,31235,1.0
+feature_lydpDiga6SB9,手机号近5分钟的访问次数,SUCCESS,31235,1.0
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,COUNTER_FEATURE_CONDITION_MISS,15085,0.483
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,SUCCESS,16150,0.517
+feature_nnsdzZLQKPZ7,IP近10分钟关联的手机号个数,SUCCESS,31235,1.0
+feature_pf88qk27w76j,区号近5分钟的访问次数,SUCCESS,31235,1.0
+feature_r1bhlQnbfRHb,IP近60分钟关联的手机号个数,SUCCESS,31235,1.0

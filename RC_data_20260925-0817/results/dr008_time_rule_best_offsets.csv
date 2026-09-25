@@ -1,0 +1,7 @@
+rule_id,condition,offset_hours_vs_utc,rows,agreement,rows_within_10min_of_boundary,agreement_within_10min
+rule_z6WO6Vs09gzT,TIME_AFTER 02:00,0,36753,1.0,300,1.0
+rule_kM0EcVvhiAiD,TIME_BEFORE 09:00,0,36753,1.0,569,1.0
+rule_z6WO6Vs09gzT,TIME_AFTER 02:00,-1,36753,0.93758,406,0.46305
+rule_kM0EcVvhiAiD,TIME_BEFORE 09:00,-1,36753,0.92447,428,0.46963
+rule_z6WO6Vs09gzT,TIME_AFTER 02:00,1,36753,0.92406,340,0.39412
+rule_kM0EcVvhiAiD,TIME_BEFORE 09:00,1,36753,0.91797,514,0.50973

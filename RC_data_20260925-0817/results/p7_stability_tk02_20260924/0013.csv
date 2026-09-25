@@ -1,0 +1,4 @@
+shard,window_start_utc,level,final_result,cc,pv,uv_phones
+0013,2026-09-24 04:00:00,group,REJECT,386,3,
+0013,2026-09-24 04:00:00,group,REJECT,375,2,
+0013,2026-09-24 04:00:00,window,,,5,3

@@ -1,0 +1,7 @@
+shard,scene_id,n,bytes_request_engine,bytes_response_engine,bytes_feature_detail,bytes_rule_detail,bytes_request,bytes_response
+0037,LKUS_push,57,227563.0,1561814.0,694782.0,792867.0,216075.0,8857.0
+0037,LKUS_physical_order_create,114,145300.0,577226.0,249241.0,303663.0,196855.0,8550.0
+0037,LKUS_payment,111,87429.0,591227.0,242185.0,295887.0,98174.0,8325.0
+0037,LKUS_login,19,12144.0,94565.0,42169.0,49085.0,8292.0,1425.0
+0037,LKUS_register,5,3127.0,21600.0,10680.0,10265.0,2087.0,375.0
+0037,LKUS_grant_new_user_coupon,14,46210.0,60942.0,30212.0,28742.0,26551.0,1050.0

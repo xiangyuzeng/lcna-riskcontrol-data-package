@@ -1,0 +1,12 @@
+id,select_type,table,partitions,type,possible_keys,key,key_len,ref,rows,filtered,Extra
+1,PRIMARY,<derived2>,,ALL,,,,,18,100.0,Using temporary
+2,DERIVED,t_access_log_0000,,range,idx_create_time_sharding_key,idx_create_time_sharding_key,5,,188,10.0,Using index condition; Using where
+11,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary
+10,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary
+9,DEPENDENT SUBQUERY,h,,ref,<auto_key0>,<auto_key0>,259,func,2,100.0,Table function: json_table; Using temporary; Using where
+8,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary; Using filesort
+7,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary; Using filesort
+6,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary
+5,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary
+4,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary
+3,DEPENDENT SUBQUERY,h,,ALL,,,,,2,100.0,Table function: json_table; Using temporary

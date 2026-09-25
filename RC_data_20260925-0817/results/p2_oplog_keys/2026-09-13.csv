@@ -1,0 +1,17 @@
+module,src,json_key,n
+规则管理,before_data,rows,4
+规则管理,before_data,total,4
+策略管理,before_data,rows,6
+策略管理,before_data,total,6
+规则管理,after_data,rows,4
+规则管理,after_data,total,4
+策略管理,after_data,rows,6
+策略管理,after_data,total,6
+规则管理,request_params,url,4
+规则管理,request_params,method,4
+规则管理,request_params,urlParams,4
+规则管理,request_params,bodyParams,4
+策略管理,request_params,url,6
+策略管理,request_params,method,6
+策略管理,request_params,urlParams,6
+策略管理,request_params,bodyParams,6

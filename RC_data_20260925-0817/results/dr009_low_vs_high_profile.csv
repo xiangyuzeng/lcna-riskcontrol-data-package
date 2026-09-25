@@ -1,0 +1,230 @@
+score_band,dimension,value,rows,share_within_band
+high (>=0.8),app_state,present,19048,0.9515
+high (>=0.8),app_state,absent,971,0.0485
+low (<0.3),app_state,present,4542,0.9982
+low (<0.3),app_state,absent,8,0.0018
+mid,app_state,present,519,0.9351
+mid,app_state,absent,36,0.0649
+high (>=0.8),cc_group,other,13549,0.6768
+high (>=0.8),cc_group,+1,6389,0.3191
+high (>=0.8),cc_group,+86,81,0.004
+low (<0.3),cc_group,other,4476,0.9837
+low (<0.3),cc_group,+1,62,0.0136
+low (<0.3),cc_group,+86,12,0.0026
+mid,cc_group,+1,324,0.5838
+mid,cc_group,other,218,0.3928
+mid,cc_group,+86,13,0.0234
+high (>=0.8),cid,105,13855,0.6921
+high (>=0.8),cid,106,5193,0.2594
+high (>=0.8),cid,108,971,0.0485
+low (<0.3),cid,105,4493,0.9875
+low (<0.3),cid,106,49,0.0108
+low (<0.3),cid,108,8,0.0018
+mid,cid,106,326,0.5874
+mid,cid,105,193,0.3477
+mid,cid,108,36,0.0649
+high (>=0.8),final_result,PASS,13153,0.657
+high (>=0.8),final_result,REJECT,6821,0.3407
+high (>=0.8),final_result,REVIEW,45,0.0022
+low (<0.3),final_result,REJECT,4487,0.9862
+low (<0.3),final_result,PASS,63,0.0138
+mid,final_result,PASS,461,0.8306
+mid,final_result,REJECT,92,0.1658
+mid,final_result,REVIEW,2,0.0036
+high (>=0.8),ip_country,美国,10035,0.5013
+high (>=0.8),ip_country,巴基斯坦,3271,0.1634
+high (>=0.8),ip_country,德国,1360,0.0679
+high (>=0.8),ip_country,新加坡,611,0.0305
+high (>=0.8),ip_country,英国,352,0.0176
+high (>=0.8),ip_country,法国,307,0.0153
+high (>=0.8),ip_country,马来西亚,247,0.0123
+high (>=0.8),ip_country,日本,237,0.0118
+high (>=0.8),ip_country,加拿大,221,0.011
+high (>=0.8),ip_country,荷兰,177,0.0088
+high (>=0.8),ip_country,中国,163,0.0081
+high (>=0.8),ip_country,波兰,150,0.0075
+high (>=0.8),ip_country,墨西哥,139,0.0069
+high (>=0.8),ip_country,巴西,138,0.0069
+high (>=0.8),ip_country,保加利亚,133,0.0066
+high (>=0.8),ip_country,乌克兰,127,0.0063
+high (>=0.8),ip_country,印度尼西亚,123,0.0061
+high (>=0.8),ip_country,西班牙,121,0.006
+high (>=0.8),ip_country,芬兰,118,0.0059
+high (>=0.8),ip_country,澳大利亚,92,0.0046
+high (>=0.8),ip_country,印度,87,0.0043
+high (>=0.8),ip_country,瑞士,82,0.0041
+high (>=0.8),ip_country,阿根廷,82,0.0041
+high (>=0.8),ip_country,埃及,79,0.0039
+high (>=0.8),ip_country,罗马尼亚,76,0.0038
+high (>=0.8),ip_country,哈萨克斯坦,66,0.0033
+high (>=0.8),ip_country,哥伦比亚,66,0.0033
+high (>=0.8),ip_country,阿联酋,66,0.0033
+high (>=0.8),ip_country,丹麦,59,0.0029
+high (>=0.8),ip_country,孟加拉,58,0.0029
+high (>=0.8),ip_country,瑞典,57,0.0028
+high (>=0.8),ip_country,爱沙尼亚,55,0.0027
+high (>=0.8),ip_country,奥地利,44,0.0022
+high (>=0.8),ip_country,巴林,43,0.0021
+high (>=0.8),ip_country,越南,43,0.0021
+high (>=0.8),ip_country,菲律宾,41,0.002
+high (>=0.8),ip_country,希腊,40,0.002
+high (>=0.8),ip_country,斯洛伐克,40,0.002
+high (>=0.8),ip_country,厄瓜多尔,39,0.0019
+high (>=0.8),ip_country,智利,37,0.0018
+high (>=0.8),ip_country,泰国,37,0.0018
+high (>=0.8),ip_country,玻利维亚,37,0.0018
+high (>=0.8),ip_country,比利时,36,0.0018
+high (>=0.8),ip_country,意大利,35,0.0017
+high (>=0.8),ip_country,以色列,34,0.0017
+high (>=0.8),ip_country,韩国,33,0.0016
+high (>=0.8),ip_country,柬埔寨,31,0.0015
+high (>=0.8),ip_country,哥斯达黎加,29,0.0014
+high (>=0.8),ip_country,捷克,29,0.0014
+high (>=0.8),ip_country,阿曼,29,0.0014
+high (>=0.8),ip_country,挪威,27,0.0013
+high (>=0.8),ip_country,卡塔尔,26,0.0013
+high (>=0.8),ip_country,俄罗斯,25,0.0012
+high (>=0.8),ip_country,南非,24,0.0012
+high (>=0.8),ip_country,冈比亚,19,0.0009
+high (>=0.8),ip_country,巴拿马,19,0.0009
+high (>=0.8),ip_country,科特迪瓦,19,0.0009
+high (>=0.8),ip_country,卢森堡,16,0.0008
+high (>=0.8),ip_country,缅甸,16,0.0008
+high (>=0.8),ip_country,尼泊尔,15,0.0007
+high (>=0.8),ip_country,格鲁吉亚,15,0.0007
+high (>=0.8),ip_country,阿尔巴尼亚,15,0.0007
+high (>=0.8),ip_country,斯洛文尼亚,14,0.0007
+high (>=0.8),ip_country,危地马拉,13,0.0006
+high (>=0.8),ip_country,塞尔维亚,11,0.0005
+high (>=0.8),ip_country,巴拉圭,11,0.0005
+high (>=0.8),ip_country,波多黎各,11,0.0005
+high (>=0.8),ip_country,伊拉克,10,0.0005
+high (>=0.8),ip_country,巴勒斯坦,10,0.0005
+high (>=0.8),ip_country,沙特阿拉伯,9,0.0004
+high (>=0.8),ip_country,爱尔兰,9,0.0004
+high (>=0.8),ip_country,乌拉圭,8,0.0004
+high (>=0.8),ip_country,克罗地亚,8,0.0004
+high (>=0.8),ip_country,拉脱维亚,7,0.0003
+high (>=0.8),ip_country,波黑,7,0.0003
+high (>=0.8),ip_country,委内瑞拉,6,0.0003
+high (>=0.8),ip_country,尼日利亚,6,0.0003
+high (>=0.8),ip_country,新西兰,6,0.0003
+high (>=0.8),ip_country,立陶宛,6,0.0003
+high (>=0.8),ip_country,葡萄牙,4,0.0002
+high (>=0.8),ip_country,马耳他,4,0.0002
+high (>=0.8),ip_country,塞浦路斯,3,0.0001
+high (>=0.8),ip_country,冰岛,2,0.0001
+high (>=0.8),ip_country,匈牙利,2,0.0001
+high (>=0.8),ip_country,吉尔吉斯斯坦,2,0.0001
+high (>=0.8),ip_country,肯尼亚,2,0.0001
+low (<0.3),ip_country,巴基斯坦,1464,0.3218
+low (<0.3),ip_country,美国,1162,0.2554
+low (<0.3),ip_country,德国,671,0.1475
+low (<0.3),ip_country,荷兰,192,0.0422
+low (<0.3),ip_country,英国,133,0.0292
+low (<0.3),ip_country,新加坡,130,0.0286
+low (<0.3),ip_country,法国,120,0.0264
+low (<0.3),ip_country,波兰,79,0.0174
+low (<0.3),ip_country,乌克兰,53,0.0116
+low (<0.3),ip_country,巴西,40,0.0088
+low (<0.3),ip_country,西班牙,35,0.0077
+low (<0.3),ip_country,中国,32,0.007
+low (<0.3),ip_country,保加利亚,25,0.0055
+low (<0.3),ip_country,阿联酋,22,0.0048
+low (<0.3),ip_country,捷克,21,0.0046
+low (<0.3),ip_country,罗马尼亚,21,0.0046
+low (<0.3),ip_country,马来西亚,20,0.0044
+low (<0.3),ip_country,印度尼西亚,18,0.004
+low (<0.3),ip_country,澳大利亚,16,0.0035
+low (<0.3),ip_country,比利时,15,0.0033
+low (<0.3),ip_country,加拿大,14,0.0031
+low (<0.3),ip_country,印度,14,0.0031
+low (<0.3),ip_country,墨西哥,13,0.0029
+low (<0.3),ip_country,孟加拉,13,0.0029
+low (<0.3),ip_country,瑞士,13,0.0029
+low (<0.3),ip_country,芬兰,13,0.0029
+low (<0.3),ip_country,科特迪瓦,12,0.0026
+low (<0.3),ip_country,巴拿马,11,0.0024
+low (<0.3),ip_country,瑞典,10,0.0022
+low (<0.3),ip_country,丹麦,9,0.002
+low (<0.3),ip_country,日本,9,0.002
+low (<0.3),ip_country,塞尔维亚,7,0.0015
+low (<0.3),ip_country,意大利,7,0.0015
+low (<0.3),ip_country,斯洛伐克,7,0.0015
+low (<0.3),ip_country,玻利维亚,7,0.0015
+low (<0.3),ip_country,阿根廷,7,0.0015
+low (<0.3),ip_country,卢森堡,6,0.0013
+low (<0.3),ip_country,哥伦比亚,6,0.0013
+low (<0.3),ip_country,立陶宛,6,0.0013
+low (<0.3),ip_country,匈牙利,5,0.0011
+low (<0.3),ip_country,南非,5,0.0011
+low (<0.3),ip_country,挪威,5,0.0011
+low (<0.3),ip_country,乌拉圭,4,0.0009
+low (<0.3),ip_country,克罗地亚,4,0.0009
+low (<0.3),ip_country,危地马拉,4,0.0009
+low (<0.3),ip_country,哈萨克斯坦,4,0.0009
+low (<0.3),ip_country,埃及,4,0.0009
+low (<0.3),ip_country,巴拉圭,4,0.0009
+low (<0.3),ip_country,斯洛文尼亚,4,0.0009
+low (<0.3),ip_country,新西兰,4,0.0009
+low (<0.3),ip_country,爱沙尼亚,4,0.0009
+low (<0.3),ip_country,冰岛,3,0.0007
+low (<0.3),ip_country,厄瓜多尔,3,0.0007
+low (<0.3),ip_country,塞浦路斯,3,0.0007
+low (<0.3),ip_country,奥地利,3,0.0007
+low (<0.3),ip_country,沙特阿拉伯,3,0.0007
+low (<0.3),ip_country,爱尔兰,3,0.0007
+low (<0.3),ip_country,韩国,3,0.0007
+low (<0.3),ip_country,卡塔尔,2,0.0004
+low (<0.3),ip_country,吉尔吉斯斯坦,2,0.0004
+low (<0.3),ip_country,哥斯达黎加,2,0.0004
+low (<0.3),ip_country,巴林,2,0.0004
+low (<0.3),ip_country,智利,2,0.0004
+low (<0.3),ip_country,越南,2,0.0004
+low (<0.3),ip_country,阿尔巴尼亚,2,0.0004
+low (<0.3),ip_country,以色列,1,0.0002
+low (<0.3),ip_country,伊拉克,1,0.0002
+low (<0.3),ip_country,俄罗斯,1,0.0002
+low (<0.3),ip_country,尼泊尔,1,0.0002
+low (<0.3),ip_country,巴勒斯坦,1,0.0002
+low (<0.3),ip_country,希腊,1,0.0002
+low (<0.3),ip_country,拉脱维亚,1,0.0002
+low (<0.3),ip_country,格鲁吉亚,1,0.0002
+low (<0.3),ip_country,波多黎各,1,0.0002
+low (<0.3),ip_country,泰国,1,0.0002
+low (<0.3),ip_country,菲律宾,1,0.0002
+mid,ip_country,美国,380,0.6847
+mid,ip_country,新加坡,25,0.045
+mid,ip_country,巴基斯坦,20,0.036
+mid,ip_country,德国,13,0.0234
+mid,ip_country,缅甸,13,0.0234
+mid,ip_country,日本,11,0.0198
+mid,ip_country,法国,11,0.0198
+mid,ip_country,中国,9,0.0162
+mid,ip_country,澳大利亚,9,0.0162
+mid,ip_country,马来西亚,7,0.0126
+mid,ip_country,克罗地亚,6,0.0108
+mid,ip_country,爱沙尼亚,6,0.0108
+mid,ip_country,英国,6,0.0108
+mid,ip_country,阿根廷,5,0.009
+mid,ip_country,荷兰,4,0.0072
+mid,ip_country,丹麦,3,0.0054
+mid,ip_country,瑞士,3,0.0054
+mid,ip_country,乌克兰,2,0.0036
+mid,ip_country,厄瓜多尔,2,0.0036
+mid,ip_country,哥伦比亚,2,0.0036
+mid,ip_country,智利,2,0.0036
+mid,ip_country,罗马尼亚,2,0.0036
+mid,ip_country,西班牙,2,0.0036
+mid,ip_country,加拿大,1,0.0018
+mid,ip_country,哥斯达黎加,1,0.0018
+mid,ip_country,埃及,1,0.0018
+mid,ip_country,奥地利,1,0.0018
+mid,ip_country,巴拿马,1,0.0018
+mid,ip_country,巴西,1,0.0018
+mid,ip_country,波兰,1,0.0018
+mid,ip_country,瑞典,1,0.0018
+mid,ip_country,立陶宛,1,0.0018
+mid,ip_country,芬兰,1,0.0018
+mid,ip_country,阿联酋,1,0.0018
+mid,ip_country,韩国,1,0.0018

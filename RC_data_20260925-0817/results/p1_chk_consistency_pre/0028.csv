@@ -1,0 +1,5 @@
+shard,ny_date,result_col,response_result,response_code,re_result_name,re_result_code,cc_col_form,cc_para_form,cc_col_eq_para,full_eq_cc_phone,full_eq_phone,phone_col_eq_para,email_key,email_nonempty,phone_nonempty,uid_nonempty,sk_len,sk_digits,sk_hex32,sk_eq_uid,sk_eq_phone,sk_eq_full,sk_eq_ccphone,sk_eq_user_no_col,sk_eq_phone_col,sk_eq_userno,sk_eq_md5_uid,sk_eq_md5_phone,sk_eq_id,n
+0028,2026-08-17,PASS,PASS,0,PASS,0,plus,plus,1,,,1,0,0,1,1,12,0,0,0,0,,0,,0,,0,0,0,20
+0028,2026-08-17,REJECT,REJECT,2,REJECT,2,plus,plus,1,,,1,0,0,1,1,13,0,0,0,0,,0,,0,,0,0,0,3
+0028,2026-08-17,PASS,PASS,0,PASS,0,plus,plus,1,,,1,0,0,1,1,12,0,0,0,0,,0,0,0,0,0,0,0,1
+0028,2026-08-17,PASS,PASS,0,PASS,0,plus,plus,1,,,1,0,0,1,1,13,0,0,0,0,,0,,0,,0,0,0,1

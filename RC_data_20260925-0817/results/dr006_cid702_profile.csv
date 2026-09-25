@@ -1,0 +1,16 @@
+dimension,value,rows,share
+app,<absent>,518,1.0
+cid_origin,SELF_SERVICE_MACHINE_US,518,1.0
+ua_family,okhttp,518,1.0
+ua_product,okhttp,518,1.0
+version,1.5.0,477,0.9208
+version,1.5.1,35,0.0676
+version,1.4.9,6,0.0116
+cc_group,+1,509,0.9826
+cc_group,+86,6,0.0116
+cc_group,other,3,0.0058
+ip_country,美国,518,1.0
+final_result,PASS,518,1.0
+token_state,absent,518,1.0
+best_strategy_id,strategy_mFkYvDpq4z3W,518,1.0
+n_features,8,518,1.0

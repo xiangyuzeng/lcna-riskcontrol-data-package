@@ -1,0 +1,2 @@
+server,version,read_only,innodb_read_only,n_user_schemas,user_schemas
+aws-luckyus-upush-rw,8.4.9,0,0,10,"[""luckyus_imdmext"", ""luckyus_iupushadmin"", ""luckyus_iupushaid"", ""luckyus_iupushapp"", ""luckyus_iupushemail"", ""luckyus_iupushsms"", ""luckyus_iupushusercenter"", ""luckyus_mdm"", ""luckyus_mdmadmin"", ""backup_tables""]"

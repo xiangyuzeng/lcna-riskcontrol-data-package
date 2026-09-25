@@ -1,0 +1,4 @@
+period,conflict_rows,H1_lowest_priority_wins,H1_lowest_priority_wins_engine,H2_highest_priority_wins,H2_highest_priority_wins_engine,H3_REJECT>REVIEW>PASS,H3_REJECT>REVIEW>PASS_engine,H4_PASS>REJECT>REVIEW,H4_PASS>REJECT>REVIEW_engine,H5_bestStrategyId,H5_bestStrategyId_engine
+A: 08-25..09-07,92,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+C: 09-09..09-24,283,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+all,375,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

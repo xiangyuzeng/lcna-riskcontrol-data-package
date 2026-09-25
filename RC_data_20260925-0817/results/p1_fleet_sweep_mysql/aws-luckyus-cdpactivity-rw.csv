@@ -1,0 +1,22 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_ack_error_rule,blacklist_id,黑名单id
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist,blacklist_channel,"黑名单渠道,多个渠道逗号间隔"
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist,blacklist_name,黑名单名称
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist,blacklist_status,黑名单状态 1 有效 0 无效
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist_detail,blacklist_id,黑名单id
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist_operate_record,blacklist_channel,"黑名单渠道,多个渠道逗号间隔"
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist_operate_record,blacklist_id,黑名单id
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist_operate_record,blacklist_name,黑名单名称
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_blacklist_operate_record,blacklist_status,黑名单状态 1 有效 0 无效
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_retry_sql_scene,scene_id,场景编码
+aws-luckyus-cdpactivity-rw,column,luckyus_cdp_activity,t_contact_retry_task,scene_id,场景编码
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_ack_error_rule,,触达回执异常规则
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_activity_frequency_ctrl_rule,,触达策略频控
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_blacklist,,触达黑名单表
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_blacklist_detail,,触达黑名单明细表
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_blacklist_operate_record,,触达黑名单操作记录表
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_marketing_grant_rule,,触达授权过滤规则
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_marketing_grant_rule_activity_ref,,触达授权过滤规则关联活动表
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_contact_retry_sql_scene,,重试任务SQL场景（对齐国内 t_gmp_task_sql_scene）
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_user_ug_contact_freq_ctrl_rule,,用户客群频控规则（每天刷新）
+aws-luckyus-cdpactivity-rw,table,luckyus_cdp_activity,t_usergroup_contact_frequency_ctrl_rule,,客群触达频控

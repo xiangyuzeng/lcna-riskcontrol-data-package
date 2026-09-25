@@ -1,0 +1,5 @@
+check,rerun,earlier,earlier_source,stable
+"LKUS_push requests, NY 2026-09-24",3225,3225,results/p4_daily_series.csv,True
+"SMS distinct phones, NY 2026-09-24",1845,1845,results/p3_distinct_users.csv,True
+"strategy_REnWrA7CfCdE online hits, NY 2026-09-24",277,277,results/p2_hits_7d.csv,True
+"+1 SMS PASS, NY 2026-09-24",1136,1136,results/p3_pass_by_ccgroup.csv,True

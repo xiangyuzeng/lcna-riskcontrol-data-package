@@ -1,0 +1,3 @@
+test,toolkit,reference,equal
+tk06 strategy_REnWrA7CfCdE hits on 2026-09-24 (extract) vs p2_hits_7d,277,277,True
+tk06 violations (hit but rule false on recomputed counter),0,0,True

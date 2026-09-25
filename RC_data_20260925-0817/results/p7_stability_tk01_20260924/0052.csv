@@ -1,0 +1,12 @@
+shard,window_start_utc,level,cc,final_result,email_key,requests,phones_all,phones_sms,phones_sms_pass,phones_sms_pass_home
+0052,2026-09-24 04:00:00,group,386,REJECT,0,8,,,,
+0052,2026-09-24 04:00:00,group,264,REJECT,0,1,,,,
+0052,2026-09-24 04:00:00,group,265,REJECT,0,1,,,,
+0052,2026-09-24 04:00:00,group,1,PASS,0,23,,,,
+0052,2026-09-24 04:00:00,group,856,REJECT,0,5,,,,
+0052,2026-09-24 04:00:00,group,92,REJECT,0,4,,,,
+0052,2026-09-24 04:00:00,group,265,PASS,0,5,,,,
+0052,2026-09-24 04:00:00,group,92,PASS,0,4,,,,
+0052,2026-09-24 04:00:00,group,34,PASS,0,1,,,,
+0052,2026-09-24 04:00:00,group,213,REJECT,0,2,,,,
+0052,2026-09-24 04:00:00,window,,,,54,31,31,24,20

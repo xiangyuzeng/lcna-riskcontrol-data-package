@@ -1,0 +1,3 @@
+check,cells,mismatching_cells,sql_total,e1_total
+day x cc_group x final_result (all push rows),42,0,31832,31832
+strategy hit PV by list (all push rows),51,0,107644,107644

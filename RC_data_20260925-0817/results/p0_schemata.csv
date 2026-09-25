@@ -1,0 +1,7 @@
+SCHEMA_NAME,DEFAULT_CHARACTER_SET_NAME,DEFAULT_COLLATION_NAME,n_tables
+backup_tables,utf8mb4,utf8mb4_0900_ai_ci,0
+information_schema,utf8mb3,utf8mb3_general_ci,80
+luckyus_iriskcontrolservice,utf8mb4,utf8mb4_0900_ai_ci,159
+mysql,utf8mb4,utf8mb4_0900_ai_ci,48
+performance_schema,utf8mb4,utf8mb4_0900_ai_ci,114
+sys,utf8mb4,utf8mb4_0900_ai_ci,101

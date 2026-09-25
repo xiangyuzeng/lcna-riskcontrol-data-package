@@ -1,0 +1,16 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist,blacklist_channel,"黑名单渠道,多个渠道逗号间隔"
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist,blacklist_name,黑名单名称
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist,blacklist_status,黑名单状态 1 有效 0 无效
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist_detail,blacklist_id,黑名单id
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist_operate_record,blacklist_channel,"黑名单渠道,多个渠道逗号间隔"
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist_operate_record,blacklist_id,黑名单id
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist_operate_record,blacklist_name,黑名单名称
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_contact_blacklist_operate_record,blacklist_status,黑名单状态 1 有效 0 无效
+aws-luckyus-salesmarketing-rw,column,luckyus_sales_marketing,t_terminal_lan_conf,limit_whitelist,限定白名单IDs
+aws-luckyus-salesmarketing-rw,table,luckyus_sales_marketing,t_contact_blacklist,,触达黑名单表
+aws-luckyus-salesmarketing-rw,table,luckyus_sales_marketing,t_contact_blacklist_detail,,触达黑名单明细表
+aws-luckyus-salesmarketing-rw,table,luckyus_sales_marketing,t_contact_blacklist_operate_record,,触达黑名单操作记录表
+aws-luckyus-salesmarketing-rw,table,luckyus_sales_marketing,t_discount_proposal_price_rules,,价格策略规则表
+aws-luckyus-salesmarketing-rw,table,luckyus_sales_marketing,t_discount_proposal_tactic_rules,,商品打折策略规则表
+aws-luckyus-salesmarketing-rw,table,luckyus_sales_marketing,t_market_activity_rule,,活动限制规则

@@ -1,0 +1,17 @@
+module,src,json_key,n
+策略管理,before_data,rows,7
+策略管理,before_data,total,7
+返回码管理,before_data,rows,2
+返回码管理,before_data,total,2
+策略管理,after_data,rows,7
+策略管理,after_data,total,7
+返回码管理,after_data,rows,2
+返回码管理,after_data,total,2
+策略管理,request_params,url,7
+策略管理,request_params,method,7
+策略管理,request_params,urlParams,7
+策略管理,request_params,bodyParams,7
+返回码管理,request_params,url,2
+返回码管理,request_params,method,2
+返回码管理,request_params,urlParams,2
+返回码管理,request_params,bodyParams,2

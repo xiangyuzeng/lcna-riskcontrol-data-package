@@ -1,0 +1,34 @@
+table_name,role,note
+t_access_log_0000,日志（分片）,风控请求日志，64 张同构分片 t_access_log_0000…0063；分片键 sharding_key；create_time 为 UTC；只做带时间谓词的聚合
+t_gateway_validate_log_0000,日志（分片，空）,网关校验日志，64 张同构分片，information_schema 估算 0 行
+t_rms_engine_access,配置（定义表）,接入方；可全量导出（P2）
+t_rms_engine_scene,配置（定义表）,场景；可全量导出（P2）
+t_rms_engine_para,配置（定义表）,场景参数定义；可全量导出（P2）
+t_rms_engine_repair_para,配置（定义表，空）,补全参数；0 行
+t_rms_engine_resultcode,配置（定义表）,返回码与优先级；可全量导出（P2）
+t_rms_engine_rule,配置（定义表）,规则；condition_value 等自由文本在 SQL 里整值屏蔽疑似个人信息后导出（P2）
+t_rms_engine_strategy,配置（定义表）,策略；status/result_code/exec_priority；导出（P2）
+t_rms_engine_strategy_relation,配置（定义表）,策略-规则映射；导出（P2）
+t_rms_engine_list_feature,配置（定义表）,名单特征定义（namelist_type 对应名单表 type）；导出（P2）
+t_rms_engine_third_feature,配置（定义表）,第三方/累计特征定义；input_paras 只导出键与白名单路径（P2）
+t_rms_engine_tool,配置（定义表）,特征工具（累计/Twilio/reCAPTCHA）；导出（P2）
+t_rms_engine_templist,配置（定义表，空）,临时名单定义；0 行
+t_rms_engine_templist_strategy,配置（定义表，空）,临时名单写入策略；0 行
+t_rms_engine_block_metric,配置（定义表）,熔断指标；metricql 只导出键/屏蔽后文本（P2）
+t_rms_engine_block_strategy,配置（定义表）,熔断策略；导出（P2）
+t_rms_engine_traffic_mapping,配置（定义表，空）,流量映射；0 行
+t_blacklist,名单（条目表）,黑名单条目；content 为个人信息——只做 type×tenant×source 计数
+t_whitelist,名单（条目表）,白名单条目；content 为个人信息——只做 type×tenant×source×temp 计数
+t_operation_log,审计日志,策略引擎操作日志（2026-09-02 起）；只取模块/操作类型/时间计数与白名单 JSON 路径
+t_oplog,审计日志（遗留，条目表）,旧版黑白名单操作日志；content 为名单内容；无时间索引——只读元数据
+t_rule_count,统计（遗留）,旧版规则调用计数；call_time 有索引；最近写入 2026-08-18
+t_quota,统计（空）,实时指标表；0 行
+t_rms_strategyengine_middle_quota,统计（空）,策略引擎准实时监控指标；0 行
+t_alarm_recipient,告警配置（条目表）,告警收件人（姓名/手机号/邮箱）——只计数，不导出
+t_alarm_type,告警配置（空）,0 行
+t_alarm_type_recipient,告警配置（空）,0 行
+t_gateway_count,统计（空）,网关调用计数；0 行
+t_order_to_pay,其它业务域（空）,订单支付记录；0 行，只记名字
+t_rule,遗留（空）,旧规则表；0 行
+t_scene,遗留配置,旧版场景表（31 行）；只导出非个人字段（P2）
+t_scene_rule,遗留（空）,0 行
