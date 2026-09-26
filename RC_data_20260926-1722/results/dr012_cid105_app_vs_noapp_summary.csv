@@ -1,0 +1,3 @@
+app_state,rows,distinct_phones,distinct_versions,version_num_min,version_num_median,version_num_max,share_ge_min,share_plus1,share_token_present,share_pass,basis
+absent,1905,620,5,1003025,1003050.0,1003050,0.0,0.0194,0.0,0.3759,"SMS rule (email empty), LKUS_push, NY 2026-09-19..2026-09-25"
+present,19975,7010,22,1003055,1004042.0,1004050,0.9951,0.0311,0.85,0.3747,"SMS rule (email empty), LKUS_push, NY 2026-09-19..2026-09-25"

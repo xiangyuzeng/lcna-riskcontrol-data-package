@@ -1,0 +1,6 @@
+shard,scene_id,json_key,n_rows,n_elements
+0049,LKUS_captcha,apiResp,2,2
+0049,LKUS_login,apiResp,15,15
+0049,LKUS_payment,apiResp,71,71
+0049,LKUS_physical_order_create,apiResp,75,75
+0049,LKUS_push,apiResp,53,1349

@@ -1,0 +1,4 @@
+match_key,sms_final_review_rows,review_rows_with_any_captcha_same_key_same_day,captcha_rows_day,captcha_rows_matching_a_review
+"phone (salted hash, local only)",15,15,15,15
+"uid (salted hash, local only)",15,15,15,15
+"ip (salted hash, local only)",15,14,15,14

@@ -1,0 +1,90 @@
+feature_id,feature_name_now,ny_date,COUNTER_FEATURE_CONDITION_MISS,COUNTER_FEATURE_DIMENSION_EMPTY,COUNTER_FEATURE_EXECUTE_ERR,COUNTER_FEATURE_PARAMS_ERROR,SUCCESS,rows
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-18,0,0,0,0,701,701
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-19,0,295,0,0,5025,5320
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-20,0,3497,0,0,0,3497
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-21,0,4609,0,0,0,4609
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-22,0,5071,0,0,0,5071
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-23,0,4612,0,0,0,4612
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-24,0,3154,0,0,0,3154
+feature_AemrK847uPtt,同IP同手机号近1分钟累计请求次数,2026-09-25,0,2670,0,0,0,2670
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-18,0,0,0,0,701,701
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-19,0,291,0,0,5029,5320
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-20,0,3497,0,0,0,3497
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-21,0,4609,0,0,0,4609
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-22,0,5071,0,0,0,5071
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-23,0,4612,0,0,0,4612
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-24,0,3154,0,0,0,3154
+feature_bvE9FL19wqag,同IP同手机号近5分钟累计请求次数,2026-09-25,0,2670,0,0,0,2670
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-08-27,701,0,0,0,91,792
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-08-28,1077,0,0,0,88,1165
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-08-29,1136,0,0,0,82,1218
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-08-30,1168,0,0,0,75,1243
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-08-31,1194,0,0,0,101,1295
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-01,1115,0,0,0,100,1215
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-02,1309,0,0,0,113,1422
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-03,1665,0,0,0,228,1893
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-04,3610,0,0,0,524,4134
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-05,6428,0,0,0,740,7168
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-06,6943,0,0,0,1037,7980
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-07,6273,0,0,0,854,7127
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-08,6494,0,0,0,1084,7578
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-09,6440,0,0,0,1241,7681
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-10,5550,0,0,0,1221,6771
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-11,4478,0,0,0,1147,5625
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-12,4331,0,0,0,1096,5427
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-13,3502,0,0,0,1355,4857
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-14,3451,0,0,0,1029,4480
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-15,4092,0,0,0,1316,5408
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-16,4333,0,0,0,823,5156
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-17,4329,0,0,0,1164,5493
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-18,3849,0,0,0,1148,4997
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-19,4200,0,0,0,1120,5320
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-20,2721,0,0,0,776,3497
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-21,3565,0,0,0,1044,4609
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-22,4235,0,0,0,836,5071
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-23,3893,0,0,0,719,4612
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-24,324,0,0,0,2830,3154
+feature_dqBHKec09Wwa,同区号近60分钟未携带recaptchaV3token 访问次数,2026-09-25,0,0,0,0,2670,2670
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-13,0,0,0,3965,0,3965
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-14,0,0,0,4480,0,4480
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-15,0,0,0,5408,0,5408
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-16,0,0,0,5156,0,5156
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-17,0,0,0,5493,0,5493
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-18,0,0,0,4997,0,4997
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-19,0,0,0,5320,0,5320
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-20,0,0,0,3497,0,3497
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-21,0,0,0,4609,0,4609
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-22,0,0,0,5071,0,5071
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-23,0,0,0,4612,0,4612
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-24,2370,0,0,404,380,3154
+feature_e1Kmz7JqzsWc,同区号近60分钟V3token为空对应手机号个数,2026-09-25,2297,0,0,0,373,2670
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-08-27,712,0,0,0,80,792
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-08-28,1015,0,0,0,150,1165
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-08-29,1084,0,0,0,134,1218
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-08-30,1063,0,0,0,180,1243
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-08-31,1059,0,0,0,236,1295
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-01,1031,0,0,0,184,1215
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-02,1160,0,0,0,262,1422
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-03,1343,0,0,0,550,1893
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-04,1590,0,0,0,2544,4134
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-05,2738,0,1,0,4429,7168
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-06,2848,0,29,0,5103,7980
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-07,2599,0,0,0,4528,7127
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-08,2811,0,0,0,4767,7578
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-09,2671,0,0,0,5010,7681
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-10,2500,0,0,0,4271,6771
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-11,2122,0,0,0,3503,5625
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-12,2062,0,0,0,3365,5427
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-13,1419,0,0,0,3438,4857
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-14,1614,0,0,0,2866,4480
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-15,2043,0,0,0,3365,5408
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-16,2000,0,0,0,3156,5156
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-17,2346,0,0,0,3147,5493
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-18,2468,0,0,0,2529,4997
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-19,2546,0,0,0,2774,5320
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-20,1639,0,0,0,1858,3497
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-21,2300,0,0,0,2309,4609
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-22,2466,0,0,0,2605,5071
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-23,2210,0,0,0,2402,4612
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-24,1480,0,0,0,1674,3154
+feature_n91JeGM6gD6i,同区号近60分钟非美国IP访问次数,2026-09-25,1403,0,0,0,1267,2670

@@ -1,0 +1,4 @@
+level,object_name,PRIVILEGE_TYPE,IS_GRANTABLE
+global,*.*,EXECUTE,NO
+global,*.*,PROCESS,NO
+global,*.*,SELECT,NO

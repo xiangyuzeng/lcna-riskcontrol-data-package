@@ -1,0 +1,3 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-iluckydorisops-rw,schema,luckyus_iluckydorisops,,,
+aws-luckyus-iluckydorisops-rw,table,luckyus_iluckydorisops,t_ddl_sync_rule_config,,DDL变更同步规则配置表

@@ -1,0 +1,2 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-ilsopdevopsdata-rw,column,luckyus_ibbcauthbackend,t_luckyauth_app_branding,verify_code_length,图形验证码长度

@@ -1,0 +1,4 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-oplog-rw,table,luckyus_oplog,t_export_scene,,导出场景配置表
+aws-luckyus-oplog-rw,table,luckyus_oplog,t_export_scene_node,,场景节点关联表
+aws-luckyus-oplog-rw,table,luckyus_oplog,t_scene_config,,日志场景表

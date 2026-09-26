@@ -1,0 +1,8 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-iluckyams-rw,column,luckyus_iluckyams,t_gray_rule,gray_whitelist,灰度发布的白名单
+aws-luckyus-iluckyams-rw,column,luckyus_iluckyams,t_package,gray_whitelist,灰度发布的白名单
+aws-luckyus-iluckyams-rw,column,luckyus_iluckyams,t_publish,gray_upgrade_whitelist,灰度发布时强制出现升级提示的白名单
+aws-luckyus-iluckyams-rw,column,luckyus_iluckyams,t_publish,gray_whitelist,灰度发布的白名单
+aws-luckyus-iluckyams-rw,column,luckyus_iluckyams,t_rn_publish,gray_upgrade_whitelist,灰度发布时强制出现升级提示的白名单
+aws-luckyus-iluckyams-rw,column,luckyus_iluckyams,t_rn_publish,gray_whitelist,灰度发布的白名单
+aws-luckyus-iluckyams-rw,table,luckyus_iluckyams,t_gray_rule,,灰度规则表

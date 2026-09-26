@@ -1,0 +1,7 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-framework02-rw,column,luckyus_ihmonitorconsole,t_sense_exception,rule_id,关联规则ID
+aws-luckyus-framework02-rw,column,luckyus_ihmonitorconsole,t_sense_record,rule_id,关联规则ID
+aws-luckyus-framework02-rw,column,luckyus_ihmonitorconsole,t_system_alarm,white_list,白名单
+aws-luckyus-framework02-rw,table,luckyus_datalink,t_dl_alarm_strategy,,报警配置表
+aws-luckyus-framework02-rw,table,luckyus_ihmonitorconsole,t_sense_rule,,异常感知规则表
+aws-luckyus-framework02-rw,table,luckyus_ilkm,t_metric_manager,,指标管理

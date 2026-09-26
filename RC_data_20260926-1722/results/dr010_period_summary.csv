@@ -1,0 +1,6 @@
+month,period,days,plus1_pass_mean,plus1_pass_distinct_phones_mean,non_plus1_plus86_mean
+2026-06,normal_day_k5,30,1253.0,1116.3,122.2
+2026-07,normal_day_k5,31,1047.8,909.0,118.5
+2026-08,normal_day_k5,31,1072.2,930.7,163.7
+2026-09,attack_day_k5,23,1203.0,1045.0,4106.9
+2026-09,normal_day_k5,2,1134.0,977.5,226.5

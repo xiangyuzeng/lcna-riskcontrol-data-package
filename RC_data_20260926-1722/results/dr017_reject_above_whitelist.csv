@@ -1,0 +1,6 @@
+scene_id,whitelist_pass_priority,strategy_id,status,result_code,exec_priority,update_time_utc,hits_online_pv_7d_all_push_rows,hits_preonline_pv_7d_all_push_rows,hits_7d_sms_rows_e1
+LKUS_physical_order_create,100000,strategy_Xr3XnLfUeKmJ,0,REVIEW_15_NINE,1000000,2026-08-06T07:44:39,0,0,0
+LKUS_physical_order_create,100000,strategy_O0ltBfzSEF67,0,REVIEW_15_NINE,1000000,2026-08-06T07:44:33,0,0,0
+LKUS_push,100000,strategy_gee2TUH9fmoS,0,REVIEW_15_NINE,1000000,2026-08-06T07:44:45,0,0,0
+LKUS_push,100000,strategy_sw3jC7bvFYEX,1,REJECT,100001,2026-09-09T03:39:57,50,0,50
+LKUS_push,100000,strategy_3JeLrOB4KhoE,0,REVIEW_15_NINE,100001,2026-09-17T11:58:24,0,0,0

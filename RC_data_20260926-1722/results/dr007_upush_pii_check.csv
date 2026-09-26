@@ -1,0 +1,2 @@
+n_rows,min_date,max_date,n_area_codes,max_len_area_code,n_area_code_5plus_digits,n_projects,max_len_project,n_project_digits_or_at,n_providers,n_provider_digits_or_at,n_tenants,n_tenant_digits_or_at
+4332,2026-01-14,2026-09-25,105,3,0.0,2,16,0.0,3,0.0,2,0.0

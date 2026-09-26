@@ -1,0 +1,2 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-iadmin-rw,table,luckyus_iadmin,t_admin_task_template_rule,,任务模板数据提取规则表

@@ -1,0 +1,6 @@
+shard,scene_id,json_key,n_rows
+0044,LKUS_physical_order_create,orderType,74
+0044,LKUS_payment,orderNo,72
+0044,LKUS_payment,payType,72
+0044,LKUS_payment,payMoney,72
+0044,LKUS_payment,orderType,72

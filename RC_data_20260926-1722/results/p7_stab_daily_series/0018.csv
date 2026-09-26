@@ -1,0 +1,4 @@
+shard,ny_date,cc_group,result_col,para_valid,email_key,email_nonempty,email_col_nonempty,phone_key_nonempty,phone_col_nonempty,n,n_distinct_sharding_key,n_sk_eq_fullphone
+0018,2026-09-24,+1,PASS,1,0,0,0,1,1,31,26,31.0
+0018,2026-09-24,other,PASS,1,0,0,0,1,1,2,2,2.0
+0018,2026-09-24,other,REJECT,1,0,0,0,1,1,23,11,23.0

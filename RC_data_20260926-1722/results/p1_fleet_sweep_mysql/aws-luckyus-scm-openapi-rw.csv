@@ -1,0 +1,3 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-scm-openapi-rw,table,luckyus_scm_openapi,t_access_log,,访问日志
+aws-luckyus-scm-openapi-rw,table,luckyus_scm_openapi,t_access_log_detail,,访问日志祥情

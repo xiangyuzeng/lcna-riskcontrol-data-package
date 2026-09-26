@@ -1,0 +1,21 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-upush-rw,column,luckyus_iupushsms,t_sent_verifycode_sms,filled,是否被填充：1-是；0-否， 默认值：0
+aws-luckyus-upush-rw,column,luckyus_iupushsms,t_verifycode_filled_mobile_statistics,filled_num,填充数量
+aws-luckyus-upush-rw,column,luckyus_iupushsms,t_verifycode_filled_statistics,filled_num,填充数量
+aws-luckyus-upush-rw,column,luckyus_iupushusercenter,t_sensitive_word,is_filter_whitelist,是否过滤白名单
+aws-luckyus-upush-rw,table,luckyus_iupushsms,sms_black_list,,短信黑名单信息表
+aws-luckyus-upush-rw,table,luckyus_iupushsms,sms_white_list,,短信白名单
+aws-luckyus-upush-rw,table,luckyus_iupushsms,t_collect_verifycode,,验证码采集表
+aws-luckyus-upush-rw,table,luckyus_iupushsms,t_msg_rule,,短信发送规则表
+aws-luckyus-upush-rw,table,luckyus_iupushsms,t_sent_verifycode_sms,,已发送验证码记录表
+aws-luckyus-upush-rw,table,luckyus_iupushsms,t_verifycode_filled_mobile_statistics,,手机号维度验证码填充统计表
+aws-luckyus-upush-rw,table,luckyus_iupushsms,t_verifycode_filled_statistics,,验证码填充统计表
+aws-luckyus-upush-rw,table,luckyus_iupushsms,voice_retry_whitelist,,语音重试白名单
+aws-luckyus-upush-rw,table,luckyus_iupushsms,voice_whitelist_for_inner,,内部语音短信手机号白名单
+aws-luckyus-upush-rw,table,luckyus_iupushusercenter,t_sensitive_word_whitelist,,敏感词白名单
+aws-luckyus-upush-rw,table,luckyus_mdm,t_meta_data_mdm_ebs_financial_rule,,EBS财务基础交叉验证规则主数据项
+aws-luckyus-upush-rw,table,luckyus_mdm,t_meta_data_mdm_ebs_financial_rule_language,,EBS财务基础交叉验证规则主数据项多语言表
+aws-luckyus-upush-rw,table,luckyus_mdm,t_meta_mdm_ebs_financial_rule,,EBS财务基础交叉验证规则主数据项属性信息表
+aws-luckyus-upush-rw,table,luckyus_mdmadmin,t_meta_data_mdm_ebs_financial_rule,,EBS财务基础交叉验证规则主数据项信息表
+aws-luckyus-upush-rw,table,luckyus_mdmadmin,t_meta_data_mdm_ebs_financial_rule_language,,EBS财务基础交叉验证规则主数据项多语言表
+aws-luckyus-upush-rw,table,luckyus_mdmadmin,t_meta_mdm_ebs_financial_rule,,EBS财务基础交叉验证规则主数据项属性信息表

@@ -1,0 +1,8 @@
+metric,this_run,reference,diff
+rows_no_cc_filter,64935,,
+rows_cc_filter,64935,64931,4
+pass_cc_filter,41632,41629,3
+reject_cc_filter,23122,23121,1
+review_cc_filter,181,181,0
+"p5_checkpoint_edges (10 min around the edge, rows_cc_filter)",16,,
+"p5_checkpoint_edges_end (10 min around the edge, rows_cc_filter)",21,,

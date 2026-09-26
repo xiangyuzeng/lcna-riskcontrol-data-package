@@ -1,0 +1,7 @@
+shard,scene_id,tenant,access_id,type,n_rows,req_engine_json,resp_engine_json,response_json,request_json,request_nonempty,extend_json,extend_nonempty,para_is_string,fd_is_array,fd_is_string,hit_is_string,rd_is_array,cc_col_empty,phone_col_nonempty,email_col_nonempty,user_no_col_nonempty,ip_col_nonempty,ip_city_col_nonempty,ip_province_col_nonempty,country_col_nonempty,city_col_nonempty,did_col_nonempty,device_id_col_nonempty,tongdun_device_id_col_nonempty,sharding_key_nonempty
+0016,LKUS_push,LKUS,LKUS,1,40,40.0,40.0,40.0,40.0,40.0,,0.0,40.0,40.0,0.0,18.0,40.0,0.0,40.0,0.0,1.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.0
+0016,LKUS_physical_order_create,LKUS,LKUS,4,73,73.0,73.0,73.0,73.0,73.0,73.0,73.0,73.0,73.0,0.0,13.0,73.0,12.0,61.0,0.0,73.0,73.0,0.0,0.0,0.0,0.0,13.0,13.0,0.0,73.0
+0016,LKUS_payment,LKUS,LKUS,7,71,71.0,71.0,71.0,71.0,71.0,71.0,71.0,71.0,71.0,0.0,13.0,71.0,12.0,59.0,0.0,71.0,71.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,71.0
+0016,LKUS_login,LKUS,LKUS,3,19,19.0,19.0,19.0,19.0,19.0,,0.0,19.0,19.0,0.0,1.0,19.0,0.0,19.0,0.0,19.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0
+0016,LKUS_grant_new_user_coupon,LKUS,LKUS,16,7,7.0,7.0,7.0,7.0,7.0,,0.0,7.0,7.0,0.0,,7.0,0.0,7.0,0.0,7.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0
+0016,LKUS_register,LKUS,LKUS,2,6,6.0,6.0,6.0,6.0,6.0,,0.0,6.0,6.0,0.0,,6.0,0.0,6.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0

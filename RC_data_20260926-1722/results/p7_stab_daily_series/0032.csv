@@ -1,0 +1,5 @@
+shard,ny_date,cc_group,result_col,para_valid,email_key,email_nonempty,email_col_nonempty,phone_key_nonempty,phone_col_nonempty,n,n_distinct_sharding_key,n_sk_eq_fullphone
+0032,2026-09-24,+1,PASS,1,0,0,0,1,1,7,6,7.0
+0032,2026-09-24,+1,PASS,1,1,1,1,1,1,2,1,2.0
+0032,2026-09-24,other,PASS,1,0,0,0,1,1,10,6,10.0
+0032,2026-09-24,other,REJECT,1,0,0,0,1,1,10,6,10.0

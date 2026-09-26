@@ -1,0 +1,7 @@
+check,count,detail
+cited paths missing,4,toolkit/README.md: sql/<name>.sql; toolkit/README.md: results/<name>.csv; NEXT_RUN_改进建议.md: results/<name>/<shard>.csv; NEXT_RUN_改进建议.md: results/<name>.csv
+integers >= 100 not found verbatim in results/,71,"00_环境清单.md → 42,071; 01_数据源与表清单.md → 15,455; 02_线上配置导出.md → 105,108; 02_线上配置导出.md → 108,200; 02_线上配置导出.md → 30,957; 02_线上配置导出.md → 65,746; 03_近7日数据画像_20260925.md → 105,108; 03_近7日数据画像_20260925.md → 108,200; 03_近7日数据画像_20260925.md → 13,949; 03_近7日数据画像_20260925.md → 23,567; 03_近7日数据画像_20260925.md → 6,468; 04_数据问题结论.md → 010; 04_数据问题结论.md → 015; 04_数据问题结论.md → 017; 04_数据问题结论.md → 018; 04_数据问题结论.md → 1,693; 04_数据问题结论.md → 1004030; 04_数据问题结论.md → 13,277; 04_数据问题结论.md → 16,055; 04_数据问题结论.md → 16,114; 04_数据问题结论.md → 2,211; 04_数据问题结论.md → 5,340; 04_数据问题结论.md → 56,480; 04_数据问题结论.md → 74,035; 05_取数手册与常见坑.md → 1,969; 05_取数手册与常见坑.md → 11,795; 05_取数手册与常见坑.md → 13,798; 05_取数手册与常见坑.md → 27,144; 05_取数手册与常见坑.md → 3,752; 06_评估指标计算手册.md → 6,373; NEXT_RUN_改进建议.md → 010; NEXT_RUN_改进建议.md → 015; NEXT_RUN_改进建议.md → 016; NEXT_RUN_改进建议.md → 017; NEXT_RUN_改进建议.md → 018; README.md → 016; README.md → 017; README.md → 018; README.md → 023; README.md → 13,949; README.md → 3,752; README.md → 5,340; toolkit/README.md → 1004030"
+contract files missing,1,MANIFEST.md
+files containing the gateway endpoint,0,
+files with absolute paths / internal hosts,0,
+README DR totals equal 04 statuses,0,04: 已答复 12、待确认 5、部分答复 2 | README: 已答复 12、待确认 5、部分答复 2（共 19 条）。

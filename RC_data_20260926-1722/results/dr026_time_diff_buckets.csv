@@ -1,0 +1,4 @@
+dt_bucket,captcha_result,review_rows,note
+-1m..0,PASS,2,nearest LKUS_captcha row with the same phone (captcha time - REVIEW time); NY 2026-09-24
+0..+1m,PASS,12,nearest LKUS_captcha row with the same phone (captcha time - REVIEW time); NY 2026-09-24
++1m..+10m,PASS,1,nearest LKUS_captcha row with the same phone (captcha time - REVIEW time); NY 2026-09-24

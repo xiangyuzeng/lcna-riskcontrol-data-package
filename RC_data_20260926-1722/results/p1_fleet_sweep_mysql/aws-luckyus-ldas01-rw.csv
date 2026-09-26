@@ -1,0 +1,7 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-ldas01-rw,table,luckyus_db_collection,t_dba_collect_ec2_metrics,,EC2实例性能指标采集表
+aws-luckyus-ldas01-rw,table,luckyus_db_collection,t_dba_collect_ec2_metrics_daily,,EC2实例性能指标采集表
+aws-luckyus-ldas01-rw,table,luckyus_db_collection,t_dba_collect_rds_metrics,,RDS服务器综合指标
+aws-luckyus-ldas01-rw,table,luckyus_db_collection,t_dba_collect_rds_metrics_daily,,RDS服务器综合指标
+aws-luckyus-ldas01-rw,table,luckyus_db_collection,t_dba_collect_redis_cluster_metrics,,Redis服务器综合指标
+aws-luckyus-ldas01-rw,table,luckyus_db_collection,t_dba_collect_redis_cluster_metrics_daily,,RDS服务器综合指标

@@ -1,0 +1,14 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_pay_channel_scene_language,pay_channel_scene_id,支付渠道场景主键关联
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_refund,channel_scene_id,渠道场景ID，冗余存储
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_report_record,channel_scene_id,支付渠道场景
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_tenant_channel_scene_account,channel_scene_id,支付渠道场景
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_trade,channel_scene_id,渠道场景ID，冗余存储
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_user_channel,channel_scene_id,支付渠道场景
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_user_channel_account,channel_scene_id,支付渠道场景
+aws-luckyus-salespayment-rw,column,luckyus_sales_payment,t_user_express_setup,channel_scene_id,渠道场景
+aws-luckyus-salespayment-rw,table,luckyus_sales_payment,t_pay_channel_scene,,全局支付渠道子场景表，上线导入
+aws-luckyus-salespayment-rw,table,luckyus_sales_payment,t_pay_channel_scene_language,,支付渠道场景语言表
+aws-luckyus-salespayment-rw,table,luckyus_sales_payment,t_tenant_channel_scene_account,,租户对应细分渠道下的账户配置
+aws-luckyus-salespayment-rw,table,luckyus_sales_payment,t_white_list,,白名单
+aws-luckyus-salespayment-rw,table,luckyus_sales_payment,t_white_list_detail,,白名单明细

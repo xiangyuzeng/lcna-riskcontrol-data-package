@@ -1,0 +1,2 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-iotplatform-rw,column,luckyus_iot_platform,t_auto_launch_group_info,is_black_list,0:非黑名单 1:黑名单

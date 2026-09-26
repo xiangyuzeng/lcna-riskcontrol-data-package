@@ -1,0 +1,5 @@
+shard,sec_from_ny_midnight,final_result,sms,n
+0036,-22,REJECT,1,1
+0036,-18,REJECT,1,2
+0036,8,REJECT,1,1
+0036,12,PASS,1,1

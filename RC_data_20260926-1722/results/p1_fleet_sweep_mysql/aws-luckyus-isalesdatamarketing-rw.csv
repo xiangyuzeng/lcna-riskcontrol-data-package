@@ -1,0 +1,4 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-isalesdatamarketing-rw,column,luckyus_isalesdatamarketing,t_algorithm_recommend_record,scene_id,调用算法传入的sceneId
+aws-luckyus-isalesdatamarketing-rw,column,luckyus_isalesdatamarketing,t_experiment_group,enable_white_list,是否启用白名单
+aws-luckyus-isalesdatamarketing-rw,column,luckyus_isalesdatamarketing,t_experiment_group,white_list_string,白名单列表

@@ -1,0 +1,4 @@
+shard,utc_minute,final_result,sms,cc_group,n
+0026,2026-09-19 03:56,REJECT,1,other,2
+0026,2026-09-19 03:57,PASS,1,other,1
+0026,2026-09-19 04:01,PASS,1,other,2

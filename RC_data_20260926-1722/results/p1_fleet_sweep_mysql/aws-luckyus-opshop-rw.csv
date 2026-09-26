@@ -1,0 +1,2 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-opshop-rw,table,luckyus_opshop,t_sequence_rule,,门店序号生成规则

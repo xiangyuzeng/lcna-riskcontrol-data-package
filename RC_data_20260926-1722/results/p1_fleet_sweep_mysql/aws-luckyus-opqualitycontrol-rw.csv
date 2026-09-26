@@ -1,0 +1,2 @@
+server,match_type,schema_name,table_name,column_name,comment_text
+aws-luckyus-opqualitycontrol-rw,table,luckyus_opqualitycontrol,t_duty_remind_rule,,门店执勤-提醒规则配置表

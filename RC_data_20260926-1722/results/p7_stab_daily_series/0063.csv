@@ -1,0 +1,5 @@
+shard,ny_date,cc_group,result_col,para_valid,email_key,email_nonempty,email_col_nonempty,phone_key_nonempty,phone_col_nonempty,n,n_distinct_sharding_key,n_sk_eq_fullphone
+0063,2026-09-24,+1,PASS,1,0,0,0,1,1,28,22,28.0
+0063,2026-09-24,+1,REVIEW,1,0,0,0,1,1,1,1,1.0
+0063,2026-09-24,other,PASS,1,0,0,0,1,1,6,2,6.0
+0063,2026-09-24,other,REJECT,1,0,0,0,1,1,16,9,16.0

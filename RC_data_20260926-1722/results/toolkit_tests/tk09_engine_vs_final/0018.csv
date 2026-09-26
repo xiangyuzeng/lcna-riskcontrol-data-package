@@ -1,0 +1,7 @@
+shard,ny_date,cid,app_state,version_class,sms,engine_result,final_result,n,n_distinct_phones
+0018,2026-09-25,105,absent,lt_min,1,REJECT,REJECT,1,1
+0018,2026-09-25,105,present,ge_min,1,PASS,PASS,4,3
+0018,2026-09-25,105,present,ge_min,1,REJECT,REJECT,9,6
+0018,2026-09-25,106,absent,lt_min,1,PASS,PASS,1,1
+0018,2026-09-25,106,present,ge_min,1,PASS,PASS,16,15
+0018,2026-09-25,108,absent,ge_min,1,PASS,PASS,4,2

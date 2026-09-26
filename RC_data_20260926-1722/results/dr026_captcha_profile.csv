@@ -1,0 +1,2 @@
+cid,captcha_scene,event_name,verify_code_type_name,v2_token_state,final_result,rows
+108,true,SMS,GOOGLE_RECAPTCHA_V2,present,PASS,15
