@@ -1,0 +1,8 @@
+mcp_server,item,value,checked_ny
+mcp-db-gateway,list_servers：mysql 服务器数,64,2026-09-27 08:12
+mcp-db-gateway,list_servers：postgres 服务器数,1,2026-09-27 08:12
+mcp-db-gateway,list_servers：redis 服务器数,79,2026-09-27 08:12
+mcp-db-gateway,P1 名字扫描覆盖（p1_fleet_sweep_mysql）,64 mysql servers,2026-09-27 08:12
+mcp-db-gateway,P1 名字扫描覆盖（p1_fleet_sweep_pg）,1 postgres servers,2026-09-27 08:12
+mcp-db-gateway,名字扫描发现的 ods_* 库,0,2026-09-27 08:12
+redshift,list_clusters,报错（MCP 调用失败，未返回集群列表）,2026-09-27 08:12

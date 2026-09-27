@@ -1,0 +1,21 @@
+scene_id,access_id,cid702_pass,whitelist_pass,blacklist_reject,online_strategies
+LKUS_push,LKUS,strategy_mFkYvDpq4z3W(prio 100000),strategy_D62zg8liB7Bk(prio 100000),strategy_U8F2Y68QkiP1(prio 90000),37
+LKUS_register,LKUS,strategy_HajsDJs9labp(prio 100000),strategy_qCHmnPuu1AUE(prio 100000),strategy_Fvy36McClvRC(prio 90000),3
+LKUS_login,LKUS,strategy_xGZAC0zobjHb(prio 100000),strategy_JmWkABjWQ3LQ(prio 100000),strategy_P0Z5kw9K3EO2(prio 90000),3
+LKUS_physical_order_create,LKUS,strategy_6z9ThhpswSsO(prio 100000),strategy_6F09r64msl06(prio 100000),strategy_u2BJEADXqzVb(prio 90000),4
+LKUS_virtual_order_create,LKUS,strategy_6a2PktDGdXHl(prio 100000),strategy_FlTDZnaMrXCK(prio 100000),strategy_h7GjfPovNgOd(prio 90000),3
+LKUS_physical_order_cancel,LKUS,strategy_unDvZnTdUgHG(prio 100000),strategy_WY2eSdHXWaVF(prio 100000),strategy_TLAmPkcRm0WO(prio 90000),3
+LKUS_virtual_order_cancel,LKUS,strategy_LKE7aC1IJJHs(prio 100000),strategy_p17GiJbDE2jR(prio 100000),strategy_IMQGMdf6DONT(prio 90000),3
+LKUS_payment,LKUS,strategy_YrrCUBoQR9lq(prio 100000),strategy_XkTyrHjjIR7M(prio 100000),strategy_d3nrrGELXiV0(prio 90000),3
+LKUS_grant_new_user_coupon,LKUS,strategy_BODL0nzZgUvR(prio 100000),strategy_LC9scK31Ema2(prio 100000),strategy_leAN2jRhL8j7(prio 90000),3
+IQA2_push,IQA2,—,—,—,0
+IQA2_register,IQA2,—,—,—,0
+IQA2_login,IQA2,—,—,—,0
+IQA2_physical_order_create,IQA2,—,—,—,0
+IQA2_virtual_order_create,IQA2,—,—,—,0
+IQA2_physical_order_cancel,IQA2,—,—,—,0
+IQA2_virtual_order_cancel,IQA2,—,—,—,0
+IQA2_payment,IQA2,—,—,—,0
+IQA2_grant_new_user_coupon,IQA2,—,—,—,0
+LKUS_captcha,LKUS,strategy_T4l5aotd4zxt(prio 100000),strategy_C0xnuOS1I2z5(prio 100000),strategy_fBy94KOscE20(prio 90000),3
+IQA2_captcha,IQA2,—,—,—,0

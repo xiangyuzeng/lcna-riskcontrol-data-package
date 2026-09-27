@@ -1,0 +1,7 @@
+| 原说法 | 数据显示 | 证据 |
+|---|---|---|
+| `DATA_REQUESTS.md` DR-027：「改动前按预上线命中」统计 43Na 的唯一拦截，隐含改动前的每一天都有它的预上线命中 | `strategy_43NaEzJmiQFk` 于 2026-09-22 15:32:11 UTC 新建（status 0）、15:32:17 UTC 转预上线（操作日志），此前没有它的命中；「改动前」只有约 23 小时可比，而且其后半段是高峰，所以本包另按精确时段给出每 24 小时的速率，并单列时段两半 | `results/p2_oplog_timeline.csv`、`results/dr027_period_rates.csv` |
+| `DATA_REQUESTS.md` DR-027 的两种解释（43Na 拦下 vs 攻击量本身下降）是互斥的 | 两者在计数上分不开：与 43Na 预上线的约 23 小时相比，上线后减少的非 +1 请求几乎都是 43Na 条件成立的请求（其余非 +1 请求的变化见 04 ④）；计数无法区分攻击方对 43Na 的反应与巧合 | `04_数据问题结论.md#dr-027`、`results/dr027_period_rates.csv` |
+| 2026-09-26 包 `03` §2：非 +1 放行下降「时间上与 2026-09-24 07:22–07:26 UTC 的特征条件修改相邻」 | 那几处改动中，仍在配置里的 3 个特征只被预上线（status 2）策略引用，其中 `feature_vApWJ93xOLe3` 只用于 LKUS_virtual_order_create；另 4 个是删除操作，这 4 个特征在操作日志里从未被任何规则引用、7 日内也没有被评估；而纽约日 2026-09-23 的非 +1 短信放行率在 14:43:34 UTC 43Na 上线前为 RATE_BEFORE、上线后为 RATE_AFTER，下降早于这些改动 | `results/p2_oplog_timeline.csv`、`results/p2_oplog_changes.csv`、`results/config_strategy_expanded.csv`、`results/p3_counter_codes_daily.csv`、`results/dr027_e1_cells.csv` |
+| 2026-09-26 包 `03` §5.2 / `results/p3_strategies.csv`：PASS 类预上线策略 `strategy_GbsajBR69can` 的「额外召回」取最终结果为 PASS 的命中 | PASS 类策略上线后改变的是最终**不是** PASS 的命中；本包按此口径重算（`toolkit/tk03_extra_recall.sql` 参数 `pass_class`） | `results/p3_strategies.csv`（列 `extra_recall_definition`） |
+| 2026-09-26 包对操作日志的计数说法不一（不同页分别写 195 与 194，都称为「操作」） | METRIC_OPLOG | `results/p2_oplog_counts.csv`、`results/p2_oplog_timeline.csv` |

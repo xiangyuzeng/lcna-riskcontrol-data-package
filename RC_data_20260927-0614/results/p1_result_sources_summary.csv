@@ -1,0 +1,5 @@
+result_col,response_result,response_code,re_result_name,re_result_code,n
+PASS,PASS,0,PASS,0,14017
+PASS,PASS,0,REVIEW,1,96
+REJECT,REJECT,2,REJECT,2,12698
+REVIEW,REVIEW,1,REVIEW,1,72

@@ -1,0 +1,13 @@
+TABLE_SCHEMA,TABLE_NAME,TABLE_ROWS,CREATE_TIME,UPDATE_TIME,TABLE_COMMENT
+luckyus_iupushsms,sms_black_list,49076,2025-03-07T11:35:49,2026-09-26T21:01:20,短信黑名单信息表
+luckyus_iupushsms,sms_deliver_record_lucky,2024986,2025-03-07T11:35:50,2026-09-26T21:41:45,单发短信下发记录表
+luckyus_iupushsms,sms_receipt_0000,231897,2025-04-09T07:33:46,2026-09-26T21:40:27,回执表
+luckyus_iupushsms,sms_sent_0000,59244,2025-03-07T11:40:35,2026-09-26T21:40:27,单发短信表
+luckyus_iupushsms,sms_white_list,0,2025-03-07T11:35:51,,短信白名单
+luckyus_iupushsms,t_collect_verifycode,293254,2026-03-09T07:48:28,2026-09-26T21:41:27,验证码采集表
+luckyus_iupushsms,t_msg_rule,0,2025-03-07T11:35:53,,短信发送规则表
+luckyus_iupushsms,t_sent_verifycode_sms,300144,2026-02-05T06:19:55,2026-09-26T21:41:27,已发送验证码记录表
+luckyus_iupushsms,t_verifycode_filled_mobile_statistics,1992,2026-06-03T07:53:19,2026-09-26T08:00:03,手机号维度验证码填充统计表
+luckyus_iupushsms,t_verifycode_filled_statistics,4332,2026-01-14T05:51:02,2026-09-26T08:30:00,验证码填充统计表
+luckyus_iupushsms,voice_retry_whitelist,0,2026-03-05T07:07:01,,语音重试白名单
+luckyus_iupushsms,voice_whitelist_for_inner,0,2025-03-07T11:35:52,,内部语音短信手机号白名单

@@ -1,0 +1,10 @@
+check,count,detail
+cited paths missing,0,
+integers >= 100 not found verbatim in results/,10,"01_数据源与表清单.md → 14,113; 02_线上配置导出.md → 28,263; 02_线上配置导出.md → 58,416; 03_近7日数据画像_20260926.md → 11,539; 03_近7日数据画像_20260926.md → 21,817; 04_数据问题结论.md → 52,636; 05_取数手册与常见坑.md → 12,297; 05_取数手册与常见坑.md → 13,896; 05_取数手册与常见坑.md → 27,831; README.md → 52,636"
+contract files missing,1,MANIFEST.md
+files containing the gateway endpoint,0,
+files with absolute paths / internal hosts,0,
+__pycache__ folders (carry absolute paths; delete before hand-over),0,
+README DR totals equal 04 statuses,0,04: 已答复 6、待取数 1、待确认 4、部分答复 2 | README: 已答复 6、待取数 1、待确认 4、部分答复 2（共 13 条）。
+"metric values differing from the registry (one metric, one value)",0,
+non-canonical upush date wording,0,

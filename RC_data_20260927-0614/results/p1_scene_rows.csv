@@ -1,0 +1,9 @@
+scene_id,tenant,access_id,type,n_rows,req_engine_json,resp_engine_json,response_json,request_json,request_nonempty,extend_json,extend_nonempty,para_is_string,fd_is_array,fd_is_string,hit_is_string,rd_is_array,cc_col_empty,phone_col_nonempty,email_col_nonempty,user_no_col_nonempty,ip_col_nonempty,ip_city_col_nonempty,ip_province_col_nonempty,country_col_nonempty,city_col_nonempty,did_col_nonempty,device_id_col_nonempty,tongdun_device_id_col_nonempty,sharding_key_nonempty
+LKUS_captcha,LKUS,LKUS,17,5,5.0,5.0,5.0,5.0,5.0,0.0,0.0,5.0,5.0,0.0,0.0,5.0,0.0,5.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0
+LKUS_grant_new_user_coupon,LKUS,LKUS,16,399,399.0,399.0,399.0,399.0,399.0,0.0,0.0,399.0,399.0,0.0,0.0,399.0,0.0,399.0,0.0,399.0,399.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,399.0
+LKUS_login,LKUS,LKUS,3,697,697.0,697.0,697.0,697.0,697.0,0.0,0.0,697.0,697.0,0.0,48.0,697.0,0.0,697.0,0.0,697.0,697.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,697.0
+LKUS_payment,LKUS,LKUS,7,2849,2849.0,2849.0,2849.0,2849.0,2849.0,2849.0,2849.0,2849.0,2849.0,0.0,616.0,2849.0,598.0,2251.0,0.0,2849.0,2849.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2849.0
+LKUS_physical_order_cancel,LKUS,LKUS,8,33,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,0.0,0.0,33.0,0.0,33.0,0.0,33.0,33.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.0
+LKUS_physical_order_create,LKUS,LKUS,4,2829,2829.0,2829.0,2829.0,2829.0,2829.0,2829.0,2829.0,2829.0,2829.0,0.0,574.0,2829.0,556.0,2273.0,0.0,2829.0,2829.0,0.0,0.0,0.0,0.0,574.0,574.0,0.0,2829.0
+LKUS_push,LKUS,LKUS,1,2792,2792.0,2792.0,2792.0,2792.0,2792.0,0.0,0.0,2792.0,2792.0,0.0,1522.0,2792.0,0.0,2792.0,3.0,68.0,2792.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2792.0
+LKUS_register,LKUS,LKUS,2,405,405.0,405.0,405.0,405.0,405.0,0.0,0.0,405.0,405.0,0.0,14.0,405.0,0.0,405.0,0.0,0.0,405.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,405.0

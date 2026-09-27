@@ -1,0 +1,3 @@
+k,baseline,baseline_days_kept,baseline_median,baseline_mad_scaled,threshold,first_flagged_day,flagged_days,flagged_days_last_30
+3.0,first 28 days (2026-06-01..2026-06-28),28,112.0,45.2,247.7,2026-08-31,25,25
+5.0,first 28 days (2026-06-01..2026-06-28),28,112.0,45.2,338.1,2026-09-03,24,24

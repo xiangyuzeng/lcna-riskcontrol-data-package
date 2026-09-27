@@ -1,0 +1,64 @@
+TABLE_NAME,ORDINAL_POSITION,COLUMN_NAME,COLUMN_TYPE,IS_NULLABLE,COLUMN_KEY,COLUMN_COMMENT
+sms_black_list,1,id,bigint unsigned,NO,PRI,主键
+sms_black_list,2,prod_line,varchar(45),NO,,产品线
+sms_black_list,3,NAME,varchar(50),NO,,用户名
+sms_black_list,4,phone,varchar(64),YES,MUL,手机号
+sms_black_list,5,type,varchar(20),YES,,业务类型
+sms_black_list,6,create_time,datetime(3),NO,,创建时间
+sms_black_list,7,create_emp,varchar(50),NO,,创建人
+sms_black_list,8,modify_time,timestamp,NO,,修改时间
+sms_black_list,9,modify_emp,varchar(50),NO,,修改人
+sms_black_list,10,user_id,bigint,YES,,用户ID
+sms_white_list,1,id,bigint unsigned,NO,PRI,主键
+sms_white_list,2,name,varchar(50),YES,,用户名
+sms_white_list,3,phone,varchar(20),NO,,手机号
+sms_white_list,4,prod_line,varchar(45),NO,,产品线
+t_collect_verifycode,1,id,bigint unsigned,NO,PRI,主键
+t_collect_verifycode,2,mobile,varchar(64),NO,MUL,手机号
+t_collect_verifycode,3,user_id,bigint,YES,,用户ID
+t_collect_verifycode,4,content,text,YES,,验证码内容
+t_collect_verifycode,5,collect_time,datetime,YES,MUL,采集时间
+t_collect_verifycode,6,checked_time,datetime,YES,,校验时间
+t_collect_verifycode,7,module,varchar(64),YES,,来源系统
+t_collect_verifycode,8,checked,tinyint,YES,MUL,是否被检测：1-是；0-否， 默认值：0
+t_collect_verifycode,9,mask_no,varchar(32),YES,,手机号掩码
+t_collect_verifycode,10,area_code,varchar(8),YES,,国家区号
+t_collect_verifycode,11,tenant,varchar(32),YES,,租户
+t_msg_rule,1,id,bigint unsigned,NO,PRI,主键
+t_msg_rule,2,prod_line,varchar(45),NO,,产品线
+t_msg_rule,3,busi_type,varchar(50),YES,,业务类型
+t_msg_rule,4,busi_name,varchar(50),YES,,业务类型名
+t_msg_rule,5,rule_type,varchar(20),YES,,规则类型
+t_msg_rule,6,rule_expr,varchar(50),YES,,规则表达式
+t_msg_rule,7,rule_count,int,YES,,规则数目
+t_sent_verifycode_sms,1,id,bigint unsigned,NO,PRI,主键
+t_sent_verifycode_sms,2,sms_id,bigint,YES,MUL,短信ID
+t_sent_verifycode_sms,3,mobile,varchar(64),NO,MUL,手机号
+t_sent_verifycode_sms,4,user_id,bigint,YES,,用户ID
+t_sent_verifycode_sms,5,content,text,YES,,短信内容
+t_sent_verifycode_sms,6,sent_time,datetime,YES,MUL,发送时间
+t_sent_verifycode_sms,7,from_app_name,varchar(64),YES,,来源项目
+t_sent_verifycode_sms,8,provider,varchar(30),YES,,提供商
+t_sent_verifycode_sms,9,provider_account,varchar(20),YES,,提供商账号
+t_sent_verifycode_sms,10,deliver_time,datetime,YES,MUL,下发时间
+t_sent_verifycode_sms,11,filled,tinyint,YES,,是否被填充：1-是；0-否， 默认值：0
+t_sent_verifycode_sms,12,mask_no,varchar(32),YES,,手机号掩码
+t_sent_verifycode_sms,13,tenant,varchar(16),YES,MUL,"租户（LKSG, LKTW,LKMY,LKUS）"
+t_sent_verifycode_sms,14,area_code,varchar(16),YES,,国际区号
+t_sent_verifycode_sms,15,create_time,datetime,NO,,创建时间
+t_sent_verifycode_sms,16,modify_time,timestamp,NO,,修改时间
+t_verifycode_filled_mobile_statistics,1,id,bigint unsigned,NO,PRI,主键
+t_verifycode_filled_mobile_statistics,2,statistic_date,date,YES,MUL,统计日期
+t_verifycode_filled_mobile_statistics,3,from_app_name,varchar(64),YES,,来源项目
+t_verifycode_filled_mobile_statistics,4,sent_num,int,YES,,发送数量
+t_verifycode_filled_mobile_statistics,5,filled_num,int,YES,,填充数量
+t_verifycode_filled_mobile_statistics,6,tenant,varchar(16),YES,,租户
+t_verifycode_filled_mobile_statistics,7,area_code,varchar(16),YES,,国际区号
+t_verifycode_filled_statistics,1,id,bigint unsigned,NO,PRI,主键
+t_verifycode_filled_statistics,2,statistic_date,date,YES,MUL,统计日期
+t_verifycode_filled_statistics,3,from_app_name,varchar(64),YES,,来源项目
+t_verifycode_filled_statistics,4,provider,varchar(30),YES,,提供商
+t_verifycode_filled_statistics,5,sent_num,int,YES,,发送数量
+t_verifycode_filled_statistics,6,filled_num,int,YES,,填充数量
+t_verifycode_filled_statistics,7,tenant,varchar(16),YES,,租户
+t_verifycode_filled_statistics,8,area_code,varchar(16),YES,,国际区号

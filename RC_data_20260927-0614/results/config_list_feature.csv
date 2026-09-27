@@ -1,0 +1,29 @@
+id,feature_id,feature_name,input_paras,feature_valuetype,access_id,operator,update_time,create_time,remarks,namelist_type,status,check_type
+1,feature_vTICzBPfD3Ds,ip C段白名单,realIpc,8,LKUS,<已屏蔽:操作人>,2026-08-18T08:57:42,2025-06-10T09:52:31,,10006,1,2
+3,feature_kqtp6XVcXXiQ,手机号白名单,fullPhoneNo,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:06:20,2026-08-18T08:58:25,,10001,1,2
+4,feature_oxYJ6qJ3BAfv,用户编号白名单,userNo,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:06:22,2026-08-18T08:58:43,,10002,1,2
+5,feature_5caBWmAHDcCQ,邮箱白名单,email,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:06:24,2026-08-18T08:58:57,,10003,1,2
+6,feature_P5eYl9a699fA,ip白名单,realIp,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:06:26,2026-08-18T08:59:27,,10005,1,2
+7,feature_K0JuGvXPoQsS,网关uid白名单,uid,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:06:27,2026-08-18T08:59:42,,10007,1,2
+8,feature_yo8MLsBsGIsV,三方unionId白名单,thirdPartyUnionId,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:06:29,2026-08-18T09:05:44,,10008,1,2
+9,feature_3CSh3LRVobu7,手机号黑名单,fullPhoneNo,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:02,2026-08-18T09:06:50,,10001,1,1
+10,feature_g43LuQcahzCJ,用户编号黑名单,userNo,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:04,2026-08-18T09:07:10,,10002,1,1
+11,feature_9tl8mW2Gembc,邮箱黑名单,email,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:06,2026-08-18T09:07:23,,10003,1,1
+12,feature_cOkhRQVI91IV,ip黑名单,realIp,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:08,2026-08-18T09:07:35,,10005,1,1
+13,feature_XtxCPW1x9QTU,ip C段黑名单,realIpc,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:10,2026-08-18T09:07:50,,10006,1,1
+14,feature_jkeS0N10RDAn,网关uid黑名单,uid,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:13,2026-08-18T09:08:08,,10007,1,1
+15,feature_7qCVo92BIECU,三方unionId黑名单,thirdPartyUnionId,8,LKUS,<已屏蔽:操作人>,2026-08-18T09:09:15,2026-08-18T09:08:20,,10008,1,1
+16,feature_yklsz04kQRv0,手机号白名单,fullPhoneNo,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:48:52,2026-08-18T09:45:44,,10001,1,2
+17,feature_5lLwbnPDqDji,用户编号白名单,userNo,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:48:54,2026-08-18T09:46:03,,10002,1,2
+18,feature_910m36E6qsoU,邮箱白名单,email,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:48:56,2026-08-18T09:46:20,,10003,1,2
+19,feature_NRLF4T2y93AH,ip白名单,realIp,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:48:58,2026-08-18T09:46:34,,10005,1,2
+20,feature_nhKB7DANArHW,ip C段白名单,realIpc,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:49:01,2026-08-18T09:46:50,,10006,1,2
+21,feature_abWXwuuAgPoH,网关uid白名单,uid,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:49:03,2026-08-18T09:47:02,,10007,1,2
+22,feature_k61urpr1qRCp,三方unionId白名单,thirdPartyUnionId,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:49:21,2026-08-18T09:48:15,,10008,1,2
+23,feature_IeH0WhiwXqhW,手机号黑名单,fullPhoneNo,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:36,2026-08-18T09:51:49,,10001,1,1
+24,feature_Htj2oxazuGkC,用户编号黑名单,userNo,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:40,2026-08-18T09:52:05,,10002,1,1
+25,feature_JHjCYoDLZHjS,邮箱黑名单,email,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:43,2026-08-18T09:52:27,,10003,1,1
+26,feature_jWmCyxCnapO1,ip黑名单,realIp,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:46,2026-08-18T09:53:35,,10005,1,1
+27,feature_fBID1juwawkd,ip C段黑名单,realIpc,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:49,2026-08-18T09:53:48,,10006,1,1
+28,feature_DWApla8G4Ni5,网关uid黑名单,uid,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:51,2026-08-18T09:53:57,,10007,1,1
+29,feature_XM9nCXfklhE5,三方unionId黑名单,thirdPartyUnionId,8,IQA2,<已屏蔽:操作人>,2026-08-18T09:54:53,2026-08-18T09:54:08,,10008,1,1

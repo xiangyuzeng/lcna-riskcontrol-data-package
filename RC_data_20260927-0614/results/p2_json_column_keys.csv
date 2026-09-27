@@ -1,0 +1,13 @@
+table_name,column_name,json_type,top_keys,n
+t_rms_engine_block_strategy,rules,ARRAY,"[""operator"", ""leftValue"", ""rightValue""]",24
+t_rms_engine_rule,condition_value,INTEGER,,77
+t_rms_engine_rule,condition_value,BOOLEAN,,32
+t_rms_engine_rule,condition_value,DOUBLE,,9
+t_rms_engine_rule,condition_value,UNSIGNED INTEGER,,3
+t_rms_engine_third_feature,input_paras,OBJECT,"[""period"", ""counter"", ""dimension"", ""conditions"", ""countValue"", ""hasCondition"", ""conditionExpress""]",29
+t_rms_engine_third_feature,input_paras,OBJECT,"[""period"", ""counter"", ""dimension"", ""conditions"", ""countValue"", ""hasCondition"", ""conditionDetail"", ""conditionExpress"", ""conditionRelation""]",12
+t_rms_engine_third_feature,input_paras,OBJECT,"[""cidKey"", ""isV2Key"", ""tokenKey"", ""userIpKey"", ""userAgentKey"", ""expectedActionKey""]",6
+t_rms_engine_third_feature,input_paras,OBJECT,"[""period"", ""counter"", ""dimension"", ""conditions"", ""countValue"", ""hasCondition"", ""conditionDetail"", ""conditionExpress""]",2
+t_rms_engine_third_feature,input_paras,OBJECT,"[""phoneKey"", ""countryCodeKey""]",1
+t_rms_engine_tool,input_paras,ARRAY,"[""desc"", ""name"", ""isMust"", ""fillType"", ""chineseName"", ""muiltSelect""]",3
+t_rms_engine_tool,output_paras,ARRAY,"[""desc"", ""index"", ""value"", ""dataType""]",3

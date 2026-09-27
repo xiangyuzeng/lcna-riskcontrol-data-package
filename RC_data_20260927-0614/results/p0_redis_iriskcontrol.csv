@@ -1,0 +1,3 @@
+server,command,db,keys,expires,avg_ttl_ms,queried_ny
+luckyus-iriskcontrol,DBSIZE,all,12786,,,2026-09-27 06:19
+luckyus-iriskcontrol,INFO keyspace,db0,12786,12786,76602497,2026-09-27 06:19

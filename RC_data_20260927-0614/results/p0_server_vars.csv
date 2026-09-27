@@ -1,0 +1,2 @@
+version,version_comment,read_only,innodb_read_only,super_read_only,transaction_read_only,time_zone,system_time_zone,max_execution_time,group_concat_max_len,is_stats_expiry,utc_now,db_now
+8.4.9,Source distribution,0,0,0,0,UTC,UTC,0,1024,86400,2026-09-27T10:15:49,2026-09-27T10:15:49

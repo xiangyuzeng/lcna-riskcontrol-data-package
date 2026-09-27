@@ -1,0 +1,50 @@
+list,strategy_id,result_name,pv,uv_phones,extra_recall_pv,extra_recall_phones,extra_recall_non_plus1_pv,extra_recall_plus1_pv,hits_final_pass_pv,extra_recall_definition,strategy_name
+online,strategy_3JjEbR25lYCl,REJECT,4935,2411,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"cid 包含 105,108&&(区号不是1&&区号不是+1)&&(realIpCountry 不等于字符串 美国)&&IPC段近1天关联的手机号个数 大于等于 9 则 REJECT"
+online,strategy_rDf6oPcZ8ydk,REJECT,3574,1714,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"cid 包含 106,105,108&&(字段 reCAPTCHA V3风险分 存在)&&(reCAPTCHA V3风险分 小于 0.3)&&(区号不是1&&区号不是+1&&区号不是86&&区号不是+86) 则 REJECT"
+online,strategy_REnWrA7CfCdE,REJECT,3030,1182,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&区号近60分钟的访问次数 大于 30&&countryCode 包含 7,62,92,249,254,258,261,263,375,380,386,504,880,961,963,992,998 则 REJECT"
+online,strategy_ARqkLD7E3JaK,REJECT,2666,1392,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&(realIpCountry 不等于字符串 美国)&&reCAPTCHA V3风险分 小于等于 0.3 则 REJECT
+online,strategy_43NaEzJmiQFk,REJECT,2421,1110,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,cid 包含 105&&(区号不是1&&区号不是+1)&&字段 phoneCountry 不等于字段 realIpCountry&&(uid近1天关联的手机号个数 大于等于 3||uid近1天关联的IP国家个数 大于等于 3) 则 REJECT
+online,strategy_uKSgJAVWhWlU,REJECT,1819,994,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&(realIpCountry 包含 巴基斯坦,德国,英国)&&reCAPTCHA V3风险分 小于等于 0.3 则 REJECT"
+online,strategy_6umGxk6euGeg,REJECT,1763,872,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"cid 包含 106,105,108&&(区号不是1&&区号不是+1)&&字段 recaptchaV3Token 为空&&字段 phoneCountry 不等于字段 realIpCountry&&realIpCountry 不等于字符串 美国 则 REJECT"
+online,strategy_OgkdQFtWwJ92,REJECT,1336,490,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&区号近60分钟的访问次数 大于 30&&countryCode 不包含 7,62,92,249,254,258,261,263,375,380,386,504,880,961,963,992,998 则 REJECT"
+online,strategy_nGrzayJQZe50,REJECT,995,219,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&手机号近5分钟的访问次数 大于 5 则 REJECT
+online,strategy_B7myeMbj1IcR,REJECT,941,535,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&IP近60分钟关联的国家区号个数 大于等于 3 则 REJECT
+online,strategy_AzkS80RGOyO6,REJECT,761,74,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,手机号近1天的访问次数 大于 15 则 REJECT
+online,strategy_29nE1qd56otz,REJECT,569,464,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&(IP近1分钟关联的手机号个数 大于等于 5) 则 REJECT
+online,strategy_axSKRJaUgQI4,REJECT,542,386,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&IP近5分钟关联的手机号个数 大于 5 则 REJECT
+online,strategy_4U53sNfliQi9,REJECT,513,49,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&(手机号近1天的访问次数 大于等于 20) 则 REJECT
+online,strategy_mFkYvDpq4z3W,PASS,477,413,0.0,0.0,0.0,0.0,477.0,hits with final result not PASS (PASS-class),cid 等于字符串 702 则 PASS
+online,strategy_w7GEiGKUEs4i,REVIEW,415,77,92.0,49.0,92.0,0.0,92.0,hits with final result PASS,"(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&cid 包含 108,200&&recaptchaV3Enabled 等于 true 则 REVIEW"
+online,strategy_lf6DsxMdAPzy,REJECT,339,35,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,手机号近5分钟的访问次数 大于 10 则 REJECT
+online,strategy_Wy0hlJAeoEMh,REJECT,219,131,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&IP近60分钟关联的手机号个数 大于 8 则 REJECT
+online,strategy_Sjg5jzhKlBYa,REJECT,212,31,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&(IP近1分钟的访问次数 大于等于 10) 则 REJECT
+online,strategy_6cR0ThwOf1mO,REJECT,154,107,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"cid 包含 106,105,108&&(区号不是1&&区号不是+1)&&accessTime 的时间小于 09:00&&accessTime 的时间大于 02:00&&字段 recaptchaV3Token 为空&&realIpCountry 等于字符串 巴基斯坦 则 REJECT"
+online,strategy_tmW8IjzAOzr2,REVIEW,143,28,23.0,17.0,23.0,0.0,23.0,hits with final result PASS,"手机号近1分钟的访问次数 大于 2&&cid 包含 108,200&&recaptchaV3Enabled 等于 true 则 REVIEW"
+online,strategy_ZhIwgFM93OmM,REJECT,130,23,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&区号近5分钟的访问次数 大于 30 则 REJECT
+online,strategy_oJULMxH11eWa,REVIEW,118,23,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"(区号不是1&&区号不是+1)&&区号近60分钟的访问次数 大于 10&&cid 包含 108,200&&recaptchaV3Enabled 等于 true 则 REVIEW"
+online,strategy_ddYctXVE0UvN,REVIEW,74,61,41.0,39.0,37.0,4.0,41.0,hits with final result PASS,"cid 包含 108,200&&reviewRepeat 等于 true 则 REVIEW"
+online,strategy_HWp8hFcwBQXz,REVIEW,61,13,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"(区号不是1&&区号不是+1)&&区号近1分钟的访问次数 大于 5&&cid 包含 108,200&&recaptchaV3Enabled 等于 true 则 REVIEW"
+online,strategy_sw3jC7bvFYEX,REJECT,50,1,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,手机号近1天的访问次数 大于等于 100 则 REJECT
+online,strategy_D62zg8liB7Bk,PASS,3,3,0.0,0.0,0.0,0.0,3.0,hits with final result not PASS (PASS-class),(ip C段白名单 等于 true||手机号白名单 等于 true||用户编号白名单 等于 true||邮箱白名单 等于 true||ip白名单 等于 true||网关uid白名单 等于 true||三方unionId白名单 等于 true) 则 PASS
+online,strategy_wwBH5HzV9UwS,REVIEW,2,1,1.0,1.0,0.0,1.0,1.0,hits with final result PASS,"(区号是1||区号是+1)&&cid 包含 108,200&&recaptchaV3Enabled 等于 true&&(手机号近30分钟的访问次数 大于等于 6) 则 REVIEW"
+preonline,strategy_GbsajBR69can,PASS,17802,9894,6265.0,2759.0,6265.0,0.0,11537.0,hits with final result not PASS (PASS-class),"cid 包含 106,105,108,200&&字段 reCAPTCHA V3风险分 存在&&reCAPTCHA V3风险分 大于 0.7 则 PASS"
+preonline,strategy_MGj5bfGOijOi,REJECT,10877,3434,3592.0,1866.0,3592.0,0.0,3592.0,hits with final result PASS,"(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&区号近1天内的访问次数 大于 100&&countryCode 包含 7,62,92,249,254,258,261,263,375,380,386,504,880,961,963,992,998 则 REJECT"
+preonline,strategy_x37TInaHsvPQ,REJECT,6387,2123,2162.0,1138.0,2162.0,0.0,2162.0,hits with final result PASS,"(区号不是1&&区号不是+1&&区号不是86&&区号不是+86)&&区号近1天内的访问次数 大于 100&&countryCode 不包含 7,62,92,249,254,258,261,263,375,380,386,504,880,961,963,992,998 则 REJECT"
+preonline,strategy_6wZBKzdb8SKf,REJECT,5035,2446,458.0,310.0,458.0,0.0,458.0,hits with final result PASS,"cid 包含 105,108&&(区号不是1&&区号不是+1)&&(realIpCountry 不等于字符串 美国)&&字段 phoneCountry 不等于字段 realIpCountry&&IPC段近1天关联的国家区号个数 大于等于 3 则 REJECT"
+preonline,strategy_AxAlIdejVA8m,REJECT,3915,1724,1138.0,822.0,1138.0,0.0,1138.0,hits with final result PASS,accessTime 的时间大于 02:00&&accessTime 的时间小于 09:00&&区号不是+1&&区号不是1&&同区号近60分钟对应手机号个数 大于 10 则 REJECT
+preonline,strategy_rBx7NsDRhbcW,REJECT,3869,1603,1210.0,770.0,1210.0,0.0,1210.0,hits with final result PASS,"cid 包含 106,105,108&&(区号不是1&&区号不是+1)&&字段 recaptchaV3Token 为空&&字段 phoneCountry 不等于字段 realIpCountry 则 REJECT"
+preonline,strategy_aEw2XWL4QIYx,REJECT,3638,1774,64.0,60.0,1.0,63.0,64.0,hits with final result PASS,"cid 包含 106,105,108,200&&字段 reCAPTCHA V3风险分 存在&&reCAPTCHA V3风险分 小于 0.3 则 REJECT"
+preonline,strategy_43NaEzJmiQFk,REJECT,2771,1316,1231.0,865.0,1231.0,0.0,1231.0,hits with final result PASS,cid 包含 105&&(区号不是1&&区号不是+1)&&字段 phoneCountry 不等于字段 realIpCountry&&(uid近1天关联的手机号个数 大于等于 3||uid近1天关联的IP国家个数 大于等于 3) 则 REJECT
+preonline,strategy_XJefRbJPjhpx,REJECT,2680,1401,11.0,9.0,0.0,11.0,11.0,hits with final result PASS,"cid 包含 106,105,108&&(字段 reCAPTCHA V3风险分 存在)&&(reCAPTCHA V3风险分 小于 0.3)&&(realIpCountry 不等于字符串 美国) 则 REJECT"
+preonline,strategy_bTCEWBZggaAP,REJECT,1540,779,422.0,339.0,422.0,0.0,422.0,hits with final result PASS,(区号不是1&&区号不是+1)&&(同区号近60分钟未携带recaptchaV3token 访问次数 大于 5)&&version 版本号大于等于 1.4.30&&(字段 recaptchaV3Token 不存在||recaptchaV3Token 等于 '') 则 REJECT
+preonline,strategy_QgstgoGXTYmD,REJECT,786,492,60.0,45.0,60.0,0.0,60.0,hits with final result PASS,(区号不是1&&区号不是+1)&&(IP近10分钟关联的手机号个数 大于 5) 则 REJECT
+preonline,strategy_D2vycSNfe0uK,REJECT,458,143,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,(区号不是1&&区号不是+1)&&(区号不是86&&区号不是+86)&&(区号近60分钟的访问次数 大于 50) 则 REJECT
+preonline,strategy_uST7u6mubWyD,REVIEW,432,92,109.0,64.0,109.0,0.0,109.0,hits with final result PASS,"(区号不是1&&区号不是+1)&&cid 包含 108,200&&recaptchaV3Enabled 等于 true 则 REVIEW"
+preonline,strategy_aMgzQ6DeG4ea,REJECT,249,178,6.0,6.0,0.0,6.0,6.0,hits with final result PASS,"cid 包含 106,105,108&&(字段 reCAPTCHA V3风险分 存在)&&(reCAPTCHA V3风险分 等于 0) 则 REJECT"
+preonline,strategy_3Xdk1yVksTLu,REVIEW,238,113,101.0,79.0,50.0,51.0,101.0,hits with final result PASS,"cid 包含 108,200&&recaptchaV3Enabled 等于 true&&(字段 recaptchaV3Token 不存在||recaptchaV3Token 等于字符串 '') 则 REVIEW"
+preonline,strategy_l44EWYqtinsu,REJECT,198,144,0.0,0.0,0.0,0.0,0.0,hits with final result PASS,"cid 包含 106,105,108&&(字段 reCAPTCHA V3风险分 存在)&&(reCAPTCHA V3风险分 等于 0)&&(realIpCountry 不等于字符串 美国)&&(区号不是+1&&区号不是1) 则 REJECT"
+preonline,strategy_NrsClIxvGxWc,REJECT,143,49,24.0,20.0,24.0,0.0,24.0,hits with final result PASS,accessTime 的时间大于 02:00&&accessTime 的时间小于 09:00&&区号不是+1&&区号不是1&&同区号近60分钟V3token为空对应手机号个数 大于 5 则 REJECT
+preonline,strategy_6iDqO9WDcLqy,REJECT,58,54,57.0,54.0,0.0,57.0,57.0,hits with final result PASS,(区号是1||区号是+1)&&(同区号近60分钟未携带recaptchaV3token 访问次数 大于 10)&&version 版本号大于等于 1.4.30&&(字段 recaptchaV3Token 不存在||recaptchaV3Token 等于 '') 则 REJECT
+preonline,strategy_Jg5GX6N06y9A,REVIEW,38,25,20.0,19.0,2.0,18.0,20.0,hits with final result PASS,"cid 包含 108,200&&recaptchaV3Enabled 等于 true&&(字段 reCAPTCHA V3风险分 存在)&&(reCAPTCHA V3风险分 小于 0.5) 则 REVIEW"
+preonline,strategy_yfvTZgkTp9Xi,REVIEW,22,15,21.0,15.0,0.0,21.0,21.0,hits with final result PASS,"(区号是1||区号是+1)&&cid 包含 108,200&&recaptchaV3Enabled 等于 true&&(realIpCountry 不等于字符串 美国) 则 REVIEW"
+preonline,strategy_NkRpGFInAJnE,REJECT,18,14,4.0,4.0,0.0,4.0,4.0,hits with final result PASS,"cid 包含 106,105,108,200&&reCAPTCHA V3 token是否有效 等于 false 则 REJECT"

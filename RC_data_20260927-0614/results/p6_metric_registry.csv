@@ -1,0 +1,51 @@
+metric_id,value,window,basis,source,pattern
+oplog_operations,195,2026-09-02T11:43:59…2026-09-24T07:26:13 UTC,t_operation_log 全部行,results/p2_oplog_counts.csv,"(\d[\d,]*) 次操作"
+oplog_ops_with_changes,194,同上,有白名单字段变化的操作,results/p2_oplog_timeline.csv,"(\d[\d,]*) 次有字段变化"
+oplog_changed_fields,299,同上,白名单字段,results/p2_oplog_timeline.csv,"(\d[\d,]*) 处字段变化"
+oplog_field_changes_updates,239,同上,更新操作中的白名单字段变化（不含新增/删除）,results/p2_oplog_timeline.csv,
+sms_7d_requests,"26,848",纽约日 2026-09-20…2026-09-26,短信口径,results/p3_daily_result.csv,"(\d[\d,]*) 次短信请求"
+sms_7d_pass,"14,079",纽约日 2026-09-20…2026-09-26,短信口径,results/p3_daily_result.csv,
+sms_7d_reject,"12,697",纽约日 2026-09-20…2026-09-26,短信口径,results/p3_daily_result.csv,
+sms_7d_review,72,纽约日 2026-09-20…2026-09-26,短信口径,results/p3_daily_result.csv,
+push_7d_rows,"26,883",纽约日 2026-09-20…2026-09-26,全部 LKUS_push 行,results/p3_daily_result.csv,"全部 LKUS_push 行[^0-9]{0,12}(\d[\d,]*) 行"
+nonplus1_pass_share_7d,48.6%,7 日,短信口径,results/p3_pass_by_ccgroup.csv,(\d+\.\d%) 来自非 \+1
+distinct_phones_7d,"12,599",7 日（窗口级去重）,短信口径,results/p3_distinct_users.csv,"7 日去重手机号 (\d[\d,]*)"
+strategy_GbsajBR69can_preonline_pv_7d_sms,"17,802",纽约日 7 日,短信口径（E1）,results/p3_strategies.csv,
+strategy_GbsajBR69can_extra_recall_7d_sms,"6,265",纽约日 7 日,短信口径（E1；PASS 类 = 最终非 PASS 的命中）,results/p3_strategies.csv,
+strategy_GbsajBR69can_preonline_pv_7d_all,"17,834",纽约日 7 日,全部 LKUS_push 行（纯 SQL）,results/p2_hits_7d.csv,
+strategy_GbsajBR69can_extra_recall_7d_all,"6,266",纽约日 7 日,全部 LKUS_push 行（tk03，sms_only=0）,results/toolkit_tests/tk03_extra_recall.csv,
+dr027_pass_non_plus1_before_mean,1400.75,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_pass_non_plus1_after_mean,532.67,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_drop,868.08,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_unique_block_would_be_pass_mean_after,301.0,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_pass_if_strategy_absent_mean_after,833.67,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_unique_share_of_drop,0.3467,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_residual,567.08,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_residual_share_of_drop,0.6533,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_requests_non_plus1_before_mean,3674.0,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_requests_non_plus1_after_mean,1921.67,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_pass_rate_before,0.3813,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_pass_rate_after_if_strategy_absent,0.4338,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_volume_effect_at_before_pass_rate,668.09,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_rate_effect_remaining_traffic,-101.01,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_other_online_reject_share_before,0.6166,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+dr027_other_online_reject_share_after,0.5587,"before = NY 2026-09-19..2026-09-22, after = NY 2026-09-24..2026-09-26 (per-day means; the mixed day excluded)","SMS basis, non-+1 (= +86 + other); derived arithmetic, not a causal estimate; rate effect = residual - volume effect",results/dr027_summary.csv,
+toolkit_tests,55/55,本包测试,—,results/toolkit_tests/_test_summary.csv,(\d+/\d+) 项核对一致
+statements,"3,390",本包全部运行,—,results/timing.csv,"(\d[\d,]*) 条分片语句"
+runs,97,本包全部运行,—,results/_runlog.csv,"(\d[\d,]*) 次运行"
+dr027_uniq_after_2026-09-19,0,2026-09-19,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-19,"1,605",2026-09-19,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-20,0,2026-09-20,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-20,"1,035",2026-09-20,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-21,0,2026-09-21,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-21,"1,256",2026-09-21,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-22,0,2026-09-22,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-22,"1,707",2026-09-22,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-23,242,2026-09-23,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-23,"1,252",2026-09-23,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-24,371,2026-09-24,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-24,582,2026-09-24,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-25,304,2026-09-25,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-25,451,2026-09-25,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_uniq_after_2026-09-26,228,2026-09-26,短信口径，非 +1,results/dr027_daily_decomposition.csv,
+dr027_pass_non_plus1_2026-09-26,565,2026-09-26,短信口径，非 +1,results/dr027_daily_decomposition.csv,

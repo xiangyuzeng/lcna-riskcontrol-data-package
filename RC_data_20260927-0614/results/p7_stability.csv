@@ -1,0 +1,4 @@
+query,original,rerun,equal
+p4_daily_series NY 2026-09-25 (rows by cc group x result),2742,2742,True
+p2_hits_7d NY 2026-09-25 (strategy hit PV),8538,8538,True
+dr014 NY 2026-09-26 (rows; sharding_key = user_no column),10009; 6807,10009; 6807,True

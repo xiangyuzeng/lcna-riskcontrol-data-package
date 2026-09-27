@@ -1,0 +1,9 @@
+ny_date,scene_id,rows,best_candidates,best_share,scene_group,next_best,sk_empty
+2026-09-26,LKUS_captcha,5,cc_col_phone_col+fullPhoneNo+para_cc_phone,1.0,phone,user_no_col 0.0,0.0
+2026-09-26,LKUS_grant_new_user_coupon,399,userNo+user_no_col,1.0,userNo,uid 0.0,0.0
+2026-09-26,LKUS_login,697,userNo+user_no_col,1.0,userNo,uid 0.0,0.0
+2026-09-26,LKUS_payment,2849,userNo+user_no_col,1.0,userNo,uid 0.0,0.0
+2026-09-26,LKUS_physical_order_cancel,33,userNo+user_no_col,1.0,userNo,uid 0.0,0.0
+2026-09-26,LKUS_physical_order_create,2829,userNo+user_no_col,1.0,userNo,uid 0.0,0.0
+2026-09-26,LKUS_push,2792,cc_col_phone_col+fullPhoneNo+para_cc_phone,1.0,phone,user_no_col 0.0,0.0
+2026-09-26,LKUS_register,405,cc_col_phone_col+fullPhoneNo+para_cc_phone,1.0,phone,user_no_col 0.0,0.0

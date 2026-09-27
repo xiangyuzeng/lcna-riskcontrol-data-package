@@ -1,0 +1,4 @@
+check,cells,mismatching_cells,sql_requests,e1_requests
+"tk10 (pure SQL) vs E1: strategy_43NaEzJmiQFk, cells = day x cc group x sms x phase x final x metric",348,0,32274,32274
+"tk08 (pure SQL) vs E1: strategy_43NaEzJmiQFk hitStrategy PV, cells = day x cid x geo x final",4,0,2421,2421
+"tk08 (pure SQL) vs E1: strategy_43NaEzJmiQFk hitPreOnlineStrategy PV, cells = day x cid x geo x final",4,0,2771,2771

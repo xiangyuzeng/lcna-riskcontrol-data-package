@@ -1,0 +1,100 @@
+id,tool_id,tool_name,tool_classpath,tool_type,has_parm,input_paras,output_paras,operator,update_time,create_time,remarks,status,block_enabled,period,max_calls
+1,tool_BicfygLyPEV7,累计特征工具,com.luckincoffee.riskcontrol.strategyengine.core.engine.feature.CommonCounterFeatureImpl,2,1,"[ { ""name"": ""dimension"", ""chineseName"": ""统计主维度"", ""isMust"": true, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""填写主纬度的取值字段key"" }, { ""name"": ""countValue"", ""chineseName"": ""统计副维度"", ""isMust"": false, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""只有当计算方式distinct count的时候需要填写"" }, { ""name"": ""hasCondition"", ""chineseName"": ""是否有条件"", ""isMust"": true, ""fillType"": 4, ""muiltSelect"": false, ""desc"": ""标识是否有子条件"" }, { ""name"": ""conditions"", ""chineseName"": ""子条件"", ""isMust"": false, ""fillType"": 5, ""muiltSelect"": false, ""desc"": ""累计条件"" }, { ""name"": ""conditionExpress"", ""chineseName"": ""子条件表达式"", ""isMust"": false, ""fillType"": 2, ""muiltSelect"": false, ""desc"": ""conditions的表达式,例如： condition_0&&condition_1&&...condition_n"" }, { ""name"": ""period"", ""chineseName"": ""统计周期"", ""isMust"": true, ""fillType"": 2, ""muiltSelect"": false, ""desc"": ""统计的窗口大小，填写int类型数据，单位为秒"" }, { ""name"": ""counter"", ""chineseName"": ""统计类型"", ""isMust"": true, ""fillType"": 3, ""paramEnum"": [ { ""index"": 0, ""value"": ""累计计数"" }, { ""index"": 1, ""value"": ""去重计数"" } ], ""muiltSelect"": false, ""desc"": ""计算方式"" } ]","[ { ""index"": 0, ""value"": ""count"", ""desc"": ""累计值"", ""dataType"": 5 } ]",<已屏蔽:操作人>,2025-06-11T06:03:52,2025-06-11T06:02:45,,1,0,0,0
+2,tool_z4DdQcbVVwPJ,twilio手机号检测工具,com.luckincoffee.riskcontrol.strategyengine.core.engine.feature.thirdtools.TwilioPhoneLookupFeatureTool,2,1,"[
+    {
+        ""name"": ""countryCodeKey"",
+        ""chineseName"": ""国家码"",
+        ""isMust"": true,
+        ""fillType"": 1,
+        ""muiltSelect"": false,
+        ""desc"": ""区号取值key""
+    },
+    {
+        ""name"": ""phoneKey"",
+        ""chineseName"": ""手机号"",
+        ""isMust"": true,
+        ""fillType"": 1,
+        ""muiltSelect"": false,
+        ""desc"": ""手机号对应的key""
+    }
+]","[
+  {
+    ""index"": 0,
+    ""value"": ""callingCountryCode"",
+    ""desc"": ""拨号国家区号"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 1,
+    ""value"": ""smsPumpingRisk.carrierRiskCategory"",
+    ""desc"": ""短信轰炸风险运营商风险等级"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 2,
+    ""value"": ""smsPumpingRisk.numberBlocked"",
+    ""desc"": ""号码是否被封禁"",
+    ""dataType"": 8
+  },
+  {
+    ""index"": 3,
+    ""value"": ""smsPumpingRisk.numberBlockedDate"",
+    ""desc"": ""号码封禁时间"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 4,
+    ""value"": ""smsPumpingRisk.numberBlockedLast3Months"",
+    ""desc"": ""最近三个月是否被封禁"",
+    ""dataType"": 8
+  },
+  {
+    ""index"": 5,
+    ""value"": ""smsPumpingRisk.smsPumpingRiskScore"",
+    ""desc"": ""短信轰炸风险评分"",
+    ""dataType"": 1
+  },
+  {
+    ""index"": 6,
+    ""value"": ""lineTypeIntelligence.carrierName"",
+    ""desc"": ""运营商名称"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 7,
+    ""value"": ""lineTypeIntelligence.mobileCountryCode"",
+    ""desc"": ""移动国家码"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 8,
+    ""value"": ""lineTypeIntelligence.mobileNetworkCode"",
+    ""desc"": ""移动网络码"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 9,
+    ""value"": ""lineTypeIntelligence.type"",
+    ""desc"": ""号码类型"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 10,
+    ""value"": ""callerName.callerType"",
+    ""desc"": ""主叫类型"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 11,
+    ""value"": ""callerName.callerName"",
+    ""desc"": ""主叫名称"",
+    ""dataType"": 7
+  },
+  {
+    ""index"": 12,
+    ""value"": ""valid"",
+    ""desc"": ""有效性"",
+    ""dataType"": 8
+  }
+]",<已屏蔽:操作人>,2025-12-03T06:37:49,2025-12-03T06:37:49,,1,0,0,0
+3,tool_GqlPQzMYYydO,谷歌recaptcha校验工具,com.luckincoffee.riskcontrol.strategyengine.core.engine.feature.thirdtools.GoogleRecaptchaFeatureTool,2,1,"[ { ""name"": ""cidKey"", ""chineseName"": ""终端来源"", ""isMust"": true, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""cid在上下文中的取值字段key，用于结合版本匹配siteKey"" }, { ""name"": ""isV2Key"", ""chineseName"": ""是否V2"", ""isMust"": true, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""上下文中标识当前请求是否为reCAPTCHA v2的布尔字段key，true取v2 siteKey，false取v3"" }, { ""name"": ""tokenKey"", ""chineseName"": ""token"", ""isMust"": true, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""前端reCAPTCHA token在上下文中的取值字段key"" }, { ""name"": ""expectedActionKey"", ""chineseName"": ""action"", ""isMust"": false, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""预期动作(如LOGIN)在上下文中的取值字段key"" }, { ""name"": ""userIpKey"", ""chineseName"": ""用户IP"", ""isMust"": false, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""用户IP在上下文中的取值字段key"" }, { ""name"": ""userAgentKey"", ""chineseName"": ""userAgent"", ""isMust"": false, ""fillType"": 1, ""muiltSelect"": false, ""desc"": ""userAgent在上下文中的取值字段key"" } ]","[ { ""index"": 0, ""value"": ""riskAnalysis.score"", ""desc"": ""reCAPTCHA风险分(0~1，越低越可信)"", ""dataType"": 5 }, { ""index"": 1, ""value"": ""tokenProperties.valid"", ""desc"": ""token是否有效"", ""dataType"": 8 }, { ""index"": 2, ""value"": ""tokenProperties.invalidReason"", ""desc"": ""token无效原因"", ""dataType"": 7 } ]",<已屏蔽:操作人>,2026-07-28T08:18:12,2026-07-28T08:18:12,,1,0,0,0

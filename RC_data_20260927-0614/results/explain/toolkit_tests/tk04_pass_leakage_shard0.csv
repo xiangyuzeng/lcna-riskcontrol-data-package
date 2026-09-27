@@ -1,0 +1,2 @@
+id,select_type,table,partitions,type,possible_keys,key,key_len,ref,rows,filtered,Extra
+1,SIMPLE,t_access_log_0000,,range,idx_create_time_sharding_key,idx_create_time_sharding_key,5,,151,1.0,Using index condition; Using where; Using filesort

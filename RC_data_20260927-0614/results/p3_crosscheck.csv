@@ -1,0 +1,4 @@
+check,cells,mismatching_cells,sql_total,e1_total
+day x cc_group x final_result (all push rows),40,0,26883,26883
+day x cc_group x final_result (SMS rule: email empty),40,0,26848,26848
+strategy hit PV by list (all push rows),49,0,89450,89450

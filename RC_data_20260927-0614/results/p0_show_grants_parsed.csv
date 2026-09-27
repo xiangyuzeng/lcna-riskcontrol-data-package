@@ -1,0 +1,4 @@
+privilege,on_object
+SELECT,*.*
+PROCESS,*.*
+EXECUTE,*.*
