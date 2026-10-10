@@ -1,0 +1,20 @@
+{
+  "rows": [
+    {
+      "COMMAND": "Sleep",
+      "n": 11,
+      "max_time_s": 502
+    },
+    {
+      "COMMAND": "Daemon",
+      "n": 1,
+      "max_time_s": 8240358
+    },
+    {
+      "COMMAND": "Query",
+      "n": 1,
+      "max_time_s": 0
+    }
+  ],
+  "count": 3
+}

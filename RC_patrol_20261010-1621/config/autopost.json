@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "enabled": true,
+ "mode": "test",
+ "start_date": "2026-10-11",
+ "skip_dates": [],
+ "host_pin": "9016771d4c3e",
+ "python": "/usr/bin/python3",
+ "child_path": "/usr/local/bin:/usr/bin:/bin",
+ "home": "/home/claude",
+ "lang": "C.UTF-8",
+ "no_cli": true,
+ "changes": [
+  {
+   "ny": "2026-10-10 15:23:21",
+   "what": "init"
+  }
+ ]
+}

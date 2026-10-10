@@ -1,0 +1,1 @@
+(SELECT '{shard}' AS s, id AS i, result AS r, country_code AS c, create_time AS t, COALESCE(JSON_UNQUOTE(JSON_EXTRACT(CAST(JSON_UNQUOTE(JSON_EXTRACT(request_strategy_engine, '$.para')) AS JSON), '$.email')), '') <> '' AS m FROM luckyus_iriskcontrolservice.{tbl} WHERE create_time >= '{utc_start}' AND create_time < '{utc_end}' AND scene_id = '{scene}')

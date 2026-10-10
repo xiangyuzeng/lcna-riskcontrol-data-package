@@ -1,0 +1,3 @@
+ny_time,command,kind,run_dir,note
+2026-10-10 13:39:52,run,validate_slot,runs/20261010-133952_validate_slot,outside 22:00-05:30 by the user's decision for 2026-10-10
+2026-10-10 13:39:53,_send,validate_slot,runs/20261010-133952_validate_slot,"8 statements sent, NY 13:39:52-13:39:53; outside 22:00-05:30 under the user's decision for 2026-10-10"

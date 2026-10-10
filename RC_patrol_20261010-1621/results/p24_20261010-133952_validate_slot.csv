@@ -1,0 +1,2 @@
+window,label,window_start_utc,window_end_utc,rows_all,email_rows,sms_total,sms_pass,sms_reject,sms_review,sms_other,pass_1,pass_86,pass_empty,pass_invalid,pass_not_us_cn,pass_21,pass_not_21,sms_cc_empty,sms_cc_invalid,sms_no_plus,dup_rows,lag_s,checks,fixture
+2026-10-09 21:00,10/8 21:00 至 10/9 21:00,2026-10-09 01:00:00,2026-10-10 01:00:00,2155,3,2152,1235,900,17,0,1011,10,0,0,214,152,62,0,0,0,0,194,ok,match
