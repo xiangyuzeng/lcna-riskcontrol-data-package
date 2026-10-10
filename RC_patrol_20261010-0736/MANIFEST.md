@@ -1,0 +1,208 @@
+# MANIFEST — RC_patrol
+
+- 包名：`RC_patrol`；zip：`RC_patrol_package_20261010-0736.zip`
+- 生成时间（America/New_York）：2026-10-10 07:36
+- 每日巡检设置
+- 设置阶段的包（P0–P4 完成；P5 走运行卡；P6 今晚 22:00 后续跑，届时再打最终包）
+
+## 隐私扫描（`toolkit/privacy_scan.py`，附录 B 原文；报告本身留在本机 `_local_only/`）
+
+- time (UTC): 2026-10-10 11:36
+- files scanned: 187; skipped: 0
+- auto-exempt: digits8+ 46, ipv4 1
+- allowlisted: 0
+- unresolved: 0
+
+## 文件（187 个；不含 `_local_only/`、`MANIFEST.md`、`RUN_LOG.md`）
+
+- `RUN_LOG.md`：在包内，**不计算哈希**（运行日志最后一行写完后才生成本清单）。
+
+| 路径 | 大小 (KB) | sha256 |
+|---|---|---|
+| `NEXT_RUN_改进建议.md` | 4.3 | 780387979bf94fc90f17ea61bce524ed81e0a91bdcb8f94bb0879d424cd90404 |
+| `README.md` | 12.1 | 78c81ded9ce013eca9be99d6fd6d56757b512442c0edc1e11b20cc8bf0e59a16 |
+| `RUN_CARD.md` | 3.3 | 2d177eaed85f0141deee033e3a23809a85398838f2e8c1a70edb4d53c2f244f8 |
+| `config/shards.json` | 0.1 | 9f83f099e53e372197b4aee09946cef94d52cdc26d05ed29a758676176b38b12 |
+| `doris/README_给David.md` | 1.7 | fa6b2d926d5748d94de85f710f3a7f06003c9670e5f6286043f6698a49ff884f |
+| `doris/巡检_0900_Doris写法.sql` | 1.6 | c247181225b5043139c9708e8115c118fc3008685ad9187172af9fa308c058e1 |
+| `doris/巡检_0900_今天_20261010.sql` | 1.6 | 9e1054fad3c1aa472f30a114f55356f24ad126498b884a5ad86fa0bd3a551b17 |
+| `doris/巡检_2100_对照.sql` | 1.6 | b65941073b9aa808a03963f214df5553ba82ca747a2368e51caf9e3831f3cb0e |
+| `history/patrol24_history.csv` | 0.7 | f3d4a057a8f8d7dc22b3a57bbf0da26ad4931d5ff19ed93382091e766e6287f9 |
+| `results/p24_20261010-063839_validate_ny.csv` | 0.7 | 6ac3623ffeade997aa8cbca29e8859b680936c1eb0ebac5f11c71d73b8b42874 |
+| `results/p24_20261010-064700_validate_utc.csv` | 0.6 | 25cadbb4c29d94651a0087cfe711e0a972bcb2620136b5dd35e6d441c3ce4329 |
+| `results/p24_20261010-065233_backfill.csv` | 0.7 | 809a75be5d7118e891ed88c9cb4b4f38de3a4ce50836e027e0645421d8fa6946 |
+| `results/p24_20261010-070032_validate_ny.csv` | 0.8 | 97f3dd8e738612c5923cdcee9e05673887e1e416a8a8696bcc69ddf4196bdcd7 |
+| `runs/20261010-025100_recon/README.md` | 1.4 | 49e9fac55afa408c544ee51b869e9ddb0b4c7ce8db7ad3a99520cb0e5421007c |
+| `runs/20261010-025100_recon/r1_version.json` | 0.1 | f97319e916409b943182e5afb0eeafcabbe79636047c422f268bc9acfe36dd35 |
+| `runs/20261010-025100_recon/r1_version.sql` | 0.1 | b0e26e854d086221331c30b31ebcd4100686ea284d3aa388c965eac317058d32 |
+| `runs/20261010-025100_recon/r2_grants.sql` | 0.0 | 95bf57a051badac1163743abaa137fe026b87f4419d6e5352af82cfef50e5584 |
+| `runs/20261010-025100_recon/r3_clock.json` | 0.1 | 031deda45dc82b73b5c9bf5e394de5b136ec0359f2e6ee8558c59a1bf0ac4c45 |
+| `runs/20261010-025100_recon/r3_clock.sql` | 0.1 | 47fb8823e04e90224a8182c4deb14e3a335ce034216c75a2575342e6797f3d75 |
+| `runs/20261010-025100_recon/u1_upush_version.json` | 0.1 | 1d20b7b343fb63cb2d3eed6b346f14887f756a309635c61f36ca84c40d9d9dc8 |
+| `runs/20261010-025100_recon/u1_upush_version.sql` | 0.1 | 4028f6415dab9c09213b6ee591e61a3d58608a3b70c87ab72f5393f03f3dc052 |
+| `runs/20261010-063831_slot/manifest.json` | 0.1 | c5bd968a5562967ed517a9c558393f868563b0f26b08b85112a7c579029175b1 |
+| `runs/20261010-063831_slot/s0c_shards.json` | 0.2 | 3a61ea5e252866d9b1f18e26867604dcfcf59a9d5fae1db392930b48600f04b2 |
+| `runs/20261010-063831_slot/s0c_shards.sql` | 0.3 | 771cf5cf3af8af7627d925012f41a33e167a354923891a222e965c640097ee31 |
+| `runs/20261010-063839_validate_ny/manifest.json` | 1.3 | c16577dd318f9f4c2e3ab87e6a6a2ed2c99f232ba55bd05fab2f4087d2908dc1 |
+| `runs/20261010-063839_validate_ny/s0a_processlist.json` | 0.3 | 521e6c1645941dc5310fd514a1cc36e3d578e40b392a79c08fbf2f7cfbcde2e5 |
+| `runs/20261010-063839_validate_ny/s0a_processlist.sql` | 0.1 | 666ee22ff675f49f20b4787fba4fa9ba0238d3500c7aa676e9d5857e173baba4 |
+| `runs/20261010-063839_validate_ny/s0b_threads.json` | 0.1 | 269225c15a8a3c5acc42647217a62b7901f66406a24f98bc6c4f0802faf9332e |
+| `runs/20261010-063839_validate_ny/s0b_threads.sql` | 0.0 | f74412f51a5cfc5d5aa71923a177a1ae310ebf15b8937823d29018b3265dd2e7 |
+| `runs/20261010-063839_validate_ny/s0c_shards.json` | 0.2 | 3a61ea5e252866d9b1f18e26867604dcfcf59a9d5fae1db392930b48600f04b2 |
+| `runs/20261010-063839_validate_ny/s0c_shards.sql` | 0.3 | 771cf5cf3af8af7627d925012f41a33e167a354923891a222e965c640097ee31 |
+| `runs/20261010-063839_validate_ny/s0d_explain.json` | 0.4 | d2e426b1f3c8e87d3a22ac2161363baa5a9ecdee657dc9ece9ccfae3f723a4a9 |
+| `runs/20261010-063839_validate_ny/s0d_explain.sql` | 2.4 | 50beef2ba2cb5a314796cc59dcf63f6c02749046b3ff52e8453fc1ff29c490c5 |
+| `runs/20261010-063839_validate_ny/w01_s1.json` | 0.8 | c5911ff59928e6c60f86803dc0107ce8935eee9b6400483e9250cbbdced4b4c7 |
+| `runs/20261010-063839_validate_ny/w01_s1.sql` | 8.1 | f304fb58b1dfd5e3c6d7c2b88ad65dfca64cb3e9063cbaa4ef99dc2f3217375e |
+| `runs/20261010-063839_validate_ny/w01_s2.json` | 0.8 | a9adc050b6b70bbd12483658dccd2f338adbd0acc035fa8ddd567f2fd0141fab |
+| `runs/20261010-063839_validate_ny/w01_s2.sql` | 8.1 | fb4d79acb154d736188cb98abe42a412349c5a7766972850eadc093468ca9b4f |
+| `runs/20261010-063839_validate_ny/w01_s3.json` | 0.8 | d911214d70874bf6b6cb438a7cf878e622e3a9ff2cc03bf6a5f45fb327ad00e0 |
+| `runs/20261010-063839_validate_ny/w01_s3.sql` | 8.1 | c6776b5e4b7558860b7685b5b52c84aa8de67a968940fb2c58d66210a58011b6 |
+| `runs/20261010-063839_validate_ny/w01_s4.json` | 0.8 | 3a6d64253c0fb02c666b6aef8e0933615fa47c3bd6e7387961c290fa2bdcb03e |
+| `runs/20261010-063839_validate_ny/w01_s4.sql` | 8.1 | b2d99c01431133b5de3cf7da3671fb1998118a2d9218f3521e466331b96b0638 |
+| `runs/20261010-063839_validate_ny/w02_s1.json` | 0.8 | 341c359477d451840daecd6c8140893d5fceb07232ea3f42e13f59f50cfd36f6 |
+| `runs/20261010-063839_validate_ny/w02_s1.sql` | 8.1 | 4a93d82c089db8d31eca388642e19573d762d96f7d54324d99ac96b7e65ff8dd |
+| `runs/20261010-063839_validate_ny/w02_s2.json` | 0.8 | 5851e153c1532e7535e03c12cf028b798664243f69b4c44c829f5d58cd6b9f31 |
+| `runs/20261010-063839_validate_ny/w02_s2.sql` | 8.1 | 649f2f3af291afaf31b8fa00bcc0326b4dd73dccddcf48bf2c945225f09686c0 |
+| `runs/20261010-063839_validate_ny/w02_s3.json` | 0.8 | fec1ae17b776ad9d894b5da30a8448b1bd5da4800c0dcaebe915a868255a39f9 |
+| `runs/20261010-063839_validate_ny/w02_s3.sql` | 8.1 | 6c3ffedb9aed7bf14126cfc4694eeb3ce97dd24db78656fdf2a301358fa8de67 |
+| `runs/20261010-063839_validate_ny/w02_s4.json` | 0.8 | 6da77d8ec3f4aebb04143b5f83bfff227eac3f96fd942fc82c90094eb7404c50 |
+| `runs/20261010-063839_validate_ny/w02_s4.sql` | 8.1 | f1412f4113091db26ddc0c2f8a06f9eda00353622fc7d9f5b64d345dab2140a2 |
+| `runs/20261010-063839_validate_ny/w03_s1.json` | 0.8 | ea6618412cdd4d11ad654cd4724dd16271aa6b73dbd2afca2af63049cbf3c20d |
+| `runs/20261010-063839_validate_ny/w03_s1.sql` | 8.1 | 23e38191eba3683f59aee80b5a6244f8e236bac9aaadca14d42d21e9922b3bae |
+| `runs/20261010-063839_validate_ny/w03_s2.json` | 0.8 | 66549ee9b41f1cd6fcdcdd380aa83603c96ad5766f9219837705c1ccfbfb078d |
+| `runs/20261010-063839_validate_ny/w03_s2.sql` | 8.1 | 4675f48010745e5f006aefd505fc0a8161633038dab32e7942f3ce610cdeb4d6 |
+| `runs/20261010-063839_validate_ny/w03_s3.json` | 0.8 | 58ffd7b33df94f6c02e4f7a758aa5396924464f2c00060285edc8724ae6ec727 |
+| `runs/20261010-063839_validate_ny/w03_s3.sql` | 8.1 | db49ca45e91b6a4e01f83a62c57ab95543b352137c0090eac7767ba1603399f5 |
+| `runs/20261010-063839_validate_ny/w03_s4.json` | 0.8 | 736b27a1e2fca437c907bce73a005b3e613d6ba26a2a0e0435a46606b122d3b5 |
+| `runs/20261010-063839_validate_ny/w03_s4.sql` | 8.1 | f31e7efe81bcea3c3e219dc067106e022599bb8398ea742c6f08a9e2c088a814 |
+| `runs/20261010-064700_validate_utc/manifest.json` | 1.1 | b2fdc569bbdc899af0325cadd9b91e98e9d959802192666c8a02d2cef27c3b24 |
+| `runs/20261010-064700_validate_utc/s0a_processlist.json` | 0.3 | f3e8f6ff62ab09dca8cb67b23335211fb82b88b9cd82f071cfd7d8b69ac36a4b |
+| `runs/20261010-064700_validate_utc/s0a_processlist.sql` | 0.1 | 666ee22ff675f49f20b4787fba4fa9ba0238d3500c7aa676e9d5857e173baba4 |
+| `runs/20261010-064700_validate_utc/s0b_threads.json` | 0.1 | 269225c15a8a3c5acc42647217a62b7901f66406a24f98bc6c4f0802faf9332e |
+| `runs/20261010-064700_validate_utc/s0b_threads.sql` | 0.0 | f74412f51a5cfc5d5aa71923a177a1ae310ebf15b8937823d29018b3265dd2e7 |
+| `runs/20261010-064700_validate_utc/s0c_shards.json` | 0.2 | 3a61ea5e252866d9b1f18e26867604dcfcf59a9d5fae1db392930b48600f04b2 |
+| `runs/20261010-064700_validate_utc/s0c_shards.sql` | 0.3 | 771cf5cf3af8af7627d925012f41a33e167a354923891a222e965c640097ee31 |
+| `runs/20261010-064700_validate_utc/s0d_explain.json` | 0.4 | a888353e81822c8e80b1d761c1945cae67edc2530db35559f8a578cd9fe59c69 |
+| `runs/20261010-064700_validate_utc/s0d_explain.sql` | 2.4 | 47022c70b0e4cf073eae342b787c75f78ebf28e1233fdb026b9cb2b6ffd11076 |
+| `runs/20261010-064700_validate_utc/w01_s1.json` | 0.8 | fc70fd8771a48c7197f90f2a564987def2faa9b9f5104606e04b984b6f936872 |
+| `runs/20261010-064700_validate_utc/w01_s1.sql` | 8.1 | 2484113c658180ed541b9664d1bd112aa47683840c9eba4a4e16322517f6d804 |
+| `runs/20261010-064700_validate_utc/w01_s2.json` | 0.8 | 7cc5ceecac9516825be5d47d0c058ecada510a5c0efdcc25990f8e76af48d1cd |
+| `runs/20261010-064700_validate_utc/w01_s2.sql` | 8.1 | 034f7adc7d50ede6746241c507411f3568990f584cb2bf3dcdc3e3466dcc6e67 |
+| `runs/20261010-064700_validate_utc/w01_s3.json` | 0.8 | 54ccd000633030b99d50e7c3aade1d205895203f0a60becb206e4f42b0d45fce |
+| `runs/20261010-064700_validate_utc/w01_s3.sql` | 8.1 | 5077b035694da18f4b2397b23af71527129c380b2220c14a84829c9b016b0041 |
+| `runs/20261010-064700_validate_utc/w01_s4.json` | 0.8 | 78cab2938090106995390ae9d1a901110a8e364ac6b2c3ce5c0754808ea5f1a5 |
+| `runs/20261010-064700_validate_utc/w01_s4.sql` | 8.1 | 90f99494b96402ae89a9a368ee99956376f33dfa5b1b63a237ad92e83d7c3d9d |
+| `runs/20261010-064700_validate_utc/w02_s1.json` | 0.8 | 9797a37c84c02b98678f018aa11fb63e07ebb8e1024eab6301708a78660b7b72 |
+| `runs/20261010-064700_validate_utc/w02_s1.sql` | 8.1 | 50c1e7305679ac2acafb17b1a6859e987fcccd8e01285c0a03f103af4626e152 |
+| `runs/20261010-064700_validate_utc/w02_s2.json` | 0.8 | 01f8c0b3d48481a296c9f62b4da30a414b37534ae884f2f523db6595d8f5e087 |
+| `runs/20261010-064700_validate_utc/w02_s2.sql` | 8.1 | 6c785ea6cbb002e6b365739312cef41391feab3fdd1fbaa809b3c8de55e95fb7 |
+| `runs/20261010-064700_validate_utc/w02_s3.json` | 0.8 | b5b9cc69dc3650c1ab80706b02178af890a858c5b8f0fb64f1686888a3d34849 |
+| `runs/20261010-064700_validate_utc/w02_s3.sql` | 8.1 | 61f38d5558aab965eaf3b6b699bfe8ad11194c27591343b1e8559e0d925ac18f |
+| `runs/20261010-064700_validate_utc/w02_s4.json` | 0.8 | 2c7f0388ff2334eba2e1c07a65b216ae1ec974d8b76c78d9a2860eb45dbf92cf |
+| `runs/20261010-064700_validate_utc/w02_s4.sql` | 8.1 | dbe56f4705c484f2d2fba6d19c3cda8681948bbab009ef6846b7f60c1386de5d |
+| `runs/20261010-065233_backfill/manifest.json` | 1.3 | d8245f0eb90fa86d4835ab2c3498ac387a7668b96671002ae9eb35d35ea866f2 |
+| `runs/20261010-065233_backfill/s0a_processlist.json` | 0.3 | b3baa789f4e2d6e8659ff85468a5e978065d786a1a0859c5b2d20d46e1add1e6 |
+| `runs/20261010-065233_backfill/s0a_processlist.sql` | 0.1 | 666ee22ff675f49f20b4787fba4fa9ba0238d3500c7aa676e9d5857e173baba4 |
+| `runs/20261010-065233_backfill/s0b_threads.json` | 0.1 | 269225c15a8a3c5acc42647217a62b7901f66406a24f98bc6c4f0802faf9332e |
+| `runs/20261010-065233_backfill/s0b_threads.sql` | 0.0 | f74412f51a5cfc5d5aa71923a177a1ae310ebf15b8937823d29018b3265dd2e7 |
+| `runs/20261010-065233_backfill/s0c_shards.json` | 0.2 | 3a61ea5e252866d9b1f18e26867604dcfcf59a9d5fae1db392930b48600f04b2 |
+| `runs/20261010-065233_backfill/s0c_shards.sql` | 0.3 | 771cf5cf3af8af7627d925012f41a33e167a354923891a222e965c640097ee31 |
+| `runs/20261010-065233_backfill/s0d_explain.json` | 0.4 | a888353e81822c8e80b1d761c1945cae67edc2530db35559f8a578cd9fe59c69 |
+| `runs/20261010-065233_backfill/s0d_explain.sql` | 2.4 | 15231327568bb29e502543dea79b2d45d73d9dd89c66c98c01bea73acd57c4de |
+| `runs/20261010-065233_backfill/w01_s1.json` | 0.8 | 839dba73a1ed82939a42634fe342baba5056b3bc94d52e7a64fc3fefab2a5e0b |
+| `runs/20261010-065233_backfill/w01_s1.sql` | 8.1 | e06427acdef815c75bec1cdc21c4231ae59bc3c697aa7e8ed5360849f8768cc1 |
+| `runs/20261010-065233_backfill/w01_s2.json` | 0.8 | 88bae9b3ca1c86ecb8cd5fbebdf69f9f4902de8571fdda0dccaa120488400e7d |
+| `runs/20261010-065233_backfill/w01_s2.sql` | 8.1 | 9d391c286d4e162083ac13bac2b7833e858f2ba6c7d5c74bd665d7695410faaf |
+| `runs/20261010-065233_backfill/w01_s3.json` | 0.8 | ea87ac619850dfd01b18186151f6eb96cc985adcd7b198407b674a66a960c608 |
+| `runs/20261010-065233_backfill/w01_s3.sql` | 8.1 | c6c4ef9a960cc7bb90e68bb8cd59f6e99fdf8df671882a68571623b30ff18aee |
+| `runs/20261010-065233_backfill/w01_s4.json` | 0.8 | 3922320d096021759723346960db54bb49c796db5342c2f3b5bcae0e535ad141 |
+| `runs/20261010-065233_backfill/w01_s4.sql` | 8.1 | 78a316c7a86316c2dfa6926cabec33f92f8337bedef9e45a45db3a174865cfcb |
+| `runs/20261010-065233_backfill/w02_s1.json` | 0.8 | 53eefc0a014f11615574435b468ec109ddecd705f4edead8e1085a746edf3bdb |
+| `runs/20261010-065233_backfill/w02_s1.sql` | 8.1 | 9e04cca406370ae9218a2156e542483900d519fd60551a827bb080d9f0880100 |
+| `runs/20261010-065233_backfill/w02_s2.json` | 0.8 | 68ed3c76e4ccff072e5d2dcd8061727773ea27b03c2b644980c06cc08776de09 |
+| `runs/20261010-065233_backfill/w02_s2.sql` | 8.1 | 2b32d4a4eb34bdfaa7168b97ef932cb3002894b0d56d7e67e0e04a876c15ad4a |
+| `runs/20261010-065233_backfill/w02_s3.json` | 0.8 | e5aad0e0b8a3ba6f8c8bb16dc7672d0d493c2d687693ae5e098205e210a1b587 |
+| `runs/20261010-065233_backfill/w02_s3.sql` | 8.1 | 8031f4d7f31219af1764d81f5d4855f0ea65c72cb877bb3cd1814c1261f7a10d |
+| `runs/20261010-065233_backfill/w02_s4.json` | 0.8 | 8d6a835c15c04cd62444b1143af36d7bc552d094e51f214e72e303ccbab831e9 |
+| `runs/20261010-065233_backfill/w02_s4.sql` | 8.1 | 73d552cab862fe917c7a7b4c0b50e3c489b1386cd14ad5d22296aced166b46ba |
+| `runs/20261010-065233_backfill/w03_s1.json` | 0.8 | 6e1867b5b02fbe570d7325981c29fc2e1fa7d3a0ffe2323527111ef69f464178 |
+| `runs/20261010-065233_backfill/w03_s1.sql` | 8.1 | 6655eea20d35b20f492024c4d6e20bc51fbc7aae82f6f64cf621196e430ad2f3 |
+| `runs/20261010-065233_backfill/w03_s2.json` | 0.8 | 337d990272190d21ad0b5b1322fa5ed04fe39a867278df953f4b1f1d0cc40021 |
+| `runs/20261010-065233_backfill/w03_s2.sql` | 8.1 | dbdcdd8a8ceed23821ed0f348f7ca11fef2f9eb2add71c846f201f3a1b044218 |
+| `runs/20261010-065233_backfill/w03_s3.json` | 0.8 | 25731e034538bead87edab8d7d38f608a2f3243d5043ec36b0b7fffabaf59527 |
+| `runs/20261010-065233_backfill/w03_s3.sql` | 8.1 | 4e532b675d8273187e53c3be5e0e3d93c7efe75369c8945de3a9a0ec5fd808fe |
+| `runs/20261010-065233_backfill/w03_s4.json` | 0.8 | 60c18d5aa7322738139cadbed18c01abd5fb92b8b905a1a2158c31fea55126a6 |
+| `runs/20261010-065233_backfill/w03_s4.sql` | 8.1 | aaab398c5b614d671e978ca83a1acd19f2bec15e6426e0921cbb983138171e82 |
+| `runs/20261010-070032_validate_ny/manifest.json` | 1.5 | 14ae91190d984dcdf422d6e2b4bc4594943c769491561750542cfb63b0ad1915 |
+| `runs/20261010-070032_validate_ny/s0a_processlist.json` | 0.3 | 41bfc4ffcbb9a76d838be7464885540f003dec6f81ad2c3c85c05fed9e2fccea |
+| `runs/20261010-070032_validate_ny/s0a_processlist.sql` | 0.1 | 666ee22ff675f49f20b4787fba4fa9ba0238d3500c7aa676e9d5857e173baba4 |
+| `runs/20261010-070032_validate_ny/s0b_threads.json` | 0.1 | 269225c15a8a3c5acc42647217a62b7901f66406a24f98bc6c4f0802faf9332e |
+| `runs/20261010-070032_validate_ny/s0b_threads.sql` | 0.0 | f74412f51a5cfc5d5aa71923a177a1ae310ebf15b8937823d29018b3265dd2e7 |
+| `runs/20261010-070032_validate_ny/s0c_shards.json` | 0.2 | 3a61ea5e252866d9b1f18e26867604dcfcf59a9d5fae1db392930b48600f04b2 |
+| `runs/20261010-070032_validate_ny/s0c_shards.sql` | 0.3 | 771cf5cf3af8af7627d925012f41a33e167a354923891a222e965c640097ee31 |
+| `runs/20261010-070032_validate_ny/s0d_explain.json` | 0.4 | 2efa6c070e5cde99f3ff04ba92cdbbf076a431033f2385fa52dfc7e9327c62d2 |
+| `runs/20261010-070032_validate_ny/s0d_explain.sql` | 2.4 | 88661e1012d1ea2c567348e624d3d206d3d2dce2da69888eb89f93551db61a02 |
+| `runs/20261010-070032_validate_ny/w01_s1.json` | 0.8 | ae2a26669ed1b593775521fc2cc3df2dc5821201534f42541f963baa264b5389 |
+| `runs/20261010-070032_validate_ny/w01_s1.sql` | 8.1 | 39d4d6e07864d128a5d612535b8706d42b01a486e8ef3d5b4d1483ddcf959c6e |
+| `runs/20261010-070032_validate_ny/w01_s2.json` | 0.8 | dd52d0ec13e74d0f6ef2c8e77f3b8ac3fcce89910451182fdde45e8bb2aa9572 |
+| `runs/20261010-070032_validate_ny/w01_s2.sql` | 8.1 | 80d129364ecca08487161d6c4e81f7127f9cc1a9ce513801a4a251edfd2801b0 |
+| `runs/20261010-070032_validate_ny/w01_s3.json` | 0.8 | 6f54a0c289189964ce5cf8ee734f9909ef0b507406c527665033cf5eabcce638 |
+| `runs/20261010-070032_validate_ny/w01_s3.sql` | 8.1 | 83d1bd777bf990f9d2bbb34d9f205f819efb9dbb3682c1decebb5a7c65da29c9 |
+| `runs/20261010-070032_validate_ny/w01_s4.json` | 0.8 | 98dafb59135c36471d8c7a782a8ad60d0cc6d20d8c153b28acbf44bd757c502c |
+| `runs/20261010-070032_validate_ny/w01_s4.sql` | 8.1 | a2eaa1c433e496be89d64850d7860ff4ef91489d67d58a5580431a9329bde4da |
+| `runs/20261010-070032_validate_ny/w02_s1.json` | 0.8 | 24925eb11c47577bc11120ea2c8365c3da142fe3faac02fe0bbe207fac397801 |
+| `runs/20261010-070032_validate_ny/w02_s1.sql` | 8.1 | 728b04036bab2c53f4012e61f48a88ab4f17577c016e818fd794cc82d5e10cfc |
+| `runs/20261010-070032_validate_ny/w02_s2.json` | 0.8 | 3c51d21f33b1bdc95107b044c2a4326dfe5f5e2368e47a040ad4e60d57eeae8c |
+| `runs/20261010-070032_validate_ny/w02_s2.sql` | 8.1 | b88f5edf4e64fafca273adfeaad7d75d44af876eff4522de4b32f5f75dec5010 |
+| `runs/20261010-070032_validate_ny/w02_s3.json` | 0.8 | 2c81653733170030f04c9e184a83ef8bc279df12443d62c003ca75ca5eeb9059 |
+| `runs/20261010-070032_validate_ny/w02_s3.sql` | 8.1 | cc3cdc610708bb6785b8fda22cc44da71dc0426f3fc7e86c29a8d594215cf24a |
+| `runs/20261010-070032_validate_ny/w02_s4.json` | 0.8 | ffd474d8389911ab55093ec1177c59fe4260a65477e13273da25e137f8d6227f |
+| `runs/20261010-070032_validate_ny/w02_s4.sql` | 8.1 | 8beeb2f5b078f3fa04583d5d29d0e11c65625928e73f5addc912e74dea0c6c3f |
+| `runs/20261010-070032_validate_ny/w03_s1.json` | 0.8 | e54c3ca3d9947308b9edd528caa7aa607fde8b7b66b911ff2d458aab9518034d |
+| `runs/20261010-070032_validate_ny/w03_s1.sql` | 8.1 | 5618b8e1e4ed170569420601f390645df863eaa041b738c8ab0cfd5eb88f8652 |
+| `runs/20261010-070032_validate_ny/w03_s2.json` | 0.8 | b3b147633edcee06eb5803bc12538d673d1f499ffbeaec59b385fb848c0c7ada |
+| `runs/20261010-070032_validate_ny/w03_s2.sql` | 8.1 | 9082412ab66a427425224d96c5893be4edf761629243665c683766d0fb8d566f |
+| `runs/20261010-070032_validate_ny/w03_s3.json` | 0.8 | d72341e11a8861d259b47e2c37b41e52e7c89efcc9f14cb10813e58b37c67c18 |
+| `runs/20261010-070032_validate_ny/w03_s3.sql` | 8.1 | d0630af9369e6075c528bdd604e38283f9fe58a1a7d0bd37ebb46e319cee63ab |
+| `runs/20261010-070032_validate_ny/w03_s4.json` | 0.8 | f92b95e5973fe255ed76f024c19693531bb089c3818032380ae02a4dc5c42771 |
+| `runs/20261010-070032_validate_ny/w03_s4.sql` | 8.1 | 41fda74cc12930e2c01b8027b717d6415b660fb3b5d87d0c5220a39176f857a2 |
+| `runs/20261010-070032_validate_ny/w04_s1.json` | 0.8 | aa4273262c82b1209d2b2db5dd034cbc3b96430b657acb8325f45db1e8a54286 |
+| `runs/20261010-070032_validate_ny/w04_s1.sql` | 8.1 | 6fdd8e59958b1ca1953d29ab7ef5763c8d871c7dfad09d2d1935469d2ddd6284 |
+| `runs/20261010-070032_validate_ny/w04_s2.json` | 0.8 | 68ecdc7f298d1a41bb2dee1568766d8c743fbbf9f9e2b58eda2335caad5aee9e |
+| `runs/20261010-070032_validate_ny/w04_s2.sql` | 8.1 | 521714236cfd7a2eb25fb85dff3d71f0d83d98d79a167d58e80a1ef18ffea4ac |
+| `runs/20261010-070032_validate_ny/w04_s3.json` | 0.8 | eca4a8b3e1a26f40af4667b381a40927ff728bcf2438f6558f2f328c8337c837 |
+| `runs/20261010-070032_validate_ny/w04_s3.sql` | 8.1 | b54a011cd434ab926bd22c6e081f0ca8111ec6ff10a63fb075c34d35cd0d1454 |
+| `runs/20261010-070032_validate_ny/w04_s4.json` | 0.8 | fbdbf5c04c0b64c274c99d8acfe8e519b4cee92754c0c7ef3272a942a0a8db19 |
+| `runs/20261010-070032_validate_ny/w04_s4.sql` | 8.1 | 6caa2555d8e38c74a544e47464c6327b458a051c348428ecf6f1d86e1d290da2 |
+| `sql/e0_drafts/README.md` | 1.3 | 22041094fba09f27e2c81e68034cc31a2036d209844415a45e5ee1c199f45c41 |
+| `sql/e0_drafts/e0_00_cols_t_operation_log.sql` | 0.2 | 5a64200ac169ee3593561bd7ab292e9f71fc0aba0b00127de4f2a993abc7abdf |
+| `sql/e0_drafts/e0_00_cols_t_rms_engine_rule.sql` | 0.2 | 8b3ac977fa8eeaf1f33a9afd9374481daadf0fafda153dab02072e13fb391779 |
+| `sql/e0_drafts/e0_00_cols_t_rms_engine_strategy.sql` | 0.2 | 7811ffe20d015c384e8cb767a6a405192203c6d83270660a622abd9aa1a4923a |
+| `sql/e0_drafts/e0_00_cols_t_rms_engine_strategy_relation.sql` | 0.2 | 279d508a98282827798b8492d73c567cc26fbaf6b54bf093d942308413d31691 |
+| `sql/e0_drafts/e0_00_cols_t_rms_engine_third_feature.sql` | 0.2 | 3f4bbf83725b4b4c6b88e4868642699fcad77e99927f91ab24508dceb3eb0b28 |
+| `sql/e0_drafts/e0_10_strategy.sql` | 0.5 | 224dddf420afc196b42e01f4d3a9c9221c6f5be395b0ba52ab2a7c140500c684 |
+| `sql/e0_drafts/e0_11_rules.sql` | 0.9 | c77fa0a3ce6c5acfa99c887f7c572b7ed57c17594ff964afa42c8d9103f52e16 |
+| `sql/e0_drafts/e0_12_counter_feature.sql` | 1.4 | ecb6cf035712101c40a40875b689c0422213ef62c4d73e03ca3fbc9965365ac4 |
+| `sql/e0_drafts/e0_13_preonline_list.sql` | 0.2 | 01736614bc0ff3c2fea2dbba9a777b0e5965e00cef89636357271f32d34401b6 |
+| `sql/e0_drafts/e0_2x_oplog_2026-10-08.sql` | 2.0 | 0e33f73ee1210e1acde140d2dac418fe0c3180e8a03519514416ea70379d617d |
+| `sql/e0_drafts/e0_2x_oplog_2026-10-09.sql` | 2.0 | 48a0fbebfdc9995904c8f1155766edc1f2c80e59dfb2dd71b49772263c3176a5 |
+| `sql/e0_drafts/e0_2x_oplog_2026-10-10.sql` | 2.0 | 1e911d38d78bdd756e43e9d2c54b7dcfd9e9848ae0235d7a339ab60f229b0264 |
+| `sql/e0_drafts/e0_2x_oplog_2026-10-11.sql` | 2.0 | 4cb3493601f0bb506d30eedfbf456b0baeccafbb8d7270c175d0f5a6c879f12b |
+| `toolkit/README_patrol24.md` | 6.5 | be7e0680f8edf05a723b833ba341ec5424cc4bcb063c22940576ffc94a44f1df |
+| `toolkit/SHA256SUMS` | 1.3 | dc5b3230ae984e71658e75facd9a847f3444e1f885078817fb94a5d15b57b8e2 |
+| `toolkit/codes_21.txt` | 0.4 | e21999e4703ff43db48c78ad183348b24fc0c29d4da707b40ffda2be18c9d408 |
+| `toolkit/eohq24.py` | 15.6 | 527815abb1a3bb80c13365df305b0402d5fec986547245e1f4ae69e4c0ed6918 |
+| `toolkit/fixture_doris_utc_0913_1008.csv` | 0.6 | dc74b65e776bd2adc8334c1820e85185ae3a1b53fe5f19e4156755916a3d408b |
+| `toolkit/fixture_ny_0920_0926.csv` | 0.4 | 8173fa0472a90d8349cfa5d9347e93b9375dadd684c199697fb3f1e65e3da27f |
+| `toolkit/ny_day_bounds.py` | 1.0 | 19d4e42a2f99327cb5597a96b7aee735751d1c917818a4aacb0fd880db99c12a |
+| `toolkit/package.py` | 3.1 | 0ccf744a8282359eeaa85a0ce734ac874ac80e43bcc4ff38e334d347b6c8ddc4 |
+| `toolkit/patrol24.py` | 40.0 | c2764f4f527f83f2f58bb0f1964cbd6fe4248f405159e40da486571ea740a2e1 |
+| `toolkit/privacy_allowlist.txt` | 0.1 | f54cc2fafbec2e927d9648ed27a17490e4ba74317b7f7a17bea9672b8d536e4b |
+| `toolkit/privacy_scan.py` | 8.7 | cfb6146462481e522e47e403cffd533ee3431dfcea53c7a67e3e564ccea19e21 |
+| `toolkit/shard_runner.py` | 31.1 | a769a040be36cb5b775a4a82fcad435f2583a0c524ca577f416403083ca3e720 |
+| `toolkit/test_guard.py` | 4.2 | 25da788bf32cea330c15c76aac5c56a6ca789cd9d327a4606afb52e8d18f8888 |
+| `toolkit/test_patrol24.py` | 28.9 | 0109d724603c3e8f15acf818071df6a03257261c43b20e14072fc56b3d47c57a |
+| `toolkit/tk11_patrol24_branch.sql` | 0.3 | 3547da591e400b32675abe6e3d59bb3885a8b0d117151c304939e6d5f9204a4d |
+| `toolkit/tk11_patrol24_outer.sql` | 1.7 | 7650ef4402a28fd8d7e7189bb214301185a169dbc67ff43bb6a9e4265d26efc3 |
+| `toolkit/tk11_patrol24_percode.sql` | 0.5 | 7da56778e65a78edbfc00322c18567d59d5bdbe8dfec49ceb3d01a58095ebd28 |

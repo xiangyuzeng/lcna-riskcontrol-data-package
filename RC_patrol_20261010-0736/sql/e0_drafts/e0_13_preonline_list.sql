@@ -1,0 +1,1 @@
+SELECT /*+ MAX_EXECUTION_TIME(5000) */ strategy_id, status, result_code, exec_priority, scene_id, create_time, update_time FROM luckyus_iriskcontrolservice.t_rms_engine_strategy WHERE status = 2 ORDER BY update_time DESC

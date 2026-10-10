@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "window_start_utc": "2026-09-26 04:00:00",
+      "window_end_utc": "2026-09-27 04:00:00",
+      "shard_range": "0032..0047",
+      "shards_seen": 16,
+      "shard_sum": 632.0,
+      "first_utc": "2026-09-26 04:01:48",
+      "last_utc": "2026-09-27 03:53:24",
+      "rows_all": 654,
+      "dup_rows": 0,
+      "email_rows": 0.0,
+      "sms_total": 654.0,
+      "sms_pass": 298.0,
+      "sms_reject": 354.0,
+      "sms_review": 2.0,
+      "sms_other": 0.0,
+      "pass_1": 196.0,
+      "pass_86": 3.0,
+      "pass_empty": 0.0,
+      "pass_invalid": 0.0,
+      "pass_not_us_cn": 99.0,
+      "pass_21": 92.0,
+      "pass_not_21": 7.0,
+      "sms_cc_empty": 0.0,
+      "sms_cc_invalid": 0.0,
+      "sms_no_plus": 0.0,
+      "lag_s": 396
+    }
+  ],
+  "count": 1
+}

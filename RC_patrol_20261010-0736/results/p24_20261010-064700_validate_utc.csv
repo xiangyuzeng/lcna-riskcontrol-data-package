@@ -1,0 +1,3 @@
+window,label,window_start_utc,window_end_utc,rows_all,email_rows,sms_total,sms_pass,sms_reject,sms_review,sms_other,pass_1,pass_86,pass_empty,pass_invalid,pass_not_us_cn,pass_21,pass_not_21,sms_cc_empty,sms_cc_invalid,sms_no_plus,dup_rows,lag_s,checks,fixture
+2026-10-07,UTC 日 2026-10-07,2026-10-07 00:00:00,2026-10-08 00:00:00,3437,7,3430,2014,1399,17,0,1090,17,0,0,907,859,48,0,0,0,0,249,ok,"Doris total 3430 (diff +0), PASS 2014 (diff +0)"
+2026-10-08,UTC 日 2026-10-08,2026-10-08 00:00:00,2026-10-09 00:00:00,3055,4,3051,1613,1430,8,0,1101,16,0,0,496,470,26,0,0,0,0,13,ok,"Doris total 3051 (diff +0), PASS 1613 (diff +0)"

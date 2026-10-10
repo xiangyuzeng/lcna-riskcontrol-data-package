@@ -1,0 +1,1 @@
+SELECT /*+ MAX_EXECUTION_TIME(5000) */ COUNT(*) AS shard_tables, MIN(TABLE_NAME) AS first_table, MAX(TABLE_NAME) AS last_table FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'luckyus_iriskcontrolservice' AND TABLE_NAME REGEXP '^t_access_log_[0-9][0-9][0-9][0-9]$'
