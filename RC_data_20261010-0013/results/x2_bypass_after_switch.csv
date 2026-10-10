@@ -1,0 +1,19 @@
+period,new_online_hit,ip_geo,final_result,requests
+"WvNG online, before bYXa",False,eq_phone,PASS,51
+"WvNG online, before bYXa",False,eq_phone,REJECT,34
+"WvNG online, before bYXa",False,other,PASS,89
+"WvNG online, before bYXa",False,other,REJECT,157
+"WvNG online, before bYXa",False,other,REVIEW,3
+"WvNG online, before bYXa",False,us,PASS,65
+"WvNG online, before bYXa",False,us,REJECT,36
+"WvNG online, before bYXa",True,eq_phone,REJECT,198
+"WvNG online, before bYXa",True,other,REJECT,428
+"WvNG online, before bYXa",True,us,REJECT,147
+after bYXa online,False,eq_phone,PASS,64
+after bYXa online,False,eq_phone,REJECT,35
+after bYXa online,False,eq_phone,REVIEW,5
+after bYXa online,False,us,PASS,111
+after bYXa online,False,us,REJECT,42
+after bYXa online,True,eq_phone,REJECT,127
+after bYXa online,True,other,REJECT,549
+after bYXa online,True,us,REJECT,168

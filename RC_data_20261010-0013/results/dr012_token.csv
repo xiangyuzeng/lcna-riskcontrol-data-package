@@ -1,0 +1,9 @@
+cid,group,token_state,rows
+105,"app present, version < 1.4.30",absent,51
+105,"app present, version >= 1.4.30",empty,1200
+105,"app present, version >= 1.4.30",present,10685
+105,no app field,absent,551
+106,"app present, version < 1.4.30",absent,113
+106,"app present, version >= 1.4.30",empty,91
+106,"app present, version >= 1.4.30",present,5475
+106,no app field,absent,50

@@ -1,0 +1,7 @@
+cid,group,requests,phones_7d,pass,non_plus1,no_online_hit
+105,"app present, version < 1.4.30",51,45,40,14,40
+105,"app present, version >= 1.4.30",11885,4054,4762,11316,4762
+105,no app field,551,287,255,546,255
+106,"app present, version < 1.4.30",113,105,113,3,113
+106,"app present, version >= 1.4.30",5566,5022,5533,266,5533
+106,no app field,50,44,50,0,50

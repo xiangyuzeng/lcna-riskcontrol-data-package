@@ -1,0 +1,33 @@
+claim,window,metric,value
+b,NY 10-01..10-07,non-+1 SMS PASS per day,834.1
+b,NY 10-01..10-07,top codes: +92 (巴基斯坦) share of non-+1 PASS,0.2367
+b,NY 10-01..10-07,top codes: +265 (马拉维) share of non-+1 PASS,0.1737
+b,NY 10-01..10-07,top codes: +856 (老挝) share of non-+1 PASS,0.1397
+b,NY 10-01..10-07,top codes: +375 (白俄罗斯) share of non-+1 PASS,0.1341
+b,NY 10-01..10-07,top codes: +386 (斯洛文尼亚) share of non-+1 PASS,0.1183
+b,NY 10-01..10-07,top codes: +264 (纳米比亚) share of non-+1 PASS,0.043
+b,NY 10-01..10-07,top codes: +60 (马来西亚) share of non-+1 PASS,0.0303
+b,NY 10-01..10-07,top codes: +86 (中国) share of non-+1 PASS,0.0226
+b,NY 10-01..10-07,V3 score >= 0.8 share of non-+1 PASS,0.8253
+b,NY 10-01..10-07,V3 score = 0.8 exactly (1 dp) share of non-+1 PASS,0.7972
+b,NY 10-08,non-+1 SMS PASS per day,406.0
+b,NY 10-08,top codes: +265 (马拉维) share of non-+1 PASS,0.1847
+b,NY 10-08,top codes: +856 (老挝) share of non-+1 PASS,0.1379
+b,NY 10-08,top codes: +92 (巴基斯坦) share of non-+1 PASS,0.1256
+b,NY 10-08,top codes: +60 (马来西亚) share of non-+1 PASS,0.1034
+b,NY 10-08,top codes: +375 (白俄罗斯) share of non-+1 PASS,0.0813
+b,NY 10-08,top codes: +264 (纳米比亚) share of non-+1 PASS,0.0714
+b,NY 10-08,top codes: +386 (斯洛文尼亚) share of non-+1 PASS,0.0591
+b,NY 10-08,top codes: +7 (俄罗斯) share of non-+1 PASS,0.0419
+b,NY 10-08,V3 score >= 0.8 share of non-+1 PASS,0.8645
+b,NY 10-08,V3 score = 0.8 exactly (1 dp) share of non-+1 PASS,0.835
+c,NY 10-08,non-+1 SMS PASS,406.0
+c,NY 10-08,share with non-US IP (IP country known and not US),0.6872
+c,NY 10-08,share with non-US IP and IP country != phone country,0.4655
+c,NY 10-08,share with no IP country,0.0
+d,NY 10-08 04:00..24:00,share of SMS PASS with +1,0.8116
+d,NY 10-08 08:00..24:00,share of SMS PASS with +1,0.8172
+d,NY 10-08 12:00..24:00,share of SMS PASS with +1,0.8171
+d,NY 10-08 16:00..24:00,share of SMS PASS with +1,0.7724
+d,NY 10-08 20:00..24:00,share of SMS PASS with +1,0.5143
+d,NY 10-08 00:00..04:00,share of SMS PASS with +1,0.0316

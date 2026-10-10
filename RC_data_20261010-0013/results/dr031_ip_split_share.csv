@@ -1,0 +1,6 @@
+code_set,ip_geo,requests,passes,requests_share_within_code_set,passes_share_within_code_set
+15 original,eq_phone,2838,1171,0.2114,0.2272
+15 original,other,7328,2235,0.5459,0.4337
+15 original,us,3258,1747,0.2427,0.339
+6 added,other,148,39,0.9801,1.0
+6 added,us,3,0,0.0199,0.0

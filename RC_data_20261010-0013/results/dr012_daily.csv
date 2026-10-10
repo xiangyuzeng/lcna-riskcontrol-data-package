@@ -1,0 +1,43 @@
+cid,group,ny_date,rows,phones
+105,"app present, version < 1.4.30",2026-10-03,10,10
+105,"app present, version < 1.4.30",2026-10-04,12,8
+105,"app present, version < 1.4.30",2026-10-05,5,5
+105,"app present, version < 1.4.30",2026-10-06,2,2
+105,"app present, version < 1.4.30",2026-10-07,10,8
+105,"app present, version < 1.4.30",2026-10-08,6,6
+105,"app present, version < 1.4.30",2026-10-09,6,6
+105,"app present, version >= 1.4.30",2026-10-03,1871,798
+105,"app present, version >= 1.4.30",2026-10-04,1720,766
+105,"app present, version >= 1.4.30",2026-10-05,1686,735
+105,"app present, version >= 1.4.30",2026-10-06,1653,633
+105,"app present, version >= 1.4.30",2026-10-07,2203,842
+105,"app present, version >= 1.4.30",2026-10-08,1725,708
+105,"app present, version >= 1.4.30",2026-10-09,1027,492
+105,no app field,2026-10-03,124,69
+105,no app field,2026-10-04,93,63
+105,no app field,2026-10-05,44,27
+105,no app field,2026-10-06,69,46
+105,no app field,2026-10-07,117,90
+105,no app field,2026-10-08,79,17
+105,no app field,2026-10-09,25,22
+106,"app present, version < 1.4.30",2026-10-03,15,14
+106,"app present, version < 1.4.30",2026-10-04,12,10
+106,"app present, version < 1.4.30",2026-10-05,17,15
+106,"app present, version < 1.4.30",2026-10-06,22,20
+106,"app present, version < 1.4.30",2026-10-07,16,16
+106,"app present, version < 1.4.30",2026-10-08,17,17
+106,"app present, version < 1.4.30",2026-10-09,14,14
+106,"app present, version >= 1.4.30",2026-10-03,991,937
+106,"app present, version >= 1.4.30",2026-10-04,679,637
+106,"app present, version >= 1.4.30",2026-10-05,734,657
+106,"app present, version >= 1.4.30",2026-10-06,817,733
+106,"app present, version >= 1.4.30",2026-10-07,785,703
+106,"app present, version >= 1.4.30",2026-10-08,795,729
+106,"app present, version >= 1.4.30",2026-10-09,765,692
+106,no app field,2026-10-03,8,8
+106,no app field,2026-10-04,6,6
+106,no app field,2026-10-05,5,5
+106,no app field,2026-10-06,6,4
+106,no app field,2026-10-07,9,6
+106,no app field,2026-10-08,10,9
+106,no app field,2026-10-09,6,6

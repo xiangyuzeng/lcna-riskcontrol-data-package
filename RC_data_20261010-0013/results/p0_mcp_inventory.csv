@@ -1,0 +1,13 @@
+mcp_server,transport,tools,reaches,write_capability,this_run
+mcp-db-gateway,SSE,"list_servers, mysql_query, postgres_query, redis_command","64 MySQL, 1 PostgreSQL, 79 Redis servers (list_servers, 2026-10-09 22:17 NY)","MySQL servers queried: SELECT, PROCESS, EXECUTE only",main source; read/query tools only
+grafana-lucky,SSE,"dashboards, PromQL/LogQL, alerting, incidents (no SQL datasource query tool)","18 datasources incl. Doris-iriskcontrol, MySQL-iriskcontrol, MySQL-lucky_upushcoresms",has write tools; writes known to return 403,list_datasources only (DR-013)
+redshift,stdio,"list_clusters, list_databases, execute_query, ...",list_clusters -> error (2026-10-09 22:19 NY),-,DR-013 note only
+prometheus,stdio,PromQL tools,Redis exporter metrics,-,not queried
+cloudwatch-server,stdio,logs/metrics/alarms read tools,AWS CloudWatch,-,not queried
+eks-server,stdio,EKS/k8s tools (read-only mode by default),EKS,-,not queried
+aws-dataprocessing,stdio,Glue/EMR/Athena tools (read-only mode by default),AWS data processing,-,not queried
+billing,stdio,cost / budget tools,AWS billing,-,not queried
+aws-pricing-server,stdio,pricing tools,AWS pricing,-,not queried
+aws-documentation-server,stdio,documentation search,AWS docs,-,not queried
+claude.ai Claude Docs,remote,docs,-,-,not queried
+claude.ai Expedia,remote,travel,-,-,not queried

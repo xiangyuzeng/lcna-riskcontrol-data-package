@@ -1,0 +1,7 @@
+check,cells,mismatching_cells,sql_total,e1_total
+"day x cc_group x final_result (all push rows), E1 vs L1",39,0,20210,20210
+"day x cc_group x final_result (SMS rule), E1 vs L1",39,0,20178,20178
+strategy hit PV by list (all push rows),55,0,56475,56475
+"SMS result totals over the window, E1 vs tk07",3,0,20178,20178
+"online hit PV per strategy over the window (all push rows), E1 vs tk07",28,0,16985,16985
+"preonline hit PV per strategy over the window (all push rows), E1 vs tk07",27,0,39490,39490

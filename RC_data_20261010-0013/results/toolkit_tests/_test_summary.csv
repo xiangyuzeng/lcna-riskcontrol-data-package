@@ -1,0 +1,62 @@
+test,toolkit,reference,equal,note
+tk01 2026-10-02 requests (all push rows) vs L1,3003,3003,True,
+tk01 2026-10-03 requests (all push rows) vs L1,3359,3359,True,
+tk01 2026-10-03 SMS distinct phones vs E1,2026,2026,True,
+tk01 2026-10-03 SMS PASS +1 distinct phones vs E1,1230,1230,True,
+tk01 2026-10-04 requests (all push rows) vs L1,2692,2692,True,
+tk01 2026-10-04 SMS distinct phones vs E1,1590,1590,True,
+tk01 2026-10-04 SMS PASS +1 distinct phones vs E1,789,789,True,
+tk01 2026-10-05 requests (all push rows) vs L1,2848,2848,True,
+tk01 2026-10-05 SMS distinct phones vs E1,1614,1614,True,
+tk01 2026-10-05 SMS PASS +1 distinct phones vs E1,852,852,True,
+tk01 2026-10-06 requests (all push rows) vs L1,2829,2829,True,
+tk01 2026-10-06 SMS distinct phones vs E1,1598,1598,True,
+tk01 2026-10-06 SMS PASS +1 distinct phones vs E1,927,927,True,
+tk01 2026-10-07 requests (all push rows) vs L1,3457,3457,True,
+tk01 2026-10-07 SMS distinct phones vs E1,1820,1820,True,
+tk01 2026-10-07 SMS PASS +1 distinct phones vs E1,916,916,True,
+tk01 2026-10-08 requests (all push rows) vs L1,2896,2896,True,
+tk01 2026-10-08 SMS distinct phones vs E1,1636,1636,True,
+tk01 2026-10-08 SMS PASS +1 distinct phones vs E1,948,948,True,
+tk01 2026-10-09 requests (all push rows) vs L1,2129,2129,True,
+tk01 2026-10-09 SMS distinct phones vs E1,1389,1389,True,
+tk01 2026-10-09 SMS PASS +1 distinct phones vs E1,894,894,True,
+tk02 strategy_GbsajBR69can pre-online PV 7d vs p2_hits_7d,15571,15571,True,
+tk02 2026-10-03 strategy_GbsajBR69can distinct phones vs E1,1682,1682,True,
+tk02 2026-10-04 strategy_GbsajBR69can distinct phones vs E1,1299,1299,True,
+tk02 2026-10-05 strategy_GbsajBR69can distinct phones vs E1,1318,1318,True,
+tk02 2026-10-06 strategy_GbsajBR69can distinct phones vs E1,1317,1317,True,
+tk02 2026-10-07 strategy_GbsajBR69can distinct phones vs E1,1431,1431,True,
+tk02 2026-10-08 strategy_GbsajBR69can distinct phones vs E1,1397,1397,True,
+tk02 2026-10-09 strategy_GbsajBR69can distinct phones vs E1,1169,1169,True,
+tk03 strategy_GbsajBR69can extra recall PV 7d vs E1 (all push rows; pass_class=1),4936,4936,True,
+"tk02 strategy_GbsajBR69can pre-online PV 7d, sms_only=1, vs E1 SMS",15549,15549,True,
+"tk02 2026-10-03 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1680,1680,True,
+"tk02 2026-10-04 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1298,1298,True,
+"tk02 2026-10-05 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1316,1316,True,
+"tk02 2026-10-06 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1316,1316,True,
+"tk02 2026-10-07 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1430,1430,True,
+"tk02 2026-10-08 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1396,1396,True,
+"tk02 2026-10-09 strategy_GbsajBR69can distinct phones, sms_only=1, vs E1 SMS",1167,1167,True,
+"tk03 strategy_GbsajBR69can extra recall PV 7d, sms_only=1, vs E1 SMS (pass_class=1)",4936,4936,True,
+tk04 non-+1 SMS PASS rows 7d vs E1,4874,4874,True,
+tk04 non-+1 SMS PASS ip_country=美国 vs E1,1550,1550,True,
+tk04 non-+1 SMS PASS token_state=absent vs E1,333,333,True,
+tk04 non-+1 SMS PASS cid=105 vs E1,4446,4446,True,
+tk05 score-bucket cells (cc group x cid x bucket) equal to E1,36,36,True,36 cells
+tk06 strategy_lf6DsxMdAPzy hits on NY 2026-10-09 vs p2_hits_7d,7,7,True,"re-check output (not a test): violations 0/7; engine==recompute 0.9869, within1 0.9995"
+tk06 strategy_lf6DsxMdAPzy SMS hits on NY 2026-10-09 (email_nonempty=0) vs E1 SMS,7,7,True,re-check output (not a test): SMS violations 0/7
+tk07 2026-10-09 SMS PASS vs E1,1261,1261,True,
+tk07 2026-10-09 SMS REJECT vs E1,848,848,True,
+tk07 2026-10-09 SMS REVIEW vs E1,17,17,True,
+tk07 2026-10-09 online hit PV per strategy equal to p2_hits_7d,23,23,True,23 strategies
+tk08 strategy_WvNGjLMgoOyn PV cells (day x cid x geo) all rows equal to E1,8,8,True,8 cells
+tk08 strategy_WvNGjLMgoOyn distinct-phone cells all rows equal to E1,8,8,True,8 cells
+tk08 strategy_WvNGjLMgoOyn PV cells (day x cid x geo) sms_only=1 equal to E1,8,8,True,8 cells
+tk08 strategy_WvNGjLMgoOyn distinct-phone cells sms_only=1 equal to E1,8,8,True,8 cells
+tk09 2026-10-09 SMS engine x final cells equal to E1,4,4,True,4 cells
+"tk10 strategy_43NaEzJmiQFk cells (requests and unique REJECT) equal to E1, NY 09-23..10-09 SMS",101,101,True,101 cells
+"tk10 strategy_bYXaOJ4qXtW4 cells equal to E1 (NY 2026-10-02..2026-10-09, both bases)",57,57,True,57 cells
+"tk10 strategy_WvNGjLMgoOyn cells equal to E1 (NY 2026-10-02..2026-10-09, both bases)",59,59,True,59 cells
+tk11 strategy_bYXaOJ4qXtW4 bypass-watch cells equal to E1 (sms_only=1),397,397,True,397 cells
+tk11 strategy_bYXaOJ4qXtW4 bypass-watch cells equal to E1 (all rows),397,397,True,397 cells

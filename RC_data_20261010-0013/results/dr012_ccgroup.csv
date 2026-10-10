@@ -1,0 +1,16 @@
+cid,group,cc_group,rows
+105,"app present, version < 1.4.30",+1,37
+105,"app present, version < 1.4.30",other,14
+105,"app present, version >= 1.4.30",+1,569
+105,"app present, version >= 1.4.30",+86,12
+105,"app present, version >= 1.4.30",other,11304
+105,no app field,+1,5
+105,no app field,+86,1
+105,no app field,other,545
+106,"app present, version < 1.4.30",+1,110
+106,"app present, version < 1.4.30",+86,1
+106,"app present, version < 1.4.30",other,2
+106,"app present, version >= 1.4.30",+1,5300
+106,"app present, version >= 1.4.30",+86,80
+106,"app present, version >= 1.4.30",other,186
+106,no app field,+1,50

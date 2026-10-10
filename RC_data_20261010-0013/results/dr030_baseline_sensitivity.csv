@@ -1,0 +1,37 @@
+baseline,after,metric,baseline_rate,after_rate,ratio_after_to_baseline
+pre_online,online_first_24h,cond_met_per_24h,2864.9,1065.0,0.372
+pre_online,online_first_24h,cond_not_met_per_24h,1129.2,1190.0,1.054
+pre_online,online_first_24h,final_pass_per_24h,1720.2,533.0,0.31
+pre_online,online_day2_to_09-26,cond_met_per_24h,2864.9,532.3,0.186
+pre_online,online_day2_to_09-26,cond_not_met_per_24h,1129.2,1243.6,1.101
+pre_online,online_day2_to_09-26,final_pass_per_24h,1720.2,488.0,0.284
+pre_online,online_NY_09-27_to_10-02,cond_met_per_24h,2864.9,476.7,0.166
+pre_online,online_NY_09-27_to_10-02,cond_not_met_per_24h,1129.2,1371.2,1.214
+pre_online,online_NY_09-27_to_10-02,final_pass_per_24h,1720.2,655.5,0.381
+pre_online,online_NY_10-03_to_10-09,cond_met_per_24h,2864.9,334.7,0.117
+pre_online,online_NY_10-03_to_10-09,cond_not_met_per_24h,1129.2,1448.4,1.283
+pre_online,online_NY_10-03_to_10-09,final_pass_per_24h,1720.2,680.0,0.395
+pre_online / 1st half,online_first_24h,cond_met_per_24h,2022.4,1065.0,0.527
+pre_online / 1st half,online_first_24h,cond_not_met_per_24h,865.3,1190.0,1.375
+pre_online / 1st half,online_first_24h,final_pass_per_24h,1252.4,533.0,0.426
+pre_online / 1st half,online_day2_to_09-26,cond_met_per_24h,2022.4,532.3,0.263
+pre_online / 1st half,online_day2_to_09-26,cond_not_met_per_24h,865.3,1243.6,1.437
+pre_online / 1st half,online_day2_to_09-26,final_pass_per_24h,1252.4,488.0,0.39
+pre_online / 1st half,online_NY_09-27_to_10-02,cond_met_per_24h,2022.4,476.7,0.236
+pre_online / 1st half,online_NY_09-27_to_10-02,cond_not_met_per_24h,865.3,1371.2,1.585
+pre_online / 1st half,online_NY_09-27_to_10-02,final_pass_per_24h,1252.4,655.5,0.523
+pre_online / 1st half,online_NY_10-03_to_10-09,cond_met_per_24h,2022.4,334.7,0.165
+pre_online / 1st half,online_NY_10-03_to_10-09,cond_not_met_per_24h,865.3,1448.4,1.674
+pre_online / 1st half,online_NY_10-03_to_10-09,final_pass_per_24h,1252.4,680.0,0.543
+pre_online / 2nd half,online_first_24h,cond_met_per_24h,3707.4,1065.0,0.287
+pre_online / 2nd half,online_first_24h,cond_not_met_per_24h,1393.1,1190.0,0.854
+pre_online / 2nd half,online_first_24h,final_pass_per_24h,2188.0,533.0,0.244
+pre_online / 2nd half,online_day2_to_09-26,cond_met_per_24h,3707.4,532.3,0.144
+pre_online / 2nd half,online_day2_to_09-26,cond_not_met_per_24h,1393.1,1243.6,0.893
+pre_online / 2nd half,online_day2_to_09-26,final_pass_per_24h,2188.0,488.0,0.223
+pre_online / 2nd half,online_NY_09-27_to_10-02,cond_met_per_24h,3707.4,476.7,0.129
+pre_online / 2nd half,online_NY_09-27_to_10-02,cond_not_met_per_24h,1393.1,1371.2,0.984
+pre_online / 2nd half,online_NY_09-27_to_10-02,final_pass_per_24h,2188.0,655.5,0.3
+pre_online / 2nd half,online_NY_10-03_to_10-09,cond_met_per_24h,3707.4,334.7,0.09
+pre_online / 2nd half,online_NY_10-03_to_10-09,cond_not_met_per_24h,1393.1,1448.4,1.04
+pre_online / 2nd half,online_NY_10-03_to_10-09,final_pass_per_24h,2188.0,680.0,0.311

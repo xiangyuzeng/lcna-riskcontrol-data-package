@@ -1,0 +1,130 @@
+period,code_set,days,sent,filled,fill_rate
+pre-attack 06-01..09-02,+1,94,101186,97076,0.9594
+pre-attack 06-01..09-02,+86,94,1688,1524,0.9028
+pre-attack 06-01..09-02,15 original,93,1637,180,0.11
+pre-attack 06-01..09-02,6 added,11,36,0,0.0
+pre-attack 06-01..09-02,other codes,94,1446,1117,0.7725
+pre-attack 06-01..09-02,+213,16,199,0,0.0
+pre-attack 06-01..09-02,+220,38,148,1,0.0068
+pre-attack 06-01..09-02,+223,0,0,0,
+pre-attack 06-01..09-02,+233,0,0,0,
+pre-attack 06-01..09-02,+251,0,0,0,
+pre-attack 06-01..09-02,+254,17,94,2,0.0213
+pre-attack 06-01..09-02,+255,0,0,0,
+pre-attack 06-01..09-02,+258,6,7,0,0.0
+pre-attack 06-01..09-02,+264,4,47,0,0.0
+pre-attack 06-01..09-02,+265,12,87,0,0.0
+pre-attack 06-01..09-02,+375,40,199,0,0.0
+pre-attack 06-01..09-02,+380,0,0,0,
+pre-attack 06-01..09-02,+386,80,304,2,0.0066
+pre-attack 06-01..09-02,+504,0,0,0,
+pre-attack 06-01..09-02,+60,57,144,120,0.8333
+pre-attack 06-01..09-02,+7,42,59,49,0.8305
+pre-attack 06-01..09-02,+855,5,29,0,0.0
+pre-attack 06-01..09-02,+856,0,0,0,
+pre-attack 06-01..09-02,+92,66,211,6,0.0284
+pre-attack 06-01..09-02,+992,20,145,0,0.0
+pre-attack 06-01..09-02,+998,0,0,0,
+attack 09-03..09-20 (before the stats gap),+1,18,20251,19417,0.9588
+attack 09-03..09-20 (before the stats gap),+86,18,256,234,0.9141
+attack 09-03..09-20 (before the stats gap),15 original,18,22502,83,0.0037
+attack 09-03..09-20 (before the stats gap),6 added,17,1742,0,0.0
+attack 09-03..09-20 (before the stats gap),other codes,18,1305,314,0.2406
+attack 09-03..09-20 (before the stats gap),+213,18,1870,0,0.0
+attack 09-03..09-20 (before the stats gap),+220,14,2127,0,0.0
+attack 09-03..09-20 (before the stats gap),+223,14,1253,0,0.0
+attack 09-03..09-20 (before the stats gap),+233,14,975,0,0.0
+attack 09-03..09-20 (before the stats gap),+251,0,0,0,
+attack 09-03..09-20 (before the stats gap),+254,9,196,0,0.0
+attack 09-03..09-20 (before the stats gap),+255,0,0,0,
+attack 09-03..09-20 (before the stats gap),+258,6,583,0,0.0
+attack 09-03..09-20 (before the stats gap),+264,18,2464,0,0.0
+attack 09-03..09-20 (before the stats gap),+265,18,3066,0,0.0
+attack 09-03..09-20 (before the stats gap),+375,18,2767,0,0.0
+attack 09-03..09-20 (before the stats gap),+380,0,0,0,
+attack 09-03..09-20 (before the stats gap),+386,18,2452,2,0.0008
+attack 09-03..09-20 (before the stats gap),+504,4,182,0,0.0
+attack 09-03..09-20 (before the stats gap),+60,18,332,68,0.2048
+attack 09-03..09-20 (before the stats gap),+7,17,797,8,0.01
+attack 09-03..09-20 (before the stats gap),+855,1,2,0,0.0
+attack 09-03..09-20 (before the stats gap),+856,0,0,0,
+attack 09-03..09-20 (before the stats gap),+92,18,2790,5,0.0018
+attack 09-03..09-20 (before the stats gap),+992,18,2388,0,0.0
+attack 09-03..09-20 (before the stats gap),+998,0,0,0,
+09-21..09-28 (receipt gap),+1,8,1366,1287,0.9422
+09-21..09-28 (receipt gap),+86,8,133,121,0.9098
+09-21..09-28 (receipt gap),15 original,1,860,4,0.0047
+09-21..09-28 (receipt gap),other codes,1,25,12,0.48
+09-21..09-28 (receipt gap),+213,1,68,0,0.0
+09-21..09-28 (receipt gap),+220,0,0,0,
+09-21..09-28 (receipt gap),+223,1,17,0,0.0
+09-21..09-28 (receipt gap),+233,0,0,0,
+09-21..09-28 (receipt gap),+251,0,0,0,
+09-21..09-28 (receipt gap),+254,1,9,0,0.0
+09-21..09-28 (receipt gap),+255,0,0,0,
+09-21..09-28 (receipt gap),+258,0,0,0,
+09-21..09-28 (receipt gap),+264,1,139,0,0.0
+09-21..09-28 (receipt gap),+265,1,146,0,0.0
+09-21..09-28 (receipt gap),+375,1,146,0,0.0
+09-21..09-28 (receipt gap),+380,0,0,0,
+09-21..09-28 (receipt gap),+386,1,114,0,0.0
+09-21..09-28 (receipt gap),+504,0,0,0,
+09-21..09-28 (receipt gap),+60,1,22,4,0.1818
+09-21..09-28 (receipt gap),+7,1,47,0,0.0
+09-21..09-28 (receipt gap),+855,0,0,0,
+09-21..09-28 (receipt gap),+856,1,39,0,0.0
+09-21..09-28 (receipt gap),+92,1,113,0,0.0
+09-21..09-28 (receipt gap),+992,0,0,0,
+09-21..09-28 (receipt gap),+998,0,0,0,
+09-29..last day,+1,10,10880,10350,0.9513
+09-29..last day,+86,10,187,171,0.9144
+09-29..last day,15 original,10,5745,54,0.0094
+09-29..last day,6 added,9,68,0,0.0
+09-29..last day,other codes,10,316,185,0.5854
+09-29..last day,+213,7,35,0,0.0
+09-29..last day,+220,1,2,0,0.0
+09-29..last day,+223,5,12,0,0.0
+09-29..last day,+233,6,20,0,0.0
+09-29..last day,+251,0,0,0,
+09-29..last day,+254,0,0,0,
+09-29..last day,+255,0,0,0,
+09-29..last day,+258,6,48,0,0.0
+09-29..last day,+264,10,261,0,0.0
+09-29..last day,+265,10,1085,1,0.0009
+09-29..last day,+375,10,866,0,0.0
+09-29..last day,+380,0,0,0,
+09-29..last day,+386,10,743,0,0.0
+09-29..last day,+504,0,0,0,
+09-29..last day,+60,10,194,38,0.1959
+09-29..last day,+7,8,58,4,0.069
+09-29..last day,+855,0,0,0,
+09-29..last day,+856,10,868,0,0.0
+09-29..last day,+92,10,1570,11,0.007
+09-29..last day,+992,7,51,0,0.0
+09-29..last day,+998,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+1,1,1027,964,0.9387
+"10-08 (WvNG online, MZQk pre-online)",+86,1,15,15,1.0
+"10-08 (WvNG online, MZQk pre-online)",15 original,1,387,4,0.0103
+"10-08 (WvNG online, MZQk pre-online)",6 added,1,4,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",other codes,1,18,14,0.7778
+"10-08 (WvNG online, MZQk pre-online)",+213,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+220,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+223,1,2,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+233,1,4,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+251,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+254,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+255,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+258,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+264,1,22,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+265,1,98,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+375,1,41,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+380,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+386,1,36,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+504,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+60,1,25,4,0.16
+"10-08 (WvNG online, MZQk pre-online)",+7,1,9,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+855,0,0,0,
+"10-08 (WvNG online, MZQk pre-online)",+856,1,58,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+92,1,81,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+992,1,15,0,0.0
+"10-08 (WvNG online, MZQk pre-online)",+998,0,0,0,

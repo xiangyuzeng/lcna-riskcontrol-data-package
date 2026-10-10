@@ -1,0 +1,5 @@
+tag,strategy_id,switch_utc_last_to_online,country_rule,n_codes,codes
+43NA,strategy_43NaEzJmiQFk,2026-09-23 14:43:34,,0.0,
+BYXA,strategy_bYXaOJ4qXtW4,2026-10-09 01:44:35,rule_CrVrUuDk1hHJ,21.0,7 60 92 213 220 223 233 251 254 255 258 264 265 375 380 386 504 855 856 992 998
+WVNG,strategy_WvNGjLMgoOyn,2026-10-08 07:54:28,rule_CrVrUuDk1hHJ,21.0,7 60 92 213 220 223 233 251 254 255 258 264 265 375 380 386 504 855 856 992 998
+RN,,,,,REJECT

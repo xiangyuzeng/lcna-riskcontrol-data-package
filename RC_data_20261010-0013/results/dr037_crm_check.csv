@@ -1,0 +1,2 @@
+n_rows,min_create,max_create,n_area_codes,max_len_area_code,n_area_code_5plus_digits,n_area_code_empty,n_tenants,n_lkus
+546825,2025-03-24T10:04:37,2026-10-10T06:17:39,103,5,0.0,108405.0,4,442385.0

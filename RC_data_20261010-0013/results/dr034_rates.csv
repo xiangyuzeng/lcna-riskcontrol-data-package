@@ -1,0 +1,16 @@
+strategy_id,period,start_utc,end_utc,hours,requests_per_24h,pass_per_24h,online_hits_per_24h,unique_reject_per_24h
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,1828.1,780.8,0.0,0.0
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online / 1st half,2026-10-02 04:00:00,2026-10-05 05:57:14,73.95,1728.8,795.7,0.0,0.0
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online / 2nd half,2026-10-05 05:57:14,2026-10-08 07:54:28,73.95,1927.4,765.9,0.0,0.0
+strategy_WvNGjLMgoOyn,after: switch -> end NY 10-09,2026-10-08 07:54:28,2026-10-10 04:00:00,44.09,1256.8,206.8,724.5,227.5
+strategy_WvNGjLMgoOyn,after: switch -> end NY 10-09 / 1st half,2026-10-08 07:54:28,2026-10-09 05:57:14,22.05,1570.9,242.8,1013.5,299.4
+strategy_WvNGjLMgoOyn,after: switch -> end NY 10-09 / 2nd half,2026-10-09 05:57:14,2026-10-10 04:00:00,22.05,942.8,170.9,435.5,155.7
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,1828.1,780.8,0.0,0.0
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online / 1st half,2026-10-02 04:00:00,2026-10-05 05:57:14,73.95,1728.8,795.7,0.0,0.0
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online / 2nd half,2026-10-05 05:57:14,2026-10-08 07:54:28,73.95,1927.4,765.9,0.0,0.0
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online,2026-10-08 07:54:28,2026-10-09 01:44:35,17.84,1625.5,275.9,0.0,0.0
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online / 1st half,2026-10-08 07:54:28,2026-10-08 16:49:31,8.92,1789.7,293.4,0.0,0.0
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online / 2nd half,2026-10-08 16:49:31,2026-10-09 01:44:35,8.92,1461.4,258.4,0.0,0.0
+strategy_bYXaOJ4qXtW4,after: switch -> end NY 10-09,2026-10-09 01:44:35,2026-10-10 04:00:00,26.26,1006.4,160.0,501.8,79.5
+strategy_bYXaOJ4qXtW4,after: switch -> end NY 10-09 / 1st half,2026-10-09 01:44:35,2026-10-09 14:52:17,13.13,1234.0,142.6,647.1,96.9
+strategy_bYXaOJ4qXtW4,after: switch -> end NY 10-09 / 2nd half,2026-10-09 14:52:17,2026-10-10 04:00:00,13.13,778.8,177.3,356.5,62.2

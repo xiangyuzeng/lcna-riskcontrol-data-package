@@ -1,0 +1,6 @@
+id,select_type,table,partitions,type,possible_keys,key,key_len,ref,rows,filtered,Extra
+1,PRIMARY,<derived2>,,ALL,,,,,23,100.0,Using filesort
+2,DERIVED,t_access_log_0000,,range,idx_create_time_sharding_key,idx_create_time_sharding_key,5,,239,10.0,Using index condition; Using where
+5,DEPENDENT SUBQUERY,w,,ref,idx_tenant,idx_tenant,82,const,82,10.0,Using where
+4,DEPENDENT SUBQUERY,w,,ref,idx_tenant,idx_tenant,82,const,82,3.33,Using where
+3,DEPENDENT SUBQUERY,w,,ref,idx_tenant,idx_tenant,82,const,82,10.0,Using where

@@ -1,0 +1,11 @@
+cid,group,final_result,rows
+105,"app present, version < 1.4.30",PASS,40
+105,"app present, version < 1.4.30",REJECT,11
+105,"app present, version >= 1.4.30",PASS,4762
+105,"app present, version >= 1.4.30",REJECT,7123
+105,no app field,PASS,255
+105,no app field,REJECT,296
+106,"app present, version < 1.4.30",PASS,113
+106,"app present, version >= 1.4.30",PASS,5533
+106,"app present, version >= 1.4.30",REJECT,33
+106,no app field,PASS,50

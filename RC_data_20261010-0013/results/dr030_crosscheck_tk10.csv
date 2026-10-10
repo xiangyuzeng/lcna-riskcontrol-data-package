@@ -1,0 +1,2 @@
+check,cells,requests_mismatch,unique_mismatch,sql_requests,e1_requests,sql_unique,e1_unique
+"tk10 vs E1, NY 09-23..10-09, SMS, ny_date x cc_group x phase x final_result",101,0,0,52202,52202,4057,4057

@@ -1,0 +1,59 @@
+period,code_set,prov_class,final_result,requests,share_of_code_set_period
+baseline NY 06-01..08-31,+1 control,nynj,PASS,89964,0.8669
+baseline NY 06-01..08-31,+1 control,nynj,REJECT,12,0.0001
+baseline NY 06-01..08-31,+1 control,nynj,REVIEW,410,0.004
+baseline NY 06-01..08-31,+1 control,other,PASS,13345,0.1286
+baseline NY 06-01..08-31,+1 control,other,REVIEW,47,0.0005
+baseline NY 06-01..08-31,15 original,nynj,PASS,15,0.0025
+baseline NY 06-01..08-31,15 original,nynj,REJECT,31,0.0052
+baseline NY 06-01..08-31,15 original,nynj,REVIEW,8,0.0013
+baseline NY 06-01..08-31,15 original,other,PASS,1727,0.2873
+baseline NY 06-01..08-31,15 original,other,REJECT,3472,0.5775
+baseline NY 06-01..08-31,15 original,other,REVIEW,759,0.1262
+baseline NY 06-01..08-31,6 added,nynj,PASS,3,0.0217
+baseline NY 06-01..08-31,6 added,other,PASS,65,0.471
+baseline NY 06-01..08-31,6 added,other,REJECT,47,0.3406
+baseline NY 06-01..08-31,6 added,other,REVIEW,23,0.1667
+alt baseline NY 08-01..08-31,+1 control,nynj,PASS,28745,0.863
+alt baseline NY 08-01..08-31,+1 control,nynj,REJECT,4,0.0001
+alt baseline NY 08-01..08-31,+1 control,nynj,REVIEW,58,0.0017
+alt baseline NY 08-01..08-31,+1 control,other,PASS,4492,0.1349
+alt baseline NY 08-01..08-31,+1 control,other,REVIEW,10,0.0003
+alt baseline NY 08-01..08-31,15 original,nynj,PASS,7,0.0023
+alt baseline NY 08-01..08-31,15 original,nynj,REJECT,25,0.0081
+alt baseline NY 08-01..08-31,15 original,nynj,REVIEW,2,0.0007
+alt baseline NY 08-01..08-31,15 original,other,PASS,1107,0.3604
+alt baseline NY 08-01..08-31,15 original,other,REJECT,1687,0.5492
+alt baseline NY 08-01..08-31,15 original,other,REVIEW,244,0.0794
+alt baseline NY 08-01..08-31,6 added,nynj,PASS,3,0.0349
+alt baseline NY 08-01..08-31,6 added,other,PASS,46,0.5349
+alt baseline NY 08-01..08-31,6 added,other,REJECT,32,0.3721
+alt baseline NY 08-01..08-31,6 added,other,REVIEW,5,0.0581
+attack NY 09-03..10-09,+1 control,nynj,PASS,37295,0.8591
+attack NY 09-03..10-09,+1 control,nynj,REJECT,27,0.0006
+attack NY 09-03..10-09,+1 control,nynj,REVIEW,30,0.0007
+attack NY 09-03..10-09,+1 control,other,PASS,6047,0.1393
+attack NY 09-03..10-09,+1 control,other,REJECT,4,0.0001
+attack NY 09-03..10-09,+1 control,other,REVIEW,8,0.0002
+attack NY 09-03..10-09,15 original,nynj,PASS,568,0.0052
+attack NY 09-03..10-09,15 original,nynj,REJECT,578,0.0053
+attack NY 09-03..10-09,15 original,nynj,REVIEW,3,0.0
+attack NY 09-03..10-09,15 original,other,PASS,40452,0.3683
+attack NY 09-03..10-09,15 original,other,REJECT,68112,0.6202
+attack NY 09-03..10-09,15 original,other,REVIEW,118,0.0011
+attack NY 09-03..10-09,6 added,nynj,PASS,35,0.0059
+attack NY 09-03..10-09,6 added,nynj,REJECT,16,0.0027
+attack NY 09-03..10-09,6 added,other,PASS,2931,0.4933
+attack NY 09-03..10-09,6 added,other,REJECT,2960,0.4981
+last 7 NY days 10-03..10-09,+1 control,nynj,PASS,6390,0.8442
+last 7 NY days 10-03..10-09,+1 control,nynj,REVIEW,3,0.0004
+last 7 NY days 10-03..10-09,+1 control,other,PASS,1174,0.1551
+last 7 NY days 10-03..10-09,+1 control,other,REVIEW,2,0.0003
+last 7 NY days 10-03..10-09,15 original,nynj,PASS,42,0.0036
+last 7 NY days 10-03..10-09,15 original,nynj,REJECT,21,0.0018
+last 7 NY days 10-03..10-09,15 original,nynj,REVIEW,3,0.0003
+last 7 NY days 10-03..10-09,15 original,other,PASS,4299,0.3662
+last 7 NY days 10-03..10-09,15 original,other,REJECT,7344,0.6257
+last 7 NY days 10-03..10-09,15 original,other,REVIEW,29,0.0025
+last 7 NY days 10-03..10-09,6 added,other,PASS,29,0.2816
+last 7 NY days 10-03..10-09,6 added,other,REJECT,74,0.7184

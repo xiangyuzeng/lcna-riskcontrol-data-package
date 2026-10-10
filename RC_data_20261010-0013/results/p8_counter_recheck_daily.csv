@@ -1,0 +1,57 @@
+target_feature,feature_id,variant,ny_date,evaluated_success,engine_eq_recompute,within1,non_success,share_eq
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-02,1267,1233,1267,1644,0.9732
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-03,1550,1507,1547,1712,0.9723
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-04,1399,1336,1390,1247,0.955
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-05,1377,1301,1372,1395,0.9448
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-06,1372,1291,1345,1374,0.941
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-07,1875,1738,1835,1510,0.9269
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-08,1435,1309,1377,1384,0.9122
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),2026-10-09,791,771,791,1264,0.9747
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-02,1267,622,728,1644,0.4909
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-03,1550,862,917,1712,0.5561
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-04,1399,712,818,1247,0.5089
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-05,1377,672,815,1395,0.488
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-06,1372,871,1017,1374,0.6348
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-07,1875,977,1166,1510,0.5211
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-08,1435,670,892,1384,0.4669
+feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),2026-10-09,791,448,572,1264,0.5664
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-02,2911,2783,2910,0,0.956
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-03,3262,3065,3248,0,0.9396
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-04,2646,2496,2633,0,0.9433
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-05,2772,2589,2758,0,0.934
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-06,2746,2539,2710,0,0.9246
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-07,3385,3144,3345,0,0.9288
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-08,2819,2581,2752,0,0.9156
+feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,2026-10-09,2055,1948,2048,0,0.9479
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-02,2911,2783,2910,0,0.956
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-03,3262,3064,3248,0,0.9393
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-04,2646,2496,2633,0,0.9433
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-05,2772,2590,2758,0,0.9343
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-06,2746,2541,2710,0,0.9253
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-07,3385,3143,3345,0,0.9285
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-08,2819,2581,2752,0,0.9156
+feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,2026-10-09,2055,1948,2048,0,0.9479
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-02,446,444,446,2465,0.9955
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-03,342,341,342,2920,0.9971
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-04,276,276,276,2370,1.0
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-05,325,325,325,2447,1.0
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-06,330,329,330,2416,0.997
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-07,516,513,516,2869,0.9942
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-08,329,329,329,2490,1.0
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),2026-10-09,180,179,180,1875,0.9944
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-02,446,64,91,2465,0.1435
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-03,342,33,59,2920,0.0965
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-04,276,28,37,2370,0.1014
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-05,325,38,74,2447,0.1169
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-06,330,30,65,2416,0.0909
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-07,516,37,59,2869,0.0717
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-08,329,32,47,2490,0.0973
+feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),2026-10-09,180,44,73,1875,0.2444
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-02,2911,2832,2910,0,0.9729
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-03,3262,3133,3253,0,0.9605
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-04,2646,2564,2643,0,0.969
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-05,2772,2697,2770,0,0.9729
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-06,2746,2639,2744,0,0.961
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-07,3385,3302,3384,0,0.9755
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-08,2819,2729,2817,0,0.9681
+feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,2026-10-09,2055,1983,2052,0,0.965

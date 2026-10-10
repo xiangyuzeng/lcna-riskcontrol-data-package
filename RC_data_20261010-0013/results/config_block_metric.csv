@@ -1,0 +1,9 @@
+id,metric_id,metric_name,metric_period,access_type,source,metricql,status,create_user,update_user,create_time,update_time,remarks
+1,metric_CiVhSsBO0BJA,北美_场景每分钟请求量,1,1,1,"sum by (scene_id) ( last_over_time(iriskcontrol_tenant_scene_result_pv{tenant=""LKUS""}[1m]) )",1,<已屏蔽:操作人>,<已屏蔽:操作人>,2025-12-18T03:29:40,2025-12-18T03:29:40,
+2,metric_Yz61c3EEhTsr,北美_风控策略每分钟执行量,1,2,1,"sum by (strategy_id) ( last_over_time(iriskcontrol_tenant_scene_strategy_result_pv{tenant=""LKUS""}[1m]) )",1,<已屏蔽:操作人>,<已屏蔽:操作人>,2025-12-18T03:30:26,2025-12-18T03:31:01,
+3,metric_wUh6CrC0kxCY,北美_场景每分钟拦截用户数,1,1,1,"sum by (scene_id) ( last_over_time(iriskcontrol_tenant_scene_result_uv{tenant=""LKUS"",result=""REJECT""}[1m]) )
+",1,<已屏蔽:操作人>,<已屏蔽:操作人>,2025-12-24T11:07:17,2025-12-24T11:07:17,
+4,metric_WFrCjO4m8wDC,北美_风控策略每分钟拦截用户数,1,2,1,"sum by (strategy_id) ( last_over_time(iriskcontrol_tenant_scene_strategy_hit_uv{tenant=""LKUS"",real_result=""REJECT""}[1m]) )",1,<已屏蔽:操作人>,<已屏蔽:操作人>,2025-12-24T11:08:00,2025-12-24T11:08:34,
+5,metric_qH1EeAq9rhm4,美国_场景每分钟拦截量,1,1,1,"sum by (scene_id) ( last_over_time(iriskcontrol_tenant_scene_strategy_result_pv{tenant=""LKUS"",result=""REJECT""}[1m]) )
+",1,<已屏蔽:操作人>,<已屏蔽:操作人>,2025-12-24T11:08:22,2025-12-24T11:08:22,
+6,metric_FNtQO8cQsU4i,北美_风控策略每分钟拦截量,1,2,1,"sum by (strategy_id) ( last_over_time(iriskcontrol_tenant_scene_strategy_hit_pv{tenant=""LKUS"",real_result=""REJECT""}[1m]) )",1,<已屏蔽:操作人>,<已屏蔽:操作人>,2025-12-24T11:09:14,2025-12-24T11:10:09,

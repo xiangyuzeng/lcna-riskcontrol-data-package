@@ -1,0 +1,8 @@
+eval_window,target_feature,feature_id,variant,days,evaluated,n_eq,within1,non_success,share_eq,share_within1
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_e1Kmz7JqzsWc,feature_dtoJoDcUgCcr,calibration: unconditional twin,8,22596,21879,22573,0,0.9683,0.999
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,after filter (feature's own condition),8,2744,2736,2744,19852,0.9971,1.0
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_e1Kmz7JqzsWc,feature_e1Kmz7JqzsWc,before filter (no condition),8,2744,306,505,19852,0.1115,0.184
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_n91JeGM6gD6i,feature_UOJYBEifd5Jn,calibration: unconditional twin,8,22596,21145,22404,0,0.9358,0.9915
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_n91JeGM6gD6i,feature_dqBHKec09Wwa,calibration: unconditional twin,8,22596,21146,22404,0,0.9358,0.9915
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,after filter (feature's own condition),8,11066,10486,10924,11530,0.9476,0.9872
+"[2026-10-02 04:00:00, end of E1) UTC; warm-up from E1 start",feature_n91JeGM6gD6i,feature_n91JeGM6gD6i,before filter (no condition),8,11066,5834,6925,11530,0.5272,0.6258

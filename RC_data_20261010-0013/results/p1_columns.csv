@@ -1,0 +1,443 @@
+TABLE_NAME,ORDINAL_POSITION,COLUMN_NAME,COLUMN_TYPE,IS_NULLABLE,COLUMN_KEY,COLUMN_DEFAULT,EXTRA,COLUMN_COMMENT
+t_access_log_0000,1,id,bigint,NO,PRI,,,主键id
+t_access_log_0000,2,sharding_key,varchar(64),NO,MUL,,,Sharding-JDBC分片键
+t_access_log_0000,3,type,int,YES,,,,日志类型
+t_access_log_0000,4,user_no,varchar(255),YES,,,,用户编号
+t_access_log_0000,5,phone,varchar(30),YES,,,,用户手机号
+t_access_log_0000,6,country_code,varchar(20),YES,,,,国际区号
+t_access_log_0000,7,ip,varchar(20),YES,,,,ip
+t_access_log_0000,8,ip_city,varchar(20),YES,,,,ip所属城市
+t_access_log_0000,9,ip_province,varchar(20),YES,,,,ip所属省份
+t_access_log_0000,10,device_type,varchar(30),YES,,,,设备类型
+t_access_log_0000,11,did,varchar(100),YES,,,,数盟设备号
+t_access_log_0000,12,device_id,varchar(100),YES,,,,数美设备号
+t_access_log_0000,13,black_box,varchar(500),YES,,,,同盾blackbox
+t_access_log_0000,14,tongdun_device_id,varchar(100),YES,,,,同盾设备号
+t_access_log_0000,15,open_id,varchar(100),YES,,,,openId
+t_access_log_0000,16,qcell_core,varchar(20),YES,,,,手机号归属地
+t_access_log_0000,17,qcell_core_province,varchar(20),YES,,,,手机号归属省份
+t_access_log_0000,18,qcell_core_operator,varchar(20),YES,,,,手机号归属运营商
+t_access_log_0000,19,result,varchar(10),YES,,,,返回结果
+t_access_log_0000,20,longitude,"decimal(10,7)",YES,,,,经度信息
+t_access_log_0000,21,latitude,"decimal(10,7)",YES,,,,纬度信息
+t_access_log_0000,22,coordinate_city,varchar(20),YES,,,,坐标城市
+t_access_log_0000,23,coordinate_province,varchar(20),YES,,,,坐标省份
+t_access_log_0000,24,shop_city,varchar(20),YES,,,,门店城市
+t_access_log_0000,25,shop_province,varchar(20),YES,,,,门店省份
+t_access_log_0000,26,request,text,YES,,,,rpc输入
+t_access_log_0000,27,response,text,YES,,,,rpc返回
+t_access_log_0000,28,request_shumeng,varchar(255),YES,,,,数盟输入
+t_access_log_0000,29,response_shumeng,varchar(500),YES,,,,数盟返回
+t_access_log_0000,30,request_shumei,text,YES,,,,数美输入
+t_access_log_0000,31,response_shumei,varchar(2000),YES,,,,数美返回
+t_access_log_0000,32,request_tongdun,varchar(2000),YES,,,,同盾输入
+t_access_log_0000,33,response_tongdun,text,YES,,,,同盾返回
+t_access_log_0000,34,create_time,datetime,NO,MUL,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_access_log_0000,35,tenant,varchar(20),NO,,,,租户
+t_access_log_0000,36,country,varchar(20),YES,,,,国家
+t_access_log_0000,37,province,varchar(20),YES,,,,省份
+t_access_log_0000,38,city,varchar(20),YES,,,,城市
+t_access_log_0000,39,district,varchar(20),YES,,,,区
+t_access_log_0000,40,email,varchar(100),YES,,,,邮箱
+t_access_log_0000,41,extend,varchar(1000),YES,,,,扩展信息
+t_access_log_0000,42,request_shumei_text_audit,text,YES,,,,数美文本审核输入
+t_access_log_0000,43,response_shumei_text_audit,text,YES,,,,数美文本审核返回
+t_access_log_0000,44,request_jiyan,text,YES,,,,极验输入
+t_access_log_0000,45,response_jiyan,text,YES,,,,极验返回
+t_access_log_0000,46,request_yongan_phone,text,YES,,,,永安在线手机号输入
+t_access_log_0000,47,response_yongan_phone,text,YES,,,,永安在线手机号返回
+t_access_log_0000,48,access_id,varchar(64),YES,,,,接入方id
+t_access_log_0000,49,scene_id,varchar(64),YES,,,,场景id
+t_access_log_0000,50,request_strategy_engine,text,YES,,,,策略引擎输入
+t_access_log_0000,51,response_strategy_engine,text,YES,,,,策略引擎返回
+t_alarm_recipient,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_alarm_recipient,2,name,varchar(32),NO,,,,姓名
+t_alarm_recipient,3,emp_no,varchar(32),NO,,,,员工工号
+t_alarm_recipient,4,mobile,varchar(32),NO,,,,手机号
+t_alarm_recipient,5,email,varchar(64),NO,,,,邮箱
+t_alarm_recipient,6,ent_email,varchar(64),NO,,,,企业邮箱
+t_alarm_recipient,7,remark,varchar(256),YES,,,,备注
+t_alarm_recipient,8,tenant,varchar(20),NO,,,,租户
+t_alarm_recipient,9,deleted,tinyint,NO,,0,,"逻辑删除: 0=未删除, 1=已删除"
+t_alarm_recipient,10,create_emp,int,YES,,,,创建人
+t_alarm_recipient,11,create_name,varchar(32),YES,,,,创建人名称
+t_alarm_recipient,12,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_alarm_recipient,13,modify_emp,int,YES,,,,更新人
+t_alarm_recipient,14,modify_name,varchar(32),YES,,,,更新人名称
+t_alarm_recipient,15,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_alarm_type,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_alarm_type,2,alarm_type,smallint,NO,,,,告警类型
+t_alarm_type,3,batch_send_email,tinyint,NO,,0,,"是否攒批发送邮件: 0=否, 1=是"
+t_alarm_type,4,batch_send_email_size,smallint unsigned,YES,,,,攒批发送邮件条数
+t_alarm_type,5,batch_send_email_second,smallint unsigned,YES,,,,延迟发送邮件秒数
+t_alarm_type,6,batch_send_wecom,tinyint,NO,,0,,"是否攒批发送企业微信: 0=否, 1=是"
+t_alarm_type,7,batch_send_wecom_size,smallint unsigned,YES,,,,攒批发送企业微信条数
+t_alarm_type,8,batch_send_wecom_second,smallint unsigned,YES,,,,延迟发送企业微信秒数
+t_alarm_type,9,webhook,varchar(256),NO,,,,企业微信群机器人
+t_alarm_type,10,batch_send_webhook,tinyint,NO,,0,,"是否攒批发送企业微信群机器人: 0=否, 1=是"
+t_alarm_type,11,batch_send_webhook_size,smallint unsigned,YES,,,,攒批发送企业微信群机器人条数
+t_alarm_type,12,batch_send_webhook_second,smallint unsigned,YES,,,,延迟发送企业微信群机器人秒数
+t_alarm_type,13,tenant,varchar(20),NO,,,,租户
+t_alarm_type,14,deleted,tinyint,NO,,0,,"逻辑删除: 0=未删除, 1=已删除"
+t_alarm_type,15,create_emp,int,YES,,,,创建人
+t_alarm_type,16,create_name,varchar(32),YES,,,,创建人名称
+t_alarm_type,17,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_alarm_type,18,modify_emp,int,YES,,,,更新人
+t_alarm_type,19,modify_name,varchar(32),YES,,,,更新人名称
+t_alarm_type,20,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_alarm_type_recipient,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_alarm_type_recipient,2,alarm_type_id,bigint unsigned,NO,,,,告警类型id
+t_alarm_type_recipient,3,alarm_recipient_id,bigint unsigned,NO,,,,告警收件人id
+t_alarm_type_recipient,4,sms_open,tinyint,NO,,0,,"是否开启短信告警: 0=否, 1=是"
+t_alarm_type_recipient,5,email_open,tinyint,NO,,0,,"是否开启邮件告警: 0=否, 1=是"
+t_alarm_type_recipient,6,voice_open,tinyint,NO,,0,,"是否开启语音告警: 0=否, 1=是"
+t_alarm_type_recipient,7,wecom_open,tinyint,NO,,0,,"是否开启企业微信告警: 0=否, 1=是"
+t_alarm_type_recipient,8,tenant,varchar(20),NO,,,,租户
+t_alarm_type_recipient,9,deleted,tinyint,NO,,0,,"逻辑删除: 0=未删除, 1=已删除"
+t_alarm_type_recipient,10,create_emp,int,YES,,,,创建人
+t_alarm_type_recipient,11,create_name,varchar(32),YES,,,,创建人名称
+t_alarm_type_recipient,12,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_alarm_type_recipient,13,modify_emp,int,YES,,,,更新人
+t_alarm_type_recipient,14,modify_name,varchar(32),YES,,,,更新人名称
+t_alarm_type_recipient,15,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_blacklist,1,id,bigint unsigned,NO,PRI,,auto_increment,主键
+t_blacklist,2,type,int,NO,,,,类型
+t_blacklist,3,content,varchar(255),NO,MUL,,,黑名单内容
+t_blacklist,4,remark,varchar(500),YES,,,,备注
+t_blacklist,5,source,int,YES,,,,来源
+t_blacklist,6,create_time,datetime,YES,,,,创建时间
+t_blacklist,7,modify_time,datetime,YES,,,,更新时间
+t_blacklist,8,create_id,int,YES,,,,创建人id
+t_blacklist,9,create_name,varchar(50),YES,,,,创建人名称
+t_blacklist,10,modify_id,int,YES,,,,更新人id
+t_blacklist,11,modify_name,varchar(50),YES,,,,更新人名称
+t_blacklist,12,tenant,varchar(20),NO,MUL,,,租户
+t_gateway_count,1,id,bigint unsigned,NO,PRI,,,主键id
+t_gateway_count,2,service_url,varchar(255),NO,,,,服务接口url
+t_gateway_count,3,count_type,tinyint,NO,,,,计数类型 1：pv 2：uv
+t_gateway_count,4,call_time,datetime,NO,MUL,,,调用时间
+t_gateway_count,5,pass_number,int,NO,,0,,PASS条数
+t_gateway_count,6,review_number,int,NO,,0,,REVIEW条数
+t_gateway_count,7,reject_number,int,NO,,0,,REJECT条数
+t_gateway_count,8,tenant,varchar(20),NO,,,,租户
+t_gateway_count,9,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_gateway_validate_log_0000,1,id,bigint unsigned,NO,PRI,,,主键id
+t_gateway_validate_log_0000,2,service,varchar(32),NO,,,,服务名
+t_gateway_validate_log_0000,3,url,varchar(128),NO,,,,接口地址
+t_gateway_validate_log_0000,4,cid,varchar(32),YES,,,,终端编码
+t_gateway_validate_log_0000,5,uid,varchar(64),NO,,,,用户标识
+t_gateway_validate_log_0000,6,ip,varchar(32),YES,,,,ip地址
+t_gateway_validate_log_0000,7,ip_province,varchar(64),YES,,,,ip所属省份
+t_gateway_validate_log_0000,8,ip_city,varchar(64),YES,,,,ip所属城市
+t_gateway_validate_log_0000,9,ua,varchar(256),YES,,,,user-agent信息
+t_gateway_validate_log_0000,10,country_code,varchar(20),YES,,,,国际区号
+t_gateway_validate_log_0000,11,phone,varchar(30),YES,,,,用户手机号
+t_gateway_validate_log_0000,12,rule_request,varchar(255),YES,,,,规则校验请求参数
+t_gateway_validate_log_0000,13,rule_response,varchar(100),YES,,,,规则校验返回结果
+t_gateway_validate_log_0000,14,request,varchar(1024),YES,,,,风控校验请求参数
+t_gateway_validate_log_0000,15,response,varchar(255),YES,,,,风控校验返回结果
+t_gateway_validate_log_0000,16,tenant,varchar(20),NO,,,,租户
+t_gateway_validate_log_0000,17,create_time,datetime,NO,MUL,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_operation_log,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_operation_log,2,module,varchar(50),YES,MUL,,,模块名称
+t_operation_log,3,operation_type,varchar(20),YES,,,,操作类型
+t_operation_log,4,description,varchar(255),YES,,,,操作描述
+t_operation_log,5,operator,varchar(50),YES,MUL,,,操作人
+t_operation_log,6,operation_time,datetime,YES,MUL,,,操作时间
+t_operation_log,7,request_url,varchar(255),YES,,,,请求URL
+t_operation_log,8,request_params,text,YES,,,,请求参数
+t_operation_log,9,response_data,text,YES,,,,响应数据
+t_operation_log,10,before_data,text,YES,,,,操作前数据
+t_operation_log,11,after_data,text,YES,,,,操作后数据
+t_oplog,1,id,bigint unsigned,NO,PRI,,auto_increment,主键
+t_oplog,2,type,int,YES,,,,数据类型.1:黑名单;2:白名单
+t_oplog,3,content,varchar(500),YES,,,,数据内容
+t_oplog,4,action,int,YES,,,,操作类型
+t_oplog,5,create_time,datetime,YES,,,,操作时间
+t_oplog,6,create_name,varchar(50),YES,,,,操作人名称
+t_oplog,7,busi_type,int,YES,,,,数据业务类型
+t_oplog,8,remark,varchar(500),YES,,,,备注
+t_oplog,9,tenant,varchar(20),YES,,,,租户
+t_order_to_pay,1,id,bigint unsigned,NO,PRI,,auto_increment,主键
+t_order_to_pay,2,user_no,varchar(100),NO,MUL,,,用户编号
+t_order_to_pay,3,order_no,varchar(100),NO,MUL,,,订单编号
+t_order_to_pay,4,card_no,varchar(100),YES,,,,支付卡号
+t_order_to_pay,5,account,double,NO,,,,支付金额
+t_order_to_pay,6,create_time,datetime,YES,MUL,,,创建时间
+t_order_to_pay,7,modify_time,datetime,YES,,,,更新时间
+t_order_to_pay,8,pay_type,tinyint,YES,,,,支付类型
+t_order_to_pay,9,order_type,tinyint,YES,,,,订单类型
+t_order_to_pay,10,tenant,varchar(20),NO,,,,租户
+t_order_to_pay,11,state,tinyint,YES,,1,,"状态：0异常,1正常"
+t_quota,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_quota,2,quota_scene,varchar(50),NO,,,,指标场景
+t_quota,3,quota_code,varchar(50),NO,,,,指标code
+t_quota,4,quota_value,double,NO,,0,,指标值
+t_quota,5,quota_period,varchar(50),NO,,,,指标类型
+t_quota,6,quota_time,datetime,NO,MUL,,,指标时间
+t_quota,7,calculate_type,varchar(20),NO,,,,计算方式
+t_quota,8,dt,date,NO,,,,日期
+t_quota,9,tenant,varchar(20),NO,,,,租户
+t_quota,10,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_quota,11,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_rms_engine_access,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_access,2,access_id,varchar(64),NO,UNI,,,接入方ID
+t_rms_engine_access,3,access_name,varchar(64),NO,,,,接入方名称
+t_rms_engine_access,4,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_access,5,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_access,6,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_access,7,remarks,varchar(64),NO,,,,备注
+t_rms_engine_block_metric,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_block_metric,2,metric_id,varchar(64),NO,UNI,,,指标ID
+t_rms_engine_block_metric,3,metric_name,varchar(256),NO,,,,指标名称
+t_rms_engine_block_metric,4,metric_period,int,NO,,,,指标计算周期(秒)
+t_rms_engine_block_metric,5,access_type,tinyint,NO,MUL,,,指标作用范围 1=风控场景 2=风控策略
+t_rms_engine_block_metric,6,source,tinyint,NO,,,,数据来源 1=Prometheus 2=其他
+t_rms_engine_block_metric,7,metricql,text,YES,,,,指标抽取SQL/PromQL
+t_rms_engine_block_metric,8,status,tinyint,NO,MUL,1,,指标状态 0=关闭 1=开启
+t_rms_engine_block_metric,9,create_user,varchar(64),YES,,,,创建人
+t_rms_engine_block_metric,10,update_user,varchar(64),YES,,,,更新人
+t_rms_engine_block_metric,11,create_time,datetime,NO,,,,创建时间
+t_rms_engine_block_metric,12,update_time,datetime,NO,,,,更新时间
+t_rms_engine_block_metric,13,remarks,text,YES,,,,备注信息
+t_rms_engine_block_strategy,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_block_strategy,2,block_strategy_id,varchar(64),NO,UNI,,,熔断策略ID
+t_rms_engine_block_strategy,3,strategy_period,varchar(256),YES,,,,指标计算周期
+t_rms_engine_block_strategy,4,rules,text,YES,,,,指标规则(JSON数组字符串)
+t_rms_engine_block_strategy,5,expression,text,YES,,,,策略表达式
+t_rms_engine_block_strategy,6,action,tinyint,NO,,,,处置动作 1=发送告警 2=执行熔断并发送告警
+t_rms_engine_block_strategy,7,status,tinyint,NO,,,,策略状态 0=关闭 1=开启
+t_rms_engine_block_strategy,8,strategy_type,tinyint,NO,MUL,,,熔断策略类型 1=场景 2=全局 3=策略
+t_rms_engine_block_strategy,9,union_id,varchar(128),YES,MUL,,,关联ID(场景:scene_id/策略:strategy_id)
+t_rms_engine_block_strategy,10,create_user,varchar(64),YES,,,,创建人
+t_rms_engine_block_strategy,11,update_user,varchar(64),YES,,,,更新人
+t_rms_engine_block_strategy,12,create_time,datetime,NO,,,,创建时间
+t_rms_engine_block_strategy,13,update_time,datetime,NO,,,,更新时间
+t_rms_engine_block_strategy,14,remark,text,YES,,,,备注信息
+t_rms_engine_list_feature,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_list_feature,2,feature_id,varchar(32),NO,UNI,,,特征ID
+t_rms_engine_list_feature,3,feature_name,varchar(512),NO,,,,特征名称
+t_rms_engine_list_feature,4,input_paras,varchar(256),NO,,,,输入参数参数
+t_rms_engine_list_feature,5,feature_valuetype,int,NO,,,,特征值类型：string、int、float、boolean
+t_rms_engine_list_feature,6,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_list_feature,7,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_list_feature,8,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_list_feature,9,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_list_feature,10,remarks,varchar(64),NO,,,,备注
+t_rms_engine_list_feature,11,namelist_type,int,NO,,0,,名单类型
+t_rms_engine_list_feature,12,status,int,NO,,0,,开关状态
+t_rms_engine_list_feature,13,check_type,int,NO,,0,,检测类型1黑名单2白名单
+t_rms_engine_para,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_para,2,para_id,varchar(32),NO,MUL,,,场景ID
+t_rms_engine_para,3,para_name,varchar(64),NO,,,,场景名称
+t_rms_engine_para,4,scene_id,varchar(64),NO,,,,场景ID
+t_rms_engine_para,5,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_para,6,para_type,tinyint,NO,,,,参数类型 0:原始参数 1:补全参数
+t_rms_engine_para,7,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_para,8,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_para,9,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_para,10,remarks,varchar(64),NO,,,,备注
+t_rms_engine_para,11,para_java_type,int,NO,,0,,字段值的java数据类型
+t_rms_engine_repair_para,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_repair_para,2,tool_id,varchar(32),NO,,,,参数补全工具ID
+t_rms_engine_repair_para,3,para_id,varchar(32),NO,,,,参数id
+t_rms_engine_repair_para,4,tool_para,text,YES,,,,工具参数
+t_rms_engine_repair_para,5,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_repair_para,6,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_repair_para,7,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_repair_para,8,remarks,varchar(64),YES,,,,备注
+t_rms_engine_repair_para,9,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_repair_para,10,scene_id,varchar(64),NO,,,,场景ID
+t_rms_engine_resultcode,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_resultcode,2,result_code,varchar(32),NO,MUL,,,返回码ID
+t_rms_engine_resultcode,3,result_name,varchar(64),NO,,,,返回码名称
+t_rms_engine_resultcode,4,priority,int,YES,,,,优先级
+t_rms_engine_resultcode,5,access_id,varchar(64),NO,,,,接入方ID
+t_rms_engine_resultcode,6,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_resultcode,7,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_resultcode,8,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_resultcode,9,remarks,varchar(64),NO,,,,备注
+t_rms_engine_rule,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_rule,2,rule_id,varchar(32),NO,UNI,,,特征ID
+t_rms_engine_rule,3,rule_name,varchar(512),NO,,,,规则名称
+t_rms_engine_rule,4,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_rule,5,status,int,NO,,,,策略状态1开0关
+t_rms_engine_rule,6,feature_type,tinyint,YES,,,,特征类型
+t_rms_engine_rule,7,feature_id,varchar(32),NO,,,,特征ID
+t_rms_engine_rule,8,condition_type,varchar(32),NO,,,,规则匹配类型
+t_rms_engine_rule,9,condition_value,text,YES,,,,匹配值
+t_rms_engine_rule,10,rule_express,varchar(512),YES,,,,规则表达式
+t_rms_engine_rule,11,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_rule,12,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_rule,13,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_rule,14,remarks,varchar(64),NO,,,,备注
+t_rms_engine_scene,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_scene,2,scene_id,varchar(64),NO,UNI,,,场景ID
+t_rms_engine_scene,3,scene_name,varchar(64),NO,,,,场景名称
+t_rms_engine_scene,4,access_id,varchar(64),NO,,,,接入方ID
+t_rms_engine_scene,5,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_scene,6,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_scene,7,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_scene,8,remarks,varchar(64),NO,,,,备注
+t_rms_engine_scene,9,status,int,NO,,0,,场景开关状态1:开0:关
+t_rms_engine_scene,10,portrait_access_status,tinyint,YES,,,,开启画像打标（0 关，1 开）
+t_rms_engine_scene,11,global_strategy_block_status,tinyint,YES,,,,全局策略开关
+t_rms_engine_scene,12,scene_block_status,tinyint,YES,,,,场景熔断开关
+t_rms_engine_scene,13,mapping_status,tinyint,NO,,0,,流量映射开关，0关闭，1开启
+t_rms_engine_strategy,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_strategy,2,strategy_id,varchar(32),NO,UNI,,,策略ID
+t_rms_engine_strategy,3,strategy_name,varchar(512),NO,,,,策略名称
+t_rms_engine_strategy,4,status,tinyint,YES,,,,策略状态
+t_rms_engine_strategy,5,result_code,varchar(32),NO,,,,返回码
+t_rms_engine_strategy,6,exec_priority,int,NO,,,,策略执行优先级
+t_rms_engine_strategy,7,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_strategy,8,scene_id,varchar(64),NO,,,,场景ID
+t_rms_engine_strategy,9,breake_id,int,NO,,0,,熔断阈值
+t_rms_engine_strategy,10,strategy_express,varchar(512),YES,,,,策略表达式
+t_rms_engine_strategy,11,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_strategy,12,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_strategy,13,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_strategy,14,remarks,varchar(64),NO,,,,备注
+t_rms_engine_strategy,15,description,text,YES,,,,策略返回描述
+t_rms_engine_strategy,16,rule_operator,int,NO,,0,,规则关系运算符
+t_rms_engine_strategy,17,strategy_type,tinyint,YES,,1,,策略用途，1:风险识别，2:黑用户评估，3:白用户评估
+t_rms_engine_strategy_relation,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_strategy_relation,2,strategy_id,varchar(32),NO,MUL,,,策略ID
+t_rms_engine_strategy_relation,3,rule_id,varchar(32),NO,,,,规则ID
+t_rms_engine_strategy_relation,4,status,tinyint,YES,,,,是否启用
+t_rms_engine_strategy_relation,5,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_strategy_relation,6,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_strategy_relation,7,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_strategy_relation,8,remarks,text,YES,,,,备注
+t_rms_engine_templist,1,id,bigint unsigned,NO,PRI,,auto_increment,"主键ID, 名单唯一id，从6000开始"
+t_rms_engine_templist,2,name,varchar(256),NO,,,,名单名称
+t_rms_engine_templist,3,type,int,NO,,,,名单类型
+t_rms_engine_templist,4,theme,varchar(32),NO,,,,名单维度
+t_rms_engine_templist,5,theme_id,int,NO,,,,名单维度id
+t_rms_engine_templist,6,period,int,NO,,,,名单有效期
+t_rms_engine_templist,7,remarks,text,YES,,,,说明信息
+t_rms_engine_templist,8,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_templist,9,update_time,datetime,YES,,,,修改时间
+t_rms_engine_templist,10,create_time,datetime,YES,,,,创建时间
+t_rms_engine_templist,11,status,tinyint,NO,,0,,名单状态
+t_rms_engine_templist_strategy,1,id,bigint unsigned,NO,PRI,,auto_increment,"主键ID, 名单唯一id"
+t_rms_engine_templist_strategy,2,list_index,bigint,NO,,,,名单id
+t_rms_engine_templist_strategy,3,strategy_id,varchar(128),NO,,,,策略id
+t_rms_engine_templist_strategy,4,access_id,varchar(128),NO,,,,接入方id
+t_rms_engine_templist_strategy,5,scene_id,varchar(128),NO,,,,场景id
+t_rms_engine_templist_strategy,6,write_key,varchar(32),NO,,,,写入名单值
+t_rms_engine_templist_strategy,7,remarks,text,YES,,,,说明信息
+t_rms_engine_templist_strategy,8,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_templist_strategy,9,update_time,datetime,YES,,,,修改时间
+t_rms_engine_templist_strategy,10,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_third_feature,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_third_feature,2,feature_id,varchar(32),NO,UNI,,,特征ID
+t_rms_engine_third_feature,3,feature_name,varchar(512),NO,,,,特征名称
+t_rms_engine_third_feature,4,tool_id,varchar(32),NO,,,,第三方特征工具ID
+t_rms_engine_third_feature,5,third_label,varchar(64),NO,,,,第三方标签
+t_rms_engine_third_feature,6,input_paras,text,YES,,,,输入参数
+t_rms_engine_third_feature,7,feature_valuetype,int,YES,,,,特征值java类型
+t_rms_engine_third_feature,8,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_third_feature,9,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_third_feature,10,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_third_feature,11,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_third_feature,12,remarks,varchar(64),NO,,,,备注
+t_rms_engine_third_feature,13,status,int,NO,,0,,开关状态
+t_rms_engine_tool,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_tool,2,tool_id,varchar(32),NO,MUL,,,参数补全工具ID
+t_rms_engine_tool,3,tool_name,varchar(64),NO,,,,参数补全工具名称
+t_rms_engine_tool,4,tool_classpath,varchar(500),NO,,,,参数补全工具实现类路径
+t_rms_engine_tool,5,tool_type,tinyint,NO,,,,工具类型，1:参数补全工具，2:特征工具，3:累计特征工具
+t_rms_engine_tool,6,has_parm,tinyint,NO,,,,工具是否有参数，0:无参，1:有参
+t_rms_engine_tool,7,input_paras,text,YES,,,,输入参数
+t_rms_engine_tool,8,output_paras,text,YES,,,,输出参数
+t_rms_engine_tool,9,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_tool,10,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_tool,11,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_tool,12,remarks,varchar(64),NO,,,,备注
+t_rms_engine_tool,13,status,tinyint,YES,,1,,开关状态
+t_rms_engine_tool,14,block_enabled,tinyint,YES,,0,,开启熔断配置，0关闭，1开启
+t_rms_engine_tool,15,period,int,YES,,0,,统计周期，单位秒
+t_rms_engine_tool,16,max_calls,bigint,YES,,0,,周期内最大调用次数
+t_rms_engine_traffic_mapping,1,id,bigint unsigned,NO,PRI,,auto_increment,主键ID
+t_rms_engine_traffic_mapping,2,access_id,varchar(64),NO,MUL,,,接入方ID
+t_rms_engine_traffic_mapping,3,scene_id,varchar(64),NO,,,,场景ID
+t_rms_engine_traffic_mapping,4,service,varchar(128),NO,,,,服务名
+t_rms_engine_traffic_mapping,5,url,varchar(255),NO,,,,接口URL
+t_rms_engine_traffic_mapping,6,status,tinyint,NO,,1,,状态，0关闭，1开启
+t_rms_engine_traffic_mapping,7,operator,varchar(64),NO,,,,操作人员
+t_rms_engine_traffic_mapping,8,update_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,修改时间
+t_rms_engine_traffic_mapping,9,create_time,datetime,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rms_engine_traffic_mapping,10,remarks,varchar(128),NO,,,,备注
+t_rms_strategyengine_middle_quota,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_rms_strategyengine_middle_quota,2,quota_scene,varchar(255),YES,,,,指标场景
+t_rms_strategyengine_middle_quota,3,quota_code,varchar(255),YES,,,,指标code
+t_rms_strategyengine_middle_quota,4,quota_key,varchar(255),YES,,,,指标主要维度
+t_rms_strategyengine_middle_quota,5,quota_sub_key,varchar(255),YES,,,,指标次要维度
+t_rms_strategyengine_middle_quota,6,quota_value,double,YES,,,,指标值
+t_rms_strategyengine_middle_quota,7,quota_period,varchar(255),YES,,,,指标周期：天/小时/分钟
+t_rms_strategyengine_middle_quota,8,quota_time,varchar(255),YES,,,,指标时间
+t_rms_strategyengine_middle_quota,9,extend,text,YES,,,,拓展数据
+t_rms_strategyengine_middle_quota,10,dt,date,YES,,,,日期分区
+t_rule,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_rule,2,code,varchar(128),NO,,,,规则编码
+t_rule,3,name,varchar(128),NO,,,,规则名称
+t_rule,4,description,varchar(256),NO,,,,规则描述
+t_rule,5,content,text,YES,,,,规则内容
+t_rule,6,open,tinyint,NO,,0,,"是否开启: 0=否, 1=是"
+t_rule,7,online,tinyint,NO,,0,,"是否在线: 0=否, 1=是"
+t_rule,8,tenant,varchar(20),NO,,,,租户
+t_rule,9,deleted,tinyint,NO,,0,,"逻辑删除: 0=未删除, 1=已删除"
+t_rule,10,create_emp,int,YES,,,,创建人
+t_rule,11,create_name,varchar(32),YES,,,,创建人名称
+t_rule,12,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_rule,13,modify_emp,int,YES,,,,更新人
+t_rule,14,modify_name,varchar(32),YES,,,,更新人名称
+t_rule,15,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_rule_count,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_rule_count,2,rule_type,smallint,NO,,,,规则类型
+t_rule_count,3,count_type,tinyint,NO,,,,计数类型 1：pv 2：uv
+t_rule_count,4,call_time,datetime,NO,MUL,,,调用时间
+t_rule_count,5,cid,varchar(32),NO,,,,终端编码
+t_rule_count,6,pass_number,int,NO,,0,,PASS条数
+t_rule_count,7,review_number,int,NO,,0,,REVIEW条数
+t_rule_count,8,reject_number,int,NO,,0,,REJECT条数
+t_rule_count,9,tenant,varchar(20),NO,,,,租户
+t_rule_count,10,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_scene,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_scene,2,scene_type,smallint,NO,,,,场景类型
+t_scene,3,async,tinyint,NO,,0,,"是否异步执行规则: 0=否, 1=是"
+t_scene,4,open,tinyint,NO,,0,,"是否开启: 0=否, 1=是"
+t_scene,5,online,tinyint,NO,,0,,"是否在线: 0=否, 1=是"
+t_scene,6,tenant,varchar(20),NO,,,,租户
+t_scene,7,deleted,tinyint,NO,,0,,"逻辑删除: 0=未删除, 1=已删除"
+t_scene,8,create_emp,int,YES,,,,创建人
+t_scene,9,create_name,varchar(32),YES,,,,创建人名称
+t_scene,10,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_scene,11,modify_emp,int,YES,,,,更新人
+t_scene,12,modify_name,varchar(32),YES,,,,更新人名称
+t_scene,13,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_scene_rule,1,id,bigint unsigned,NO,PRI,,auto_increment,主键id
+t_scene_rule,2,scene_id,bigint,NO,,,,场景id
+t_scene_rule,3,rule_id,bigint,NO,,,,规则id
+t_scene_rule,4,tenant,varchar(20),NO,,,,租户
+t_scene_rule,5,deleted,tinyint,NO,,0,,"逻辑删除: 0=未删除, 1=已删除"
+t_scene_rule,6,create_emp,int,YES,,,,创建人
+t_scene_rule,7,create_name,varchar(32),YES,,,,创建人名称
+t_scene_rule,8,create_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED,创建时间
+t_scene_rule,9,modify_emp,int,YES,,,,更新人
+t_scene_rule,10,modify_name,varchar(32),YES,,,,更新人名称
+t_scene_rule,11,modify_time,datetime,NO,,CURRENT_TIMESTAMP,DEFAULT_GENERATED on update CURRENT_TIMESTAMP,更新时间
+t_whitelist,1,id,bigint unsigned,NO,PRI,,auto_increment,主键
+t_whitelist,2,type,int,NO,,,,类型
+t_whitelist,3,content,varchar(255),NO,MUL,,,白名单内容
+t_whitelist,4,remark,varchar(500),YES,,,,备注
+t_whitelist,5,source,int,YES,,,,来源
+t_whitelist,6,create_time,datetime,YES,,,,创建时间
+t_whitelist,7,modify_time,datetime,YES,,,,更新时间
+t_whitelist,8,create_id,int,YES,,,,创建人id
+t_whitelist,9,create_name,varchar(50),YES,,,,创建人名称
+t_whitelist,10,modify_id,int,YES,,,,更新人id
+t_whitelist,11,modify_name,varchar(50),YES,,,,更新人名称
+t_whitelist,12,tenant,varchar(20),NO,MUL,,,租户
+t_whitelist,13,temp,int,YES,,0,,临时保存：1临时，0永久

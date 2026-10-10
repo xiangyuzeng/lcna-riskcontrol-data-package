@@ -1,0 +1,3 @@
+parameter,value,source
+us_values,'美国',results/p1_province_classes.csv (realIpCountry value of US IPs; also the literal in rule_xKTDyjTPLGTf)
+nynj_values,"'New York','New Jersey'","results/p1_province_classes.csv (realIpProvince values seen on NY 2026-06-15, 08-15, 10-09; same spelling as rule_wir2haXb4i3g)"

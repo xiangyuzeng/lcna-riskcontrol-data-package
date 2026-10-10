@@ -1,0 +1,2 @@
+server,statement,seconds
+aws-luckyus-iriskcontrolservice-rw,SELECT 1 + server vars (runner once),0.2

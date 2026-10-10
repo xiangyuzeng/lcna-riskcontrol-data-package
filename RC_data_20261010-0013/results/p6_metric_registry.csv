@@ -1,0 +1,22 @@
+metric_id,value,window,basis,source,pattern
+oplog_operations,243,2026-09-02T11:43:59…2026-10-10T02:37:13 UTC,t_operation_log 全部行,results/p2_oplog_counts.csv,"(\d[\d,]*) 次操作"
+oplog_ops_with_changes,242,同上,有白名单字段变化的操作,results/p2_oplog_timeline.csv,"(\d[\d,]*) 次有字段变化"
+oplog_changed_fields,357,同上,白名单字段,results/p2_oplog_timeline.csv,"(\d[\d,]*) 处字段变化"
+sms_7d_requests,"20,178",纽约日 2026-10-03…2026-10-09,短信口径,results/p3_daily_result.csv,"7 日短信请求 (\d[\d,]*) 次"
+sms_7d_pass,"12,438",纽约日 2026-10-03…2026-10-09,短信口径,results/p3_daily_result.csv,
+sms_7d_reject,"7,654",纽约日 2026-10-03…2026-10-09,短信口径,results/p3_daily_result.csv,
+sms_7d_review,86,纽约日 2026-10-03…2026-10-09,短信口径,results/p3_daily_result.csv,
+push_7d_rows,"20,210",纽约日 2026-10-03…2026-10-09,全部 LKUS_push 行,results/p3_daily_result.csv,"全部 LKUS_push 行 (\d[\d,]*) 行"
+nonplus1_pass_share_7d,39.2%,7 日,短信口径,results/p3_pass_by_ccgroup.csv,(\d+\.\d%) 来自非 \+1
+distinct_phones_7d,"10,498",7 日（窗口级去重）,短信口径,results/p3_distinct_users.csv,"7 日去重手机号 (\d[\d,]*)"
+dr030_numbers_uniquely_rejected,"1,976",43Na 上线后至纽约日 10-09,短信口径,results/dr030_retries_summary.csv,"被它唯一拦下的号码 (\d[\d,]*) 个"
+dr030_numbers_with_later_request,"1,195",同上,短信口径,results/dr030_retries_summary.csv,
+dr010_attack_days_since_0903,37/37,纽约日 09-03…10-09,非 +1/+86 短信请求，k=5,results/dr010_attack_rule.csv,
+dr036a_pass_days_equal,26/26,UTC 日 09-13…10-08,短信口径 vs Doris l2_scene=1001,results/dr036a_utc_daily_vs_doris.csv,PASS (\d+/\d+) 天与 Doris 完全相同
+toolkit_tests,61/61,本包测试,—,results/toolkit_tests/_test_summary.csv,(\d+/\d+) 项核对一致
+statements,"4,659",本包全部运行,—,results/timing.csv,"(\d[\d,]*) 条分片语句"
+runs,158,本包全部运行,—,results/_runlog.csv,"(\d[\d,]*) 次运行"
+strategy_WvNGjLMgoOyn_online_pv_7d_all,"1,331",纽约日 10-03…10-09,全部 LKUS_push 行（纯 SQL）,results/p2_hits_7d.csv,
+strategy_WvNGjLMgoOyn_online_pv_7d_sms,"1,331",纽约日 10-03…10-09,短信口径（E1）,results/p3_strategies.csv,
+strategy_bYXaOJ4qXtW4_online_pv_7d_all,549,纽约日 10-03…10-09,全部 LKUS_push 行（纯 SQL）,results/p2_hits_7d.csv,
+strategy_bYXaOJ4qXtW4_online_pv_7d_sms,549,纽约日 10-03…10-09,短信口径（E1）,results/p3_strategies.csv,

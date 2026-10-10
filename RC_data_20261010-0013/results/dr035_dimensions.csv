@@ -1,0 +1,6 @@
+project,provider,tenant,rows,sent,filled,first,last
+isalescrmservice,ZTHY,IQA2,50,203.0,191.0,2026-06-02,2026-09-25
+isalescrmservice,ZTHY,LKUS,130,2264.0,2050.0,2026-06-01,2026-10-08
+isalescrmservice,aws,LKUS,130,11988.0,11343.0,2026-06-01,2026-10-08
+isalescrmservice,twilio,IQA2,4,5.0,5.0,2026-06-02,2026-09-21
+isalescrmservice,twilio,LKUS,2059,157377.0,118736.0,2026-06-01,2026-10-08

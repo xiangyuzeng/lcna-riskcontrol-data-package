@@ -1,0 +1,3 @@
+server,command,db,keys,expires,avg_ttl_ms,note
+luckyus-iriskcontrol,INFO keyspace,db0,13262,13262,"79,014,087",avg_ttl written with thousands separators
+luckyus-iriskcontrol,DBSIZE,,13276,,,read a few seconds after INFO

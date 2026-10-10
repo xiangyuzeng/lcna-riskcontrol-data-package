@@ -1,0 +1,3 @@
+identity,distinct,in_more_than_one_shard,max_shards_per_identity
+phone (sharding_key),10510,0,
+gateway uid,9460,1959,17.0

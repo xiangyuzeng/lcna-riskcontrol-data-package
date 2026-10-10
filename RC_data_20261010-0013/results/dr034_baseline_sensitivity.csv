@@ -1,0 +1,19 @@
+strategy_id,baseline,after,metric,baseline_rate,after_rate,ratio_after_to_baseline
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online,after: switch -> end NY 10-09,requests_per_24h,1828.1,1256.8,0.687
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online,after: switch -> end NY 10-09,pass_per_24h,780.8,206.8,0.265
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online / 1st half,after: switch -> end NY 10-09,requests_per_24h,1728.8,1256.8,0.727
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online / 1st half,after: switch -> end NY 10-09,pass_per_24h,795.7,206.8,0.26
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online / 2nd half,after: switch -> end NY 10-09,requests_per_24h,1927.4,1256.8,0.652
+strategy_WvNGjLMgoOyn,before: NY 10-02 start -> WvNG online / 2nd half,after: switch -> end NY 10-09,pass_per_24h,765.9,206.8,0.27
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online,after: switch -> end NY 10-09,requests_per_24h,1828.1,1006.4,0.551
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online,after: switch -> end NY 10-09,pass_per_24h,780.8,160.0,0.205
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online / 1st half,after: switch -> end NY 10-09,requests_per_24h,1728.8,1006.4,0.582
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online / 1st half,after: switch -> end NY 10-09,pass_per_24h,795.7,160.0,0.201
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online / 2nd half,after: switch -> end NY 10-09,requests_per_24h,1927.4,1006.4,0.522
+strategy_bYXaOJ4qXtW4,before: NY 10-02 start -> WvNG online / 2nd half,after: switch -> end NY 10-09,pass_per_24h,765.9,160.0,0.209
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online,after: switch -> end NY 10-09,requests_per_24h,1625.5,1006.4,0.619
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online,after: switch -> end NY 10-09,pass_per_24h,275.9,160.0,0.58
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online / 1st half,after: switch -> end NY 10-09,requests_per_24h,1789.7,1006.4,0.562
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online / 1st half,after: switch -> end NY 10-09,pass_per_24h,293.4,160.0,0.545
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online / 2nd half,after: switch -> end NY 10-09,requests_per_24h,1461.4,1006.4,0.689
+strategy_bYXaOJ4qXtW4,before: WvNG online -> bYXa online / 2nd half,after: switch -> end NY 10-09,pass_per_24h,258.4,160.0,0.619

@@ -1,0 +1,25 @@
+period,half,hours,ip_class,requests_per_24h,pass_per_24h
+NY 10-02 start -> WvNG online,1st half,73.95,other,930.1,355.4
+NY 10-02 start -> WvNG online,1st half,73.95,us,448.2,270.0
+NY 10-02 start -> WvNG online,1st half,73.95,eq_phone,323.6,164.9
+NY 10-02 start -> WvNG online,1st half,73.95,unknown,0.0,0.0
+NY 10-02 start -> WvNG online,2nd half,73.95,other,1058.9,345.0
+NY 10-02 start -> WvNG online,2nd half,73.95,us,424.5,239.8
+NY 10-02 start -> WvNG online,2nd half,73.95,eq_phone,430.6,177.8
+NY 10-02 start -> WvNG online,2nd half,73.95,unknown,0.0,0.0
+MZQk pre-online -> bYXa pre-online,1st half,8.4,other,945.2,80.0
+MZQk pre-online -> bYXa pre-online,1st half,8.4,us,219.9,48.5
+MZQk pre-online -> bYXa pre-online,1st half,8.4,eq_phone,531.1,102.8
+MZQk pre-online -> bYXa pre-online,1st half,8.4,unknown,0.0,0.0
+MZQk pre-online -> bYXa pre-online,2nd half,8.41,other,833.8,137.1
+MZQk pre-online -> bYXa pre-online,2nd half,8.41,us,442.6,137.1
+MZQk pre-online -> bYXa pre-online,2nd half,8.41,eq_phone,239.8,42.8
+MZQk pre-online -> bYXa pre-online,2nd half,8.41,unknown,0.0,0.0
+country rule widened -> end NY 10-09,1st half,13.04,other,640.6,0.0
+country rule widened -> end NY 10-09,1st half,13.04,us,338.7,95.7
+country rule widened -> end NY 10-09,1st half,13.04,eq_phone,250.4,46.0
+country rule widened -> end NY 10-09,1st half,13.04,unknown,0.0,0.0
+country rule widened -> end NY 10-09,2nd half,13.04,other,351.6,0.0
+country rule widened -> end NY 10-09,2nd half,13.04,us,250.4,106.8
+country rule widened -> end NY 10-09,2nd half,13.04,eq_phone,174.9,71.8
+country rule widened -> end NY 10-09,2nd half,13.04,unknown,0.0,0.0

@@ -1,0 +1,41 @@
+tenant,project,provider,code_set,date_shift_days,days,days_exact,days_sent_exact,abs_diff_sent,abs_diff_filled,sheet_sent,table_sent
+LKUS,(all),(all),not +1 and not +86,0,83,83,83,0,0,28878,28878
+LKUS,(all),twilio,not +1,0,83,83,83,0,0,28878,28878
+LKUS,(all),twilio,not +1 and not +86,0,83,83,83,0,0,28878,28878
+LKUS,isalescrmservice,(all),not +1 and not +86,0,83,83,83,0,0,28878,28878
+LKUS,isalescrmservice,twilio,not +1,0,83,83,83,0,0,28878,28878
+LKUS,isalescrmservice,twilio,not +1 and not +86,0,83,83,83,0,0,28878,28878
+(all),(all),(all),not +1 and not +86,0,83,82,82,2,2,28878,28880
+(all),(all),twilio,not +1,0,83,82,82,2,2,28878,28880
+(all),(all),twilio,not +1 and not +86,0,83,82,82,2,2,28878,28880
+(all),isalescrmservice,(all),not +1 and not +86,0,83,82,82,2,2,28878,28880
+(all),isalescrmservice,twilio,not +1,0,83,82,82,2,2,28878,28880
+(all),isalescrmservice,twilio,not +1 and not +86,0,83,82,82,2,2,28878,28880
+LKUS,(all),ZTHY,not +1,0,83,0,2,27748,704,28878,1536
+LKUS,isalescrmservice,ZTHY,not +1,0,83,0,2,27748,704,28878,1536
+LKUS,(all),(all),not +1,-1,83,0,1,6737,1372,28878,29539
+LKUS,isalescrmservice,(all),not +1,-1,83,0,1,6737,1372,28878,29539
+(all),(all),(all),not +1 and not +86,1,83,0,1,7026,461,28878,28864
+(all),(all),twilio,not +1,1,83,0,1,7026,461,28878,28864
+(all),(all),twilio,not +1 and not +86,1,83,0,1,7026,461,28878,28864
+(all),isalescrmservice,(all),not +1 and not +86,1,83,0,1,7026,461,28878,28864
+(all),isalescrmservice,twilio,not +1,1,83,0,1,7026,461,28878,28864
+(all),isalescrmservice,twilio,not +1 and not +86,1,83,0,1,7026,461,28878,28864
+(all),(all),ZTHY,not +1,0,83,0,1,27745,801,28878,1707
+(all),isalescrmservice,ZTHY,not +1,0,83,0,1,27745,801,28878,1707
+(all),(all),ZTHY,not +1,1,83,0,1,27771,816,28878,1689
+(all),isalescrmservice,ZTHY,not +1,1,83,0,1,27771,816,28878,1689
+LKUS,(all),ZTHY,not +1,1,83,0,1,27778,714,28878,1518
+LKUS,isalescrmservice,ZTHY,not +1,1,83,0,1,27778,714,28878,1518
+LKUS,(all),(all),not +1,0,83,0,0,1536,1385,28878,30414
+LKUS,isalescrmservice,(all),not +1,0,83,0,0,1536,1385,28878,30414
+(all),(all),(all),not +1,0,83,0,0,1709,1546,28878,30587
+(all),isalescrmservice,(all),not +1,0,83,0,0,1709,1546,28878,30587
+(all),(all),(all),not +1 and not +86,-1,83,0,0,6146,448,28878,28016
+(all),(all),twilio,not +1,-1,83,0,0,6146,448,28878,28016
+(all),(all),twilio,not +1 and not +86,-1,83,0,0,6146,448,28878,28016
+(all),isalescrmservice,(all),not +1 and not +86,-1,83,0,0,6146,448,28878,28016
+(all),isalescrmservice,twilio,not +1,-1,83,0,0,6146,448,28878,28016
+(all),isalescrmservice,twilio,not +1 and not +86,-1,83,0,0,6146,448,28878,28016
+LKUS,(all),(all),not +1 and not +86,-1,83,0,0,6148,450,28878,28014
+LKUS,(all),twilio,not +1,-1,83,0,0,6148,450,28878,28014

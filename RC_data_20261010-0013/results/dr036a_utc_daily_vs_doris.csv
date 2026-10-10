@@ -1,0 +1,27 @@
+utc_date,doris_total,doris_pass,source,mysql_total,mysql_pass,mysql_total_all_rows,diff_total,diff_pass,mysql_total_ny_day
+2026-09-13,5184,2586,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",5184,2586,5185,0,0,4918
+2026-09-14,4422,2401,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",4422,2401,4422,0,0,4545
+2026-09-15,5372,3084,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",5372,3084,5374,0,0,5483
+2026-09-16,5305,2813,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",5305,2813,5312,0,0,5266
+2026-09-17,5866,3024,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",5866,3024,5867,0,0,5575
+2026-09-18,4852,2447,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",4852,2447,4853,0,0,5091
+2026-09-19,5346,2671,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",5346,2671,5346,0,0,5391
+2026-09-20,3924,1969,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3924,1969,3924,0,0,3551
+2026-09-21,4591,2324,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",4591,2324,4594,0,0,4735
+2026-09-22,5148,2821,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",5148,2821,5153,0,0,5139
+2026-09-23,4869,2644,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",4869,2644,4869,0,0,4689
+2026-09-24,3212,1677,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3212,1677,3227,0,0,3211
+2026-09-25,2827,1591,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2826,1591,2835,-1,0,2734
+2026-09-26,2724,1313,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2725,1313,2727,1,0,2789
+2026-09-27,2702,1168,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2701,1168,2703,-1,0,2635
+2026-09-28,3332,1869,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3332,1869,3339,0,0,3483
+2026-09-29,3666,2331,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3667,2331,3670,1,0,3457
+2026-09-30,2870,1913,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2870,1913,2876,0,0,2913
+2026-10-01,3078,2033,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3078,2033,3095,0,0,3118
+2026-10-02,3050,2068,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3050,2068,3057,0,0,2995
+2026-10-03,3362,2371,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3362,2371,3367,0,0,3355
+2026-10-04,2640,1665,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2640,1665,2641,0,0,2691
+2026-10-05,2926,1842,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2926,1842,2934,0,0,2839
+2026-10-06,2729,1793,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",2729,1793,2734,0,0,2825
+2026-10-07,3430,2014,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3430,2014,3437,0,0,3450
+2026-10-08,3051,1613,"run prompt Part 1 pt 9: Doris query by 段枝宏 2026-10-08 (l1_scene=1000, l2_scene=1001, tenant=LKUS, date(access_time) = UTC day)",3051,1613,3055,0,0,2892

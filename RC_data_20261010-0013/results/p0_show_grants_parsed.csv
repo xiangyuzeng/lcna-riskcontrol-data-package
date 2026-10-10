@@ -1,0 +1,5 @@
+server,privileges,scope,can_write,checked_ny
+aws-luckyus-iriskcontrolservice-rw,"SELECT, PROCESS, EXECUTE",*.*,no,2026-10-09 22:18-22:45
+aws-luckyus-upush-rw,"SELECT, PROCESS, EXECUTE",*.*,no,2026-10-09 22:18-22:45
+aws-luckyus-salescrm-rw,"SELECT, PROCESS, EXECUTE",*.*,no,2026-10-09 22:18-22:45
+aws-luckyus-salesorder-rw,"SELECT, PROCESS, EXECUTE",*.*,no,2026-10-09 22:18-22:45

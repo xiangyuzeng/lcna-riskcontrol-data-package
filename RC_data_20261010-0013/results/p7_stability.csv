@@ -1,0 +1,5 @@
+query,original,rerun,equal
+L1 NY 2026-10-05: requests ('h' rows),2848,2848,True
+"L1 NY 2026-10-05: distinct phones ('d' rows, summed over cc)",1621,1621,True
+p2_hits_7d NY 2026-10-05 (strategy hit PV),7863,7863,True
+DR-014 NY 2026-10-09 (rows; sharding_key = user_no column),14927; 12291,14927; 12291,True

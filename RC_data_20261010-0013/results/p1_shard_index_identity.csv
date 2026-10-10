@@ -1,0 +1,9 @@
+family,INDEX_NAME,SEQ_IN_INDEX,COLUMN_NAME,NON_UNIQUE,n_tables
+t_access_log,idx_create_time_sharding_key,1,create_time,1,64
+t_access_log,idx_create_time_sharding_key,2,sharding_key,1,64
+t_access_log,idx_sharding_key_create_time,1,sharding_key,1,64
+t_access_log,idx_sharding_key_create_time,2,create_time,1,64
+t_access_log,PRIMARY,1,id,0,64
+t_gateway_validate_log,idx_create_time_uid,1,create_time,1,64
+t_gateway_validate_log,idx_create_time_uid,2,uid,1,64
+t_gateway_validate_log,PRIMARY,1,id,0,64

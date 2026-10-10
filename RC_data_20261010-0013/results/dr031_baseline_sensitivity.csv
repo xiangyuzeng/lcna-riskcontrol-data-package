@@ -1,0 +1,13 @@
+baseline,baseline_hours,after,after_hours,ip_class,metric,baseline_rate,after_rate,ratio_after_to_baseline
+MZQk pre-online -> bYXa pre-online,16.81,country rule widened -> end NY 10-09,26.07,other,requests_per_24h,889.5,496.1,0.558
+MZQk pre-online -> bYXa pre-online,16.81,country rule widened -> end NY 10-09,26.07,other,pass_per_24h,108.5,0.0,0.0
+MZQk pre-online -> bYXa pre-online,16.81,country rule widened -> end NY 10-09,26.07,us,requests_per_24h,331.2,294.5,0.889
+MZQk pre-online -> bYXa pre-online,16.81,country rule widened -> end NY 10-09,26.07,us,pass_per_24h,92.8,101.2,1.091
+MZQk pre-online -> bYXa pre-online,16.81,country rule widened -> end NY 10-09,26.07,eq_phone,requests_per_24h,385.5,212.6,0.551
+MZQk pre-online -> bYXa pre-online,16.81,country rule widened -> end NY 10-09,26.07,eq_phone,pass_per_24h,72.8,58.9,0.809
+NY 10-02 start -> WvNG online,147.91,country rule widened -> end NY 10-09,26.07,other,requests_per_24h,994.5,496.1,0.499
+NY 10-02 start -> WvNG online,147.91,country rule widened -> end NY 10-09,26.07,other,pass_per_24h,350.2,0.0,0.0
+NY 10-02 start -> WvNG online,147.91,country rule widened -> end NY 10-09,26.07,us,requests_per_24h,436.3,294.5,0.675
+NY 10-02 start -> WvNG online,147.91,country rule widened -> end NY 10-09,26.07,us,pass_per_24h,254.9,101.2,0.397
+NY 10-02 start -> WvNG online,147.91,country rule widened -> end NY 10-09,26.07,eq_phone,requests_per_24h,377.1,212.6,0.564
+NY 10-02 start -> WvNG online,147.91,country rule widened -> end NY 10-09,26.07,eq_phone,pass_per_24h,171.4,58.9,0.344

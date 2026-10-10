@@ -1,0 +1,37 @@
+period,start_utc,end_utc,hours,code_set,ip_class,requests_per_24h,pass_per_24h
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,15 original,other,994.5,350.2
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,15 original,us,436.3,254.9
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,15 original,eq_phone,377.1,171.4
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,15 original,unknown,0.0,0.0
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,6 added,other,19.6,4.4
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,6 added,us,0.5,0.0
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,6 added,eq_phone,0.0,0.0
+NY 10-02 start -> WvNG online,2026-10-02 04:00:00,2026-10-08 07:54:28,147.91,6 added,unknown,0.0,0.0
+WvNG online -> MZQk pre-online,2026-10-08 07:54:28,2026-10-08 08:07:49,0.22,15 original,other,1941.6,107.9
+WvNG online -> MZQk pre-online,2026-10-08 07:54:28,2026-10-08 08:07:49,0.22,15 original,us,647.2,0.0
+WvNG online -> MZQk pre-online,2026-10-08 07:54:28,2026-10-08 08:07:49,0.22,15 original,eq_phone,107.9,0.0
+WvNG online -> MZQk pre-online,2026-10-08 07:54:28,2026-10-08 08:07:49,0.22,15 original,unknown,0.0,0.0
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,15 original,other,889.5,108.5
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,15 original,us,331.2,92.8
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,15 original,eq_phone,385.5,72.8
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,15 original,unknown,0.0,0.0
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,6 added,other,27.1,17.1
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,6 added,us,0.0,0.0
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,6 added,eq_phone,0.0,0.0
+MZQk pre-online -> bYXa pre-online,2026-10-08 08:07:49,2026-10-09 00:56:26,16.81,6 added,unknown,0.0,0.0
+bYXa pre-online -> bYXa online,2026-10-09 00:56:26,2026-10-09 01:44:35,0.8,15 original,other,508.4,0.0
+bYXa pre-online -> bYXa online,2026-10-09 00:56:26,2026-10-09 01:44:35,0.8,15 original,us,299.1,0.0
+bYXa pre-online -> bYXa online,2026-10-09 00:56:26,2026-10-09 01:44:35,0.8,15 original,eq_phone,358.9,0.0
+bYXa pre-online -> bYXa online,2026-10-09 00:56:26,2026-10-09 01:44:35,0.8,15 original,unknown,0.0,0.0
+bYXa online -> country rule widened,2026-10-09 01:44:35,2026-10-09 01:55:30,0.18,15 original,other,263.8,0.0
+bYXa online -> country rule widened,2026-10-09 01:44:35,2026-10-09 01:55:30,0.18,15 original,us,131.9,131.9
+bYXa online -> country rule widened,2026-10-09 01:44:35,2026-10-09 01:55:30,0.18,15 original,eq_phone,0.0,0.0
+bYXa online -> country rule widened,2026-10-09 01:44:35,2026-10-09 01:55:30,0.18,15 original,unknown,0.0,0.0
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,15 original,other,496.1,0.0
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,15 original,us,294.5,101.2
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,15 original,eq_phone,212.6,58.9
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,15 original,unknown,0.0,0.0
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,6 added,other,7.4,0.0
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,6 added,us,0.0,0.0
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,6 added,eq_phone,0.0,0.0
+country rule widened -> end NY 10-09,2026-10-09 01:55:30,2026-10-10 04:00:00,26.07,6 added,unknown,0.0,0.0

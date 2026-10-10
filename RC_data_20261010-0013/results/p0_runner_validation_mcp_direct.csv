@@ -1,0 +1,8 @@
+scene_id,result,n,n_mcp,equal
+LKUS_grant_new_user_coupon,PASS,7,7,True
+LKUS_login,PASS,11,11,True
+LKUS_payment,PASS,78,78,True
+LKUS_physical_order_create,PASS,75,75,True
+LKUS_push,PASS,11,11,True
+LKUS_push,REJECT,30,30,True
+LKUS_register,PASS,6,6,True
